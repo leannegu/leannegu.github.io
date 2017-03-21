@@ -1,13 +1,40 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>#26012286</title>
+		<title>Level 4c</title>
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 
 		<style media="screen">
-			body {
-				margin: 50px;
-			}
+		body {
+			margin-top: 50px;
+			margin-left: 100px;
+			margin-bottom:100px;
+			margin-right:100px;
+		}
+
+		.level {
+			position: fixed;
+		}
+
+			a:link {
+					color:black;
+					text-decoration: none;
+				}
+
+					a:visited {
+					color: black;
+					text-decoration: none;
+				}
+
+				a:hover {
+					color: black;
+					text-decoration: none;
+				}
+
+				a:active {
+					color:black;
+					text-decoration: none;
+				}
 
 			.border {
 				border:20px inset;
@@ -20,12 +47,52 @@
 				font-size:50px;
 				letter-spacing: 30px;
 			}
+
+			.goomba {
+				position: fixed;
+				top:45%;
+				left:2%;
+			}
+
+			.levelup {
+				position: fixed;
+				top:44%;
+				right:1%;
+			}
+
+			.hometext {
+				opacity: 0;
+				position: fixed;
+				top:50px;
+				right:6%;
+				width: 30px;
+				border: 2px solid;
+				font-size: 7px;
+			}
+
+			.hometext:hover {
+				opacity: 1;
+				position: fixed;
+				top:56px;
+				right: 7%;
+				width: 80px;
+				border:none;
+				font-size: 8px;
+			}
+
+			.container {
+				position: fixed;
+				top:50px;
+				right: 6%;
+			}
 		</style>
 	</head>
 
 	<body>
 
-		<strong>LEVEL 4__C</strong><br>
+		<div class="level">
+		<strong>LEVEL 4__C</strong>
+		</div><br>
 <br>
 <br>
 <div class="border">
@@ -69,9 +136,14 @@
 </div>
 <br>
 
-<h1><a href="level4b.html">back</a>&nbsp;&nbsp;<a href="level5a.html">level up</a>
+<div class="goomba"><a href="level4b.html"><img src="assets/images/goomba.gif" height="40" width="40" alt=""></div>
+
+<div class="levelup"><a href="level5a.html"><img src="assets/images/levelup.gif" height="50" width="70" alt=""></div>
 	<br>
-	  <a href="index.html">get me outta here</a></h1>
+	<div class="container"><a href="index.html">
+		<div class="hometext">get me outta here</div>
+		<img src="assets/images/rollingeyes.gif" height="20" alt="">
+	</div>
 
 	</body>
 </html>
