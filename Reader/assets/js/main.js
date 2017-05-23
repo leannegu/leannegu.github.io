@@ -8,6 +8,7 @@ $(document).ready(function() {
 
 // Copy setTimeout, and change the 1000ms. You can target divs with the $ 'sign' and single quotes. Then try fadeIn, fadeOut, addClass, removeClass.
 
+// menu spinning quesiton mark
 $('.nav').click(function() {
    $('.menu').toggleClass('showme');
  });
