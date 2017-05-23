@@ -51,7 +51,9 @@
   margin-left: 80px;
 }
 
-
+.popup {
+  display: none;
+}
 
 .p1 {
   position: fixed;
@@ -61,7 +63,7 @@
 }
 
 .bin {
-  margin-left: 23.5px;
+  margin-left: 15px;
   margin-top: 30px;
   width: 30px;
   position: fixed;
@@ -93,6 +95,7 @@ h2 {
 .fakelink {
   font-size: 25px;
   font-family: helvetica, sans-serif;
+  cursor: pointer;
 }
 
 .fakelink:hover {
@@ -100,9 +103,7 @@ h2 {
   cursor: pointer;
 }
 
-.popup {
-  display: none;
-}
+
 
 
 .notification {
