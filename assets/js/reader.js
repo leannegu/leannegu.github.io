@@ -3,6 +3,31 @@ $(document).ready(function() {
 
 // Add jQuery here
 
+//click fake link game over appears
+
+  $('.dummylink').on('click', function() {
+            $('.gameover').addClass('active');
+
+            // Start timeout images
+
+            setTimeout(function () {
+              $('.p1').fadeIn('fast');
+            }, 200);
+
+            setTimeout(function () {
+              $('.p1').fadeIn('fast');
+            }, 400);
+
+            setTimeout(function () {
+              $('.p1').fadeIn('fast');
+            }, 500);
+
+            setTimeout(function () {
+              $('.p1').fadeIn('fast');
+            }, 600);
+
+  });
+            // End timeout images
 
 // counter
   var counter = document.getElementsByClassName("counter")[0];
@@ -62,13 +87,6 @@ $('.oase').mouseenter(function() {
    $('.landscape__image').removeClass('showme');
   });
 
-  $(document).ready(function() {
-
-
-  // Add jQuery here
-
-  $(document).ready(function() {
-  //   Always add doc ready..
 
   // Copy setTimeout, and change the 1000ms. You can target divs with the $ 'sign' and single quotes. Then try fadeIn, fadeOut, addClass, removeClass.
 
@@ -129,65 +147,4 @@ $('.oase').mouseenter(function() {
   $('.notification, .popup').on('click', function() {
             $(this).remove();
           });
-  });
-
-
-  $('.dummylink').on('click', function() {
-            $('.gameover').addClass('active');
-
-            // Start timeout images
-
-            setTimeout(function () {
-              $('.p1').fadeIn('fast');
-            }, 200);
-
-            setTimeout(function () {
-              $('.p1').fadeIn('fast');
-            }, 400);
-
-            setTimeout(function () {
-              $('.p1').fadeIn('fast');
-            }, 500);
-
-            setTimeout(function () {
-              $('.p1').fadeIn('fast');
-            }, 600);
-
-            // End timeout images
-
-          });
-  });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   });

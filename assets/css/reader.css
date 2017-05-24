@@ -185,7 +185,9 @@ h2 {
   height:100vh;
   position:fixed;
   top:0; left:0; right:0; bottom:0;
-  font-size:100px; display:none; background-color:#000;
+  font-size:100px;
+  display:none;
+  background-color:#000;
   justify-content: center;
   align-items: center;
   flex-wrap:wrap;
@@ -194,6 +196,7 @@ h2 {
 .message.top {
   width: 80%;
   text-align: center;
+  justify-content: center;
 }
 
 .gameover.active {
