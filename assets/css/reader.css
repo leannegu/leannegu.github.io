@@ -247,6 +247,11 @@ font-family: helvetica, sans-serif;
     cursor: pointer;
 }
 
+/*flex not working?? */
+.notification.show {
+  display: flex;
+}
+
 .gameover {
   width:100vw;
   height:100vh;
