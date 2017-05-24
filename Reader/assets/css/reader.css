@@ -10,38 +10,6 @@
 
 /* Start here */
 
-.counter {
-  font-family: helvetica, sans-serif;
-  color: lightgrey;
-  font-size: 40px;
-  position: fixed;
-  bottom: 10px;
-  left: 10px;
-}
-
-.nav {
-  z-index: 1;
-  font-family: helvetica, sans-serif;
-  font-size: 35px;
-  margin-left: 20px;
-  margin-top: 20px;
-  cursor: pointer;
-  position: fixed;
-  top:0px;
-  left:9px;
-}
-
-.nav:hover {
-  animation-name: spinner;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  animation-duration: 1.5s;
-  transform-style: preserve-3d;
-  text-align:center;
-  font-family: helvetica, sans-serif;
-  font-size: 35px;
-  width: 20px;
-}
 
 @keyframes spinner {
   from {
@@ -85,10 +53,10 @@ font-family: helvetica, sans-serif;
 }
 
 .text.new__width {
-  width: 900px;
+  width: 800px;
   margin: auto;
   transition:all 2s;
-  font-size: 40px
+  font-size: 50px
 }
 
 
@@ -187,12 +155,18 @@ h2 {
   top:0; left:0; right:0; bottom:0;
   font-size:100px; display:none; background-color:#000;
   justify-content: center;
-  align-items: center;
   flex-wrap:wrap;
 }
 
 .message.top {
   width: 80%;
+  align-self: flex-start;
+  text-align: center;
+}
+
+.message.bottom {
+  width: 80%;
+  align-self: flex-end;
   text-align: center;
 }
 
@@ -204,5 +178,4 @@ h2 {
 .dummylink {
   color:blue;
   text-decoration: underline;
-  cursor: pointer;
 }
