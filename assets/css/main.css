@@ -75,7 +75,7 @@ body {
 .menu {
   width: 50vw;
   height: 100vh;
-  background-color: white;
+  background-color: #fff7f1;
   position: fixed;
   left:-50vw;
   top:0px;
@@ -91,6 +91,33 @@ body {
   font-family: helvetica, sans-serif;
   margin-top: 50px;
   margin-left: 80px;
+  margin-right: 50px;
+}
+
+.menu2 {
+  width: 50vw;
+  position: fixed;
+  margin-top: -100vw;
+  top:0px;
+  right: 0px;
+  transition: all 1s;
+}
+
+.menu2.movedown {
+  right:0px;
+  margin-top: -0px;
+  transition: all 1s;
+}
+
+.info2 {
+  font-family: helvetica, sans-serif;
+  font-size: 80px;
+  color: black;
+  margin-top: 50px;
+  margin-left: 80px;
+  margin-right: 50px;
+  text-align: center;
+  justify-content: center;
 }
 
 /*body {
@@ -103,26 +130,35 @@ a {
 }
 
 .articles {
-  margin-top: 100px;
+  margin-top: 150px;
+  margin-left: 20px;
+  transition: all 2s;
+  margin-top: -0px;
+}
+
+.articles.moveup {
+  transition: all 2s;
+  margin-top: -150vw;
 }
 
 .title {
   padding: 5px;
   border: 2px;
   font-family: helvetica, sans-serif;
-  font-size: 30px;
+  font-size: 28px;
   font-weight: bold;
   margin-left: 50px;
-  width: 700px;
+  width: 650px;
 }
 
 .title:hover {
   text-decoration: underline;
+  cursor: help;
 }
 
 .right {
   margin-left: 200px;
-  width: 550px;
+  width: 500px;
 }
 
 .author {

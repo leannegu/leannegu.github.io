@@ -6,12 +6,18 @@ $(document).ready(function() {
 $(document).ready(function() {
 //   Always add doc ready..
 
+$('.nav').click(function() {
+   $('.menu').toggleClass('showme');
+   $('.menu2').toggleClass('movedown');
+      $('.articles').toggleClass('moveup');
+ });
 // Copy setTimeout, and change the 1000ms. You can target divs with the $ 'sign' and single quotes. Then try fadeIn, fadeOut, addClass, removeClass.
 
 // menu spinning quesiton mark
-$('.nav').click(function() {
-   $('.menu').toggleClass('showme');
- });
+// $('.nav').click(function() {
+  //  $('.menu').toggleClass('showme');
+ // });
+
  //   Fade in .t1 notifcation at 3second
 
   setTimeout(function () {
