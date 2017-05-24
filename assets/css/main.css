@@ -9,6 +9,36 @@
 
 
 /* Start here */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  -webkit-animation: background 100s cubic-bezier(0.68, 0.68, 0.31, 0.32) infinite;
+  animation: background 100s cubic-bezier(0.68, 0.68, 0.31, 0.32) infinite;
+}
+
+
+@-webkit-keyframes background {
+  0% { background-color: #fff7f1; }
+  16.6% { background-color: #F6BEB2; }
+  33% { background-color: #FFF701; }
+  49.8% { background-color: #EAE8DB; }
+  66.5% { background-color: #F65339; }
+  83% { background-color: #FFAB00; }
+  100% { background-color: #fff7f1; }
+}
+
+@keyframes background {
+  0% { background-color: #fff7f1; }
+  16.6% { background-color: #F6BEB2; }
+  33% { background-color: #FFF701; }
+  49.8% { background-color: #EAE8DB; }
+  66.5% { background-color: #F65339; }
+  83% { background-color: #FFAB00; }
+  100% { background-color: #fff7f1; }
+}
 
 .nav {
   z-index: 1;
@@ -63,9 +93,9 @@
   margin-left: 80px;
 }
 
-body {
+/*body {
   background: linear-gradient(to bottom,white, #8c526d,#c76872,#df795b,#b8733b);
-}
+}*/
 
 a {
   color: black;

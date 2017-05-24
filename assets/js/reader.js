@@ -3,6 +3,11 @@ $(document).ready(function() {
 
 // Add jQuery here
 
+// menu spinning question mark
+//$('.nav').click(function() {
+//   $('.menu').toggleClass('showme');
+// });
+
 //click fake link game over appears
 
   $('.dummylink').on('click', function() {
@@ -54,10 +59,7 @@ $(document).ready(function() {
           counter.innerText = min+':'+zeroPlaceholder+second;
       }
 
-// menu spinning quesiton mark
-$('.nav').click(function() {
-   $('.menu').toggleClass('showme');
- });
+
 
 // rollover oase image
 $('.oase').mouseenter(function() {
