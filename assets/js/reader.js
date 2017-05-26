@@ -120,6 +120,9 @@ $('.willsmith').mouseenter(function() {
   $('.nav').click(function() {
      $('.menu').toggleClass('showme');
    });
+
+  //  FADE IN TIMED NOTIFICATIONS:
+
    //   Fade in .t1 notifcation at 3second
 
     setTimeout(function () {
@@ -144,12 +147,6 @@ $('.willsmith').mouseenter(function() {
       $('.t2').fadeOut('fast');
     }, 16000);
 
-  //   addClass new width notifcation at 12second
-
-    setTimeout(function () {
-      $('.text').addClass('new__width');
-    }, 12000);
-
     //   Fade in .t3 notifcation at 17second
 
     setTimeout(function () {
@@ -162,6 +159,47 @@ $('.willsmith').mouseenter(function() {
       $('.t3').fadeOut('fast');
     }, 20000);
 
+    //   Fade in .t4 notifcation at 17second
+
+    setTimeout(function () {
+      $('.t4').fadeIn('fast');
+    }, 20000);
+
+  //   Fade out .t4 notifcation at 22second
+
+    setTimeout(function () {
+      $('.t4').fadeOut('fast');
+    }, 25000);
+
+    //   Fade in .t5 notifcation at 17second
+
+    setTimeout(function () {
+      $('.t5').fadeIn('fast');
+    }, 22000);
+
+  //   Fade out .t5 notifcation at 22second
+
+    setTimeout(function () {
+      $('.t5').fadeOut('fast');
+    }, 25000);
+
+    //   addClass new width notifcation at 12second
+
+      setTimeout(function () {
+        $('.text').addClass('new__width');
+      }, 23000);
+
+    //   Fade in .t6 notifcation at 17second
+
+    setTimeout(function () {
+      $('.t6').fadeIn('fast');
+    }, 25000);
+
+  //   Fade out .t5 notifcation at 22second
+
+    setTimeout(function () {
+      $('.t6').fadeOut('fast');
+    }, 29000);
 
     //   Fade in .p1 notifcation at 19second
 
