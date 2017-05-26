@@ -15,6 +15,14 @@
   font-weight: bold;
 }
 
+.new {
+  animation: spinX 7s infinite linear;
+}
+@keyframes spinX {
+  from { transform: rotateX(0); }
+  to { transform: rotateX(360deg); }
+}
+
 .new:hover {
   text-decoration: underline;
   display: inline-block;
