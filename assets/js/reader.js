@@ -90,6 +90,19 @@ $('.oase').mouseenter(function() {
    $('.landscape__image').removeClass('showme');
   });
 
+  //rollover chapter number
+  $('.one').mouseenter(function() {
+     $('.one__info').addClass('showme');
+   });
+
+     $('.one__info').click(function() {
+       $(this).removeClass('showme');
+     });
+
+//  $('.showme').click(function() {
+//     $(this).parent().remove();
+//   });
+
 
   // Copy setTimeout, and change the 1000ms. You can target divs with the $ 'sign' and single quotes. Then try fadeIn, fadeOut, addClass, removeClass.
 

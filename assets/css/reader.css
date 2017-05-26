@@ -5,11 +5,37 @@
   box-sizing: border-box;
 }
 
-
-
-
 /* Start here */
 
+.one {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.appear {
+  display: none;
+  position: absolute;
+  pointer-events:none;
+  cursor: pointer;
+}
+
+.appear.showme {
+  display: inline-block;
+}
+
+/*.lk__image {
+  top: 25px;
+  left: 20px;
+}*/
+
+.one__info {
+  top: 25px;
+  left: 20px;
+  border: 2px solid;
+  padding: 5px;
+  font-size: 10px;
+  width: 105px;
+}
 
 html,
 body {
@@ -133,6 +159,7 @@ font-family: helvetica, sans-serif;
 }
 
 .chapter {
+  display: inline-block;
   font-family: times, serif;
   font-size: 20px;
   font-weight: bold;
@@ -150,18 +177,10 @@ font-family: helvetica, sans-serif;
 
 .text.new__width {
   width: 950px;
-  margin-left: 130px;
+  margin-left: 150px;
   transition:all 2s;
-  font-size: 40px
+  font-size: 40px;
 }
-
-
-/*h2 {
-  font-weight: bolder;
-  font-size: 60px;
-  text-transform: uppercase;
-  text-align: center;
-}*/
 
 .rollover {
   font-family: times, serif;
@@ -280,4 +299,8 @@ font-family: helvetica, sans-serif;
   color:blue;
   text-decoration: underline;
   cursor: pointer;
+}
+
+a {
+  color: black;
 }
