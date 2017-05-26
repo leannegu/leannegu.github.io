@@ -6,7 +6,9 @@
 }
 
 /* Start here */
-
+body {
+  font-family: helvetica, sans-serif;
+}
 /* chapters and footnotes */
 .chapter {
   display: inline-block;
@@ -52,6 +54,11 @@
 
 .two__info {
   top: 7280px;
+  left: 20px;
+}
+
+.three__info {
+  top: 11290px;
   left: 20px;
 }
 
@@ -161,7 +168,7 @@ body {
 }
 
 .text.new__width {
-  width: 940px;
+  width: 925px;
   margin-left: 150px;
   transition:all 2s;
   font-size: 40px;
