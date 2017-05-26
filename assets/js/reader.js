@@ -62,32 +62,32 @@ $(document).ready(function() {
 
 
 
-// rollover oase image
-$('.oase').mouseenter(function() {
-   $('.oase__image').addClass('showme');
+// rollover willsmith image
+$('.willsmith').mouseenter(function() {
+   $('.willsmith__image').addClass('showme');
  });
 
-   $('.oase').mouseleave(function() {
-     $('.oase__image').removeClass('showme');
+   $('.willsmith').mouseleave(function() {
+     $('.willsmith__image').removeClass('showme');
    });
 
-// rollover 93 image
-   $('.c93').mouseenter(function() {
-      $('.c93__image').addClass('showme');
+// rollovergrocery image
+   $('.grocery').mouseenter(function() {
+      $('.grocery__image').addClass('showme');
     });
 
-      $('.c93').mouseleave(function() {
-        $('.c93__image').removeClass('showme');
+      $('.grocery').mouseleave(function() {
+        $('.grocery__image').removeClass('showme');
       });
 
-// rollover landscape image
+// rollover pizza image
 
-  $('.landscape').mouseenter(function() {
-    $('.landscape__image').addClass('showme');
+  $('.pizza').mouseenter(function() {
+    $('.pizza__image').addClass('showme');
   });
 
-  $('.landscape').mouseleave(function() {
-   $('.landscape__image').removeClass('showme');
+  $('.pizza').mouseleave(function() {
+   $('.pizza__image').removeClass('showme');
   });
 
   //rollover chapter number
@@ -158,9 +158,33 @@ $('.oase').mouseenter(function() {
       $('.p1').fadeIn('fast');
     }, 21000);
 
-  //   Remove p1 on click
+    //   Fade in .update notifcation
 
-  $('.notification, .popup').on('click', function() {
+    setTimeout(function () {
+      $('.update').fadeIn('fast');
+    }, 1000);
+
+  //   Fade out .update notifcation
+
+    setTimeout(function () {
+      $('.update').fadeOut('fast');
+    }, 26000);
+
+    //   Fade in .lowbatt notifcation
+
+    setTimeout(function () {
+      $('.lowbatt').fadeIn('fast');
+    }, 1500);
+
+  //   Fade out .lowbatt notifcation
+
+    setTimeout(function () {
+      $('.lowbatt').fadeOut('fast');
+    }, 26000);
+
+  //   Remove p1 and all notifications on click
+
+  $('.notification, .popup, .notification__image').on('click', function() {
             $(this).remove();
           });
   });
