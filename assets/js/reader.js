@@ -60,7 +60,14 @@ $(document).ready(function() {
           counter.innerText = min+':'+zeroPlaceholder+second;
       }
 
+      // rollover counter message //
+      $('.counter').mouseenter(function() {
+        $('.counter__message').fadeIn('fast');
+      });
 
+      $('.counter').mouseleave(function() {
+        $('.counter__message').fadeOut('fast');
+      });
 
 // rollover willsmith image
 $('.willsmith').mouseenter(function() {
@@ -90,6 +97,11 @@ $('.willsmith').mouseenter(function() {
    $('.pizza__image').removeClass('showme');
   });
 
+
+  $('.pizza').mouseleave(function() {
+   $('.pizza__image').removeClass('showme');
+  });
+
   //rollover chapter number
   $('.one').click(function() {
      $('.one__info').toggleClass('showme');
@@ -98,18 +110,6 @@ $('.willsmith').mouseenter(function() {
    $('.two').click(function() {
       $('.two__info').toggleClass('showme');
     });
-//  $('.one').mouseenter(function() {
-//     $('.one__info').addClass('showme');
-//   });
-
-//     $('.one__info').click(function() {
-//       $(this).removeClass('showme');
-//     });
-
-//  $('.showme').click(function() {
-//     $(this).parent().remove();
-//   });
-
 
   // Copy setTimeout, and change the 1000ms. You can target divs with the $ 'sign' and single quotes. Then try fadeIn, fadeOut, addClass, removeClass.
 
