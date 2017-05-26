@@ -7,7 +7,16 @@
 
 /* Start here */
 
-.one {
+/* chapters and footnotes */
+.chapter {
+  display: inline-block;
+  font-family: times, serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.new:hover {
+  text-decoration: underline;
   display: inline-block;
   cursor: pointer;
 }
@@ -21,17 +30,23 @@
 
 .appear.showme {
   display: inline-block;
-}
-
-.one__info {
-  top: 25px;
-  left: 20px;
-  border: 2px solid;
+  border: 1.5px solid;
   padding: 5px;
   font-size: 10px;
   width: 105px;
 }
 
+.one__info {
+  top: 25px;
+  left: 20px;
+}
+
+.two__info {
+  top: 7280px;
+  left: 20px;
+}
+
+/* color transition background */
 html,
 body {
   height: 100%;
@@ -63,6 +78,7 @@ body {
   100% { background-color: #fff7f1; }
 }
 
+/* scroll speed checker */
 .slowdown.show {
   display: flex;
 }
@@ -85,6 +101,7 @@ body {
     letter-spacing: 0.2px;
 }
 
+/* counter timer */
 .counter {
   font-family: helvetica, sans-serif;
   color: lightgrey;
@@ -94,22 +111,14 @@ body {
   left:35px;
 }
 
-body {
-font-family: helvetica, sans-serif;
-}
-
-.chapter {
-  display: inline-block;
-  font-family: times, serif;
-  font-size: 20px;
-  font-weight: bold;
-}
-
+/* subheadings within text */
 .subheading {
   font-weight: bold;
 }
 
+/* article texts and resizing */
 .text {
+  font-family: helvetica, sans-serif;
   transition:all 0.5s;
   width: 100%;
   font-size: 100px;
@@ -122,9 +131,9 @@ font-family: helvetica, sans-serif;
   font-size: 40px;
 }
 
+/* rollover serif bits of text, image appears */
 .rollover {
   font-family: times, serif;
-
 }
 
 .rollover:hover {
@@ -174,6 +183,7 @@ font-family: helvetica, sans-serif;
   left: 100px;
 }
 
+/* distracting popups */
 .popup {
   display: none;
   cursor: pointer;
@@ -187,28 +197,13 @@ font-family: helvetica, sans-serif;
   width: 250px;
 }
 
-.update {
-  display: none;
-  position: fixed;
-  top: 10px;
-  right: 4px;
-  cursor: pointer;
-}
-
-.lowbatt {
-  display: none;
-  position: fixed;
-  top: 10px;
-  right: 13px;
-  cursor: pointer;
-}
-
+/* distracting sidebar notifications*/
 .notif {
   color: #4D4D4D;
   padding-left: 5px;
 }
 
-/*flex not working?? */
+/* (flex not working??) */
 .notification.show {
   display: flex;
 }
@@ -231,6 +226,24 @@ font-family: helvetica, sans-serif;
     letter-spacing: 0.2px;
     cursor: pointer;
 }
+
+.update {
+  display: none;
+  position: fixed;
+  top: 10px;
+  right: 4px;
+  cursor: pointer;
+}
+
+.lowbatt {
+  display: none;
+  position: fixed;
+  top: 10px;
+  right: 4.5px;
+  cursor: pointer;
+}
+
+/* reader gameover screen when fake links are clicked */
 
 .gameover {
   width:100vw;
@@ -262,6 +275,7 @@ font-family: helvetica, sans-serif;
   cursor: pointer;
 }
 
+/* actual links to sources in footnotes */
 a {
   color: black;
 }

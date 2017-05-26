@@ -91,13 +91,20 @@ $('.willsmith').mouseenter(function() {
   });
 
   //rollover chapter number
-  $('.one').mouseenter(function() {
-     $('.one__info').addClass('showme');
+  $('.one').click(function() {
+     $('.one__info').toggleClass('showme');
    });
 
-     $('.one__info').click(function() {
-       $(this).removeClass('showme');
-     });
+   $('.two').click(function() {
+      $('.two__info').toggleClass('showme');
+    });
+//  $('.one').mouseenter(function() {
+//     $('.one__info').addClass('showme');
+//   });
+
+//     $('.one__info').click(function() {
+//       $(this).removeClass('showme');
+//     });
 
 //  $('.showme').click(function() {
 //     $(this).parent().remove();
