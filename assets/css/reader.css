@@ -349,6 +349,28 @@ body {
   right: 3px;
   cursor: pointer;
 }
+
+.t27 {
+  display: none;
+}
+
+.fb7 {
+  display: none;
+  position: fixed;
+  top: 75px;
+  right: 3px;
+  cursor: pointer;
+}
+
+.fb8 {
+  display: none;
+  position: fixed;
+  top: 205px;
+  right: 3px;
+  cursor: pointer;
+}
+
+
 /* reader gameover screen when fake links are clicked */
 
 .gameover {
