@@ -50,27 +50,19 @@ body {
   position: fixed;
   top:0px;
   left:9px;
+  animation: spinX 3s infinite linear;
+}
+@keyframes spinX {
+  from { transform: rotateY(0); }
+  to { transform: rotateY(360deg); }
 }
 
-.nav:hover {
-  animation-name: spinner;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  animation-duration: 1.5s;
-  transform-style: preserve-3d;
-  text-align:center;
-  font-family: helvetica, sans-serif;
-  font-size: 35px;
-  width: 20px;
-}
-@keyframes spinner {
-  from {
-    transform: rotateY(0deg);
-  }
-  to {
-    transform: rotateY(-360deg);
-  }
-}
+
+
+
+
+
+
 
 .menu {
   width: 50vw;
@@ -98,16 +90,16 @@ body {
 .menu2 {
   width: 50vw;
   position: fixed;
-  margin-top: -100vw;
+  margin-top: -350vw;
   top:0px;
   right: 0px;
-  transition: all 1s;
+  transition: all 3s;
 }
 
 .menu2.movedown {
   right:0px;
   margin-top: -0px;
-  transition: all 1s;
+  transition: all 0.9s;
 }
 
 .info2 {
@@ -138,8 +130,8 @@ a {
 }
 
 .articles.moveup {
-  transition: all 2s;
-  margin-top: -150vw;
+  transition: all 3s;
+  margin-top: -300vw;
 }
 
 .title {

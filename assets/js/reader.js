@@ -285,12 +285,6 @@ $('.willsmith').mouseenter(function() {
       $('.t12').fadeOut('fast');
     }, 40000);
 
-    //   Fade in .p1 notifcation at 19second
-
-    setTimeout(function () {
-      $('.p1').fadeIn('fast');
-    }, 21000);
-
     //   Fade in .update notifcation
 
     setTimeout(function () {
@@ -314,6 +308,24 @@ $('.willsmith').mouseenter(function() {
     setTimeout(function () {
       $('.lowbatt').fadeOut('fast');
     }, 33000);
+
+    //   Fade in .t13 notifcation
+
+    setTimeout(function () {
+      $('.t13').fadeIn('fast');
+    }, 50000);
+
+  //   Fade out .t12 notifcation
+
+    setTimeout(function () {
+      $('.t13').fadeOut('fast');
+    }, 40000);
+
+    //   Fade in .p1 notifcation at 19second
+
+    setTimeout(function () {
+      $('.p1').fadeIn('fast');
+    }, 60000);
 
   //   Remove p1 and all notifications on click
 
