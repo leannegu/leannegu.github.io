@@ -295,7 +295,7 @@ $('.willsmith').mouseenter(function() {
 
     setTimeout(function () {
       $('.update').fadeOut('fast');
-    }, 31000);
+    }, 49000);
 
     //   Fade in .lowbatt notifcation
 
@@ -307,19 +307,67 @@ $('.willsmith').mouseenter(function() {
 
     setTimeout(function () {
       $('.lowbatt').fadeOut('fast');
-    }, 33000);
+    }, 50000);
 
     //   Fade in .t13 notifcation
 
     setTimeout(function () {
       $('.t13').fadeIn('fast');
-    }, 50000);
+    }, 51000);
 
-  //   Fade out .t12 notifcation
+  //   Fade out .t13 notifcation
 
     setTimeout(function () {
       $('.t13').fadeOut('fast');
-    }, 40000);
+    }, 53000);
+
+    //   Fade in .t14 notifcation
+
+    setTimeout(function () {
+      $('.t14').fadeIn('fast');
+    }, 54000);
+
+  //   Fade out .t14 notifcation
+
+    setTimeout(function () {
+      $('.t14').fadeOut('fast');
+    }, 57000);
+
+    //   Fade in .t15 notifcation
+
+    setTimeout(function () {
+      $('.t15').fadeIn('fast');
+    }, 57000);
+
+  //   Fade out .t15 notifcation
+
+    setTimeout(function () {
+      $('.t15').fadeOut('fast');
+    }, 60000);
+
+    //   Fade in .t16 notifcation
+
+    setTimeout(function () {
+      $('.t16').fadeIn('fast');
+    }, 60000);
+
+  //   Fade out .t16 notifcation
+
+    setTimeout(function () {
+      $('.t16').fadeOut('fast');
+    }, 63000);
+
+    //   Fade in .t17 notifcation
+
+    setTimeout(function () {
+      $('.t17').fadeIn('fast');
+    }, 63000);
+
+  //   Fade out .t17 notifcation
+
+    setTimeout(function () {
+      $('.t17').fadeOut('fast');
+    }, 66000);
 
     //   Fade in .p1 notifcation at 19second
 
