@@ -270,6 +270,14 @@ body {
     cursor: pointer;
 }
 
+.gym {
+  display: none;
+  position: fixed;
+  top: 90px;
+  right: 2px;
+  cursor: pointer;
+}
+
 .update {
   display: none;
   position: fixed;
@@ -281,7 +289,7 @@ body {
 .lowbatt {
   display: none;
   position: fixed;
-  top: 10px;
+  top: 85px;
   right: 4.5px;
   cursor: pointer;
 }

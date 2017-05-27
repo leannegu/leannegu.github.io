@@ -201,6 +201,90 @@ $('.willsmith').mouseenter(function() {
       $('.t6').fadeOut('fast');
     }, 29000);
 
+    //   Fade in .t7 notifcation at 17second
+
+    setTimeout(function () {
+      $('.t7').fadeIn('fast');
+    }, 30000);
+
+  //   Fade out .t5 notifcation at 22second
+
+    setTimeout(function () {
+      $('.t7').fadeOut('fast');
+    }, 32000);
+
+    //   Fade in .t8 notifcation at 17second
+
+    setTimeout(function () {
+      $('.t8').fadeIn('fast');
+    }, 31000);
+
+  //   Fade out .t8 notifcation at 22second
+
+    setTimeout(function () {
+      $('.t8').fadeOut('fast');
+    }, 33000);
+
+    //   Fade in .t9 notifcation at 17second
+
+    setTimeout(function () {
+      $('.t9').fadeIn('fast');
+    }, 33000);
+
+  //   Fade out .t9 notifcation at 22second
+
+    setTimeout(function () {
+      $('.t9').fadeOut('fast');
+    }, 36000);
+
+    //   Fade in .t10 notifcation at 17second
+
+    setTimeout(function () {
+      $('.t10').fadeIn('fast');
+    }, 35000);
+
+  //   Fade out .t10 notifcation at 22second
+
+    setTimeout(function () {
+      $('.t10').fadeOut('fast');
+    }, 38000);
+
+    //   Fade in .gym notifcation
+
+    setTimeout(function () {
+      $('.gym').fadeIn('fast');
+    }, 37000);
+
+  //   Fade out .gym notifcation
+
+    setTimeout(function () {
+      $('.gym').fadeOut('fast');
+    }, 41000);
+
+    //   Fade in .t11 notifcation
+
+    setTimeout(function () {
+      $('.t11').fadeIn('fast');
+    }, 38000);
+
+  //   Fade out .t11 notifcation
+
+    setTimeout(function () {
+      $('.t11').fadeOut('fast');
+    }, 40000);
+
+    //   Fade in .t12 notifcation
+
+    setTimeout(function () {
+      $('.t12').fadeIn('fast');
+    }, 39500);
+
+  //   Fade out .t12 notifcation
+
+    setTimeout(function () {
+      $('.t12').fadeOut('fast');
+    }, 40000);
+
     //   Fade in .p1 notifcation at 19second
 
     setTimeout(function () {
@@ -211,25 +295,25 @@ $('.willsmith').mouseenter(function() {
 
     setTimeout(function () {
       $('.update').fadeIn('fast');
-    }, 1000);
+    }, 46000);
 
   //   Fade out .update notifcation
 
     setTimeout(function () {
       $('.update').fadeOut('fast');
-    }, 26000);
+    }, 31000);
 
     //   Fade in .lowbatt notifcation
 
     setTimeout(function () {
       $('.lowbatt').fadeIn('fast');
-    }, 1500);
+    }, 48000);
 
   //   Fade out .lowbatt notifcation
 
     setTimeout(function () {
       $('.lowbatt').fadeOut('fast');
-    }, 26000);
+    }, 33000);
 
   //   Remove p1 and all notifications on click
 
