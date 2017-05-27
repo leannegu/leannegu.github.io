@@ -405,6 +405,126 @@ $('.willsmith').mouseenter(function() {
       $('.t20').fadeOut('fast');
     }, 75000);
 
+    //   Fade in .t21 notifcation
+
+    setTimeout(function () {
+      $('.t21').fadeIn('fast');
+    }, 75000);
+
+  //   Fade out .t21 notifcation
+
+    setTimeout(function () {
+      $('.t21').fadeOut('fast');
+    }, 78000);
+
+    //   Fade in .t22 notifcation
+
+    setTimeout(function () {
+      $('.t22').fadeIn('fast');
+    }, 81000);
+
+  //   Fade out .t22 notifcation
+
+    setTimeout(function () {
+      $('.t22').fadeOut('fast');
+    }, 84000);
+
+    //   Fade in .t23 notifcation
+
+    setTimeout(function () {
+      $('.t23').fadeIn('fast');
+    }, 84000);
+
+  //   Fade out .t23 notifcation
+
+    setTimeout(function () {
+      $('.t23').fadeOut('fast');
+    }, 87000);
+
+    //   Fade in .t24 notifcation
+
+    setTimeout(function () {
+      $('.t24').fadeIn('fast');
+    }, 87000);
+
+  //   Fade out .t24 notifcation
+
+    setTimeout(function () {
+      $('.t24').fadeOut('fast');
+    }, 90000);
+
+    //   Fade in .t25 notifcation
+
+    setTimeout(function () {
+      $('.t25').fadeIn('fast');
+    }, 90000);
+
+  //   Fade out .t25 notifcation
+
+    setTimeout(function () {
+      $('.t25').fadeOut('fast');
+    }, 93000);
+
+    //   Fade in .fb1 notifcation
+
+    setTimeout(function () {
+      $('.fb1').fadeIn('fast');
+    }, 93000);
+
+  //   Fade out .fb1 notifcation
+
+    setTimeout(function () {
+      $('.fb1').fadeOut('fast');
+    }, 96000);
+
+    //   Fade in .t26 notifcation
+
+    setTimeout(function () {
+      $('.t26').fadeIn('fast');
+    }, 96000);
+
+  //   Fade out .t26 notifcation
+
+    setTimeout(function () {
+      $('.t26').fadeOut('fast');
+    }, 99000);
+
+    //   Fade in .fb2 notifcation
+
+    setTimeout(function () {
+      $('.fb2').fadeIn('fast');
+    }, 99000);
+
+  //   Fade out .fb2 notifcation
+
+    setTimeout(function () {
+      $('.fb2').fadeOut('fast');
+    }, 102000);
+
+    //   Fade in .fb3 notifcation
+
+    setTimeout(function () {
+      $('.fb3').fadeIn('fast');
+    }, 102000);
+
+  //   Fade out .fb3 notifcation
+
+    setTimeout(function () {
+      $('.fb3').fadeOut('fast');
+    }, 105000);
+
+    //   Fade in .fb4 notifcation
+
+    setTimeout(function () {
+      $('.fb4').fadeIn('fast');
+    }, 105000);
+
+  //   Fade out .fb4 notifcation
+
+    setTimeout(function () {
+      $('.fb4').fadeOut('fast');
+    }, 108000);
+
     //   Fade in .p1 notifcation at 19second
 
     setTimeout(function () {
