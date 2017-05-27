@@ -321,7 +321,7 @@ body {
 .fb3 {
   display: none;
   position: fixed;
-  top: 180px;
+  top: 10px;
   right: 3px;
   cursor: pointer;
 }
@@ -329,7 +329,23 @@ body {
 .fb4 {
   display: none;
   position: fixed;
-  top: 180px;
+  top: 117px;
+  right: 3px;
+  cursor: pointer;
+}
+
+.fb5 {
+  display: none;
+  position: fixed;
+  top: 207px;
+  right: 3px;
+  cursor: pointer;
+}
+
+.fb6 {
+  display: none;
+  position: fixed;
+  top: 298px;
   right: 3px;
   cursor: pointer;
 }

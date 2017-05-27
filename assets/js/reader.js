@@ -525,6 +525,42 @@ $('.willsmith').mouseenter(function() {
       $('.fb4').fadeOut('fast');
     }, 108000);
 
+    //   Fade in .fb5 notifcation
+
+    setTimeout(function () {
+      $('.fb5').fadeIn('fast');
+    }, 108000);
+
+  //   Fade out .fb5 notifcation
+
+    setTimeout(function () {
+      $('.fb5').fadeOut('fast');
+    }, 111000);
+
+    //   Fade in .fb6 notifcation
+
+    setTimeout(function () {
+      $('.fb6').fadeIn('fast');
+    }, 111000);
+
+  //   Fade out .fb6 notifcation
+
+    setTimeout(function () {
+      $('.fb6').fadeOut('fast');
+    }, 114000);
+
+    //   Fade in .t27 notifcation
+
+    setTimeout(function () {
+      $('.t27').fadeIn('fast');
+    }, 114000);
+
+  //   Fade out .t27 notifcation
+
+    setTimeout(function () {
+      $('.t27').fadeOut('fast');
+    }, 117000);
+
     //   Fade in .p1 notifcation at 19second
 
     setTimeout(function () {
