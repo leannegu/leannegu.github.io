@@ -34,7 +34,7 @@ body {
 .appear {
   display: none;
   position: absolute;
-  pointer-events:none;
+  /*pointer-events:none;*/
   cursor: pointer;
 }
 
