@@ -283,7 +283,7 @@ $('.willsmith').mouseenter(function() {
 
     setTimeout(function () {
       $('.t12').fadeOut('fast');
-    }, 40000);
+    }, 43000);
 
     //   Fade in .update notifcation
 
@@ -368,6 +368,42 @@ $('.willsmith').mouseenter(function() {
     setTimeout(function () {
       $('.t17').fadeOut('fast');
     }, 66000);
+
+    //   Fade in .t18 notifcation
+
+    setTimeout(function () {
+      $('.t18').fadeIn('fast');
+    }, 66000);
+
+  //   Fade out .t18 notifcation
+
+    setTimeout(function () {
+      $('.t18').fadeOut('fast');
+    }, 69000);
+
+    //   Fade in .t19 notifcation
+
+    setTimeout(function () {
+      $('.t19').fadeIn('fast');
+    }, 69000);
+
+  //   Fade out .t19 notifcation
+
+    setTimeout(function () {
+      $('.t19').fadeOut('fast');
+    }, 72000);
+
+    //   Fade in .t20 notifcation
+
+    setTimeout(function () {
+      $('.t20').fadeIn('fast');
+    }, 72000);
+
+  //   Fade out .t20 notifcation
+
+    setTimeout(function () {
+      $('.t20').fadeOut('fast');
+    }, 75000);
 
     //   Fade in .p1 notifcation at 19second
 
