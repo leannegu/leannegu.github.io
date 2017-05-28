@@ -660,6 +660,115 @@ $('.willsmith').mouseenter(function() {
         $('.chapter').addClass('shrink');
       }, 140000);
 
+      //   Fade in .t32 notifcation
+
+      setTimeout(function () {
+        $('.t32').fadeIn('fast');
+      }, 145000);
+
+    //   Fade out .t32 notifcation
+
+      setTimeout(function () {
+        $('.t32').fadeOut('fast');
+      }, 148000);
+
+      //  regrow text
+
+        setTimeout(function () {
+          $('.text').removeClass('new__size');
+          $('.chapter').removeClass('shrink');
+        }, 147000);
+
+        //   Fade in .t32b notifcation
+
+        setTimeout(function () {
+          $('.t32b').fadeIn('fast');
+        }, 146000);
+
+      //   Fade out .t32b notifcation
+
+        setTimeout(function () {
+          $('.t32b').fadeOut('fast');
+        }, 149000);
+
+        //   Fade in .t33 notifcation
+
+        setTimeout(function () {
+          $('.t33').fadeIn('fast');
+        }, 147000);
+
+      //   Fade out .t33 notifcation
+
+        setTimeout(function () {
+          $('.t33').fadeOut('fast');
+        }, 150000);
+
+        //   Fade in .t34 notifcation
+
+        setTimeout(function () {
+          $('.t34').fadeIn('fast');
+        }, 155000);
+
+      //   Fade out .t34 notifcation
+
+        setTimeout(function () {
+          $('.t34').fadeOut('fast');
+        }, 158000);
+
+        //   Fade in .t35 notifcation
+
+        setTimeout(function () {
+          $('.t35').fadeIn('fast');
+        }, 163000);
+
+      //   Fade out .t35 notifcation
+
+        setTimeout(function () {
+          $('.t35').fadeOut('fast');
+        }, 167000);
+
+
+        //  shrink text
+
+          setTimeout(function () {
+            $('.text').addClass('new__size');
+            $('.chapter').addClass('shrink');
+          }, 162000);
+
+          //  regrow text
+
+            setTimeout(function () {
+              $('.text').removeClass('new__size');
+              $('.chapter').removeClass('shrink');
+            }, 163000);
+
+            //  shrink text
+
+              setTimeout(function () {
+                $('.text').addClass('new__size');
+                $('.chapter').addClass('shrink');
+              }, 164000);
+
+              //  regrow text
+
+                setTimeout(function () {
+                  $('.text').removeClass('new__size');
+                  $('.chapter').removeClass('shrink');
+                }, 165000);
+
+                //  shrink text
+
+                  setTimeout(function () {
+                    $('.text').addClass('new__size');
+                    $('.chapter').addClass('shrink');
+                  }, 166000);
+
+                  //  regrow text
+
+                    setTimeout(function () {
+                      $('.text').removeClass('new__size');
+                      $('.chapter').removeClass('shrink');
+                    }, 167000);
 
     //   Fade in .p1 notifcation at 19second
 
