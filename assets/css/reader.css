@@ -58,7 +58,7 @@ body {
 }
 
 .three__info {
-  top: 11290px;
+  top: 11335px;
   left: 20px;
 }
 
@@ -129,7 +129,8 @@ body {
 
 .counter:hover {
   color: black;
-  font-size: 300px;
+  font-size: 700px;
+  margin: auto;
 }
 
 .counter__message {
