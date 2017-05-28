@@ -169,7 +169,7 @@ body {
 }
 
 .text.new__width {
-  width: 915px;
+  width: 890px;
   margin-left: 150px;
   transition:all 2s;
   font-size: 40px;
@@ -277,7 +277,7 @@ body {
     position: fixed;
     top: 10px;
     right: 10.5px;
-    width: 281px;
+    width: 302px;
     background-color: #F0F0F0;
     padding-left: 15px;
     padding-right: 15px;
