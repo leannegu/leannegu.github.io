@@ -117,10 +117,6 @@ $('.willsmith').mouseenter(function() {
 
   // Copy setTimeout, and change the 1000ms. You can target divs with the $ 'sign' and single quotes. Then try fadeIn, fadeOut, addClass, removeClass.
 
-  $('.nav').click(function() {
-     $('.menu').toggleClass('showme');
-   });
-
   //  FADE IN TIMED NOTIFICATIONS:
 
    //   Fade in .t1 notifcation at 3second
@@ -596,6 +592,74 @@ $('.willsmith').mouseenter(function() {
     setTimeout(function () {
       $('.t28').fadeOut('fast');
     }, 126000);
+
+    //   Fade in .t29 notifcation
+
+    setTimeout(function () {
+      $('.t29').fadeIn('fast');
+    }, 126000);
+
+  //   Fade out .t29 notifcation
+
+    setTimeout(function () {
+      $('.t29').fadeOut('fast');
+    }, 129000);
+
+    //   Fade in .fb9 notifcation
+
+    setTimeout(function () {
+      $('.fb9').fadeIn('fast');
+    }, 129000);
+
+  //   Fade out .fb9 notifcation
+
+    setTimeout(function () {
+      $('.fb9').fadeOut('fast');
+    }, 132000);
+
+    //   Fade in .fb10 notifcation
+
+    setTimeout(function () {
+      $('.fb10').fadeIn('fast');
+    }, 132000);
+
+  //   Fade out .fb10 notifcation
+
+    setTimeout(function () {
+      $('.fb10').fadeOut('fast');
+    }, 135000);
+
+    //   Fade in .t30 notifcation
+
+    setTimeout(function () {
+      $('.t30').fadeIn('fast');
+    }, 135000);
+
+  //   Fade out .t30 notifcation
+
+    setTimeout(function () {
+      $('.t30').fadeOut('fast');
+    }, 138000);
+
+    //   Fade in .t31 notifcation
+
+    setTimeout(function () {
+      $('.t31').fadeIn('fast');
+    }, 138000);
+
+  //   Fade out .t31 notifcation
+
+    setTimeout(function () {
+      $('.t31').fadeOut('fast');
+    }, 141000);
+
+    //  shrink text
+
+      setTimeout(function () {
+        $('.text').addClass('new__size');
+        $('.chapter').addClass('shrink');
+      }, 140000);
+
 
     //   Fade in .p1 notifcation at 19second
 

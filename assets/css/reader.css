@@ -106,8 +106,8 @@ body {
     right: 10.5px;
     width: 281px;
     background-color: #F0F0F0;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
     padding-top: 12px;
     padding-bottom: 12px;
     border-radius: 7px;
@@ -172,6 +172,18 @@ body {
   margin-left: 150px;
   transition:all 2s;
   font-size: 40px;
+}
+
+.text.new__size {
+  width: 100px;
+  margin-left: 150px;
+  transition:all 2s;
+  font-size: 2px;
+}
+
+.chapter.shrink {
+  transition:all 2s;
+  font-size: 2px;
 }
 
 /* rollover serif bits of text, image appears */
@@ -266,8 +278,8 @@ body {
     right: 10.5px;
     width: 281px;
     background-color: #F0F0F0;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
     padding-top: 12px;
     padding-bottom: 12px;
     border-radius:7px;
@@ -367,6 +379,22 @@ body {
   position: fixed;
   top: 205px;
   right: 3px;
+  cursor: pointer;
+}
+
+.fb9 {
+  display: none;
+  position: fixed;
+  top: 87px;
+  right: 5px;
+  cursor: pointer;
+}
+
+.fb10 {
+  display: none;
+  position: fixed;
+  top: 202px;
+  right: 4px;
   cursor: pointer;
 }
 
