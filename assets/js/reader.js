@@ -253,7 +253,7 @@ $('.willsmith').mouseenter(function() {
       $('.gym').addClass('show');
     }, 37000);
 
-  //   Fade out .gym notifcation ***slide in not working
+  //   Fade out .gym notifcation ***slide in not working, fade out not working
 
     setTimeout(function () {
       $('.gym').removeClass('show');
@@ -486,7 +486,7 @@ $('.willsmith').mouseenter(function() {
 
     setTimeout(function () {
       $('.t26').fadeOut('fast');
-    }, 99000);
+    }, 101000);
 
     //   Fade in .fb2 notifcation
 
@@ -498,7 +498,7 @@ $('.willsmith').mouseenter(function() {
 
     setTimeout(function () {
       $('.fb2').fadeOut('fast');
-    }, 102000);
+    }, 101000);
 
     //   Fade in .fb3 notifcation
 
@@ -510,7 +510,7 @@ $('.willsmith').mouseenter(function() {
 
     setTimeout(function () {
       $('.fb3').fadeOut('fast');
-    }, 105000);
+    }, 110000);
 
     //   Fade in .fb4 notifcation
 
@@ -522,7 +522,7 @@ $('.willsmith').mouseenter(function() {
 
     setTimeout(function () {
       $('.fb4').fadeOut('fast');
-    }, 108000);
+    }, 110000);
 
     //   Fade in .fb5 notifcation
 
@@ -534,19 +534,19 @@ $('.willsmith').mouseenter(function() {
 
     setTimeout(function () {
       $('.fb5').fadeOut('fast');
-    }, 111000);
+    }, 110000);
 
     //   Fade in .fb6 notifcation
 
     setTimeout(function () {
       $('.fb6').fadeIn('fast');
-    }, 111000);
+    }, 109000);
 
   //   Fade out .fb6 notifcation
 
     setTimeout(function () {
       $('.fb6').fadeOut('fast');
-    }, 114000);
+    }, 110000);
 
     //   Fade in .t27 notifcation
 
@@ -570,7 +570,7 @@ $('.willsmith').mouseenter(function() {
 
     setTimeout(function () {
       $('.fb7').fadeOut('fast');
-    }, 120000);
+    }, 123000);
 
     //   Fade in .fb8 notifcation
 
@@ -624,13 +624,13 @@ $('.willsmith').mouseenter(function() {
 
     setTimeout(function () {
       $('.fb10').fadeIn('fast');
-    }, 132000);
+    }, 130000);
 
   //   Fade out .fb10 notifcation
 
     setTimeout(function () {
       $('.fb10').fadeOut('fast');
-    }, 135000);
+    }, 132000);
 
     //   Fade in .t30 notifcation
 
