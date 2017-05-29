@@ -102,7 +102,7 @@ $('.willsmith').mouseenter(function() {
    $('.pizza__image').removeClass('showme');
   });
 
-  //rollover chapter number
+  //click chapter number
   $('.one').click(function() {
      $('.one__info').toggleClass('showme');
    });
@@ -122,38 +122,40 @@ $('.willsmith').mouseenter(function() {
    //   Fade in .t1 notifcation at 3second
 
     setTimeout(function () {
-      $('.t1').fadeIn('fast');
+      $('.t1').addClass('show');
     }, 3000);
 
-  //   Fade out .t1 notifcation at 7second
+  //   Fade out .t1 notifcation at 7second **fade out not working
 
     setTimeout(function () {
-      $('.t1').fadeOut('fast');
+      $('.t1').removeClass('show');
+      $('.t1').fadeOut('1000ms');
     }, 7000);
 
   //   Fade in .t2 notifcation at 10second
 
     setTimeout(function () {
-      $('.t2').fadeIn('fast');
+      $('.t2').addClass('show');
     }, 10000);
 
   //   Fade out .t2 notifcation at 16second
 
     setTimeout(function () {
-      $('.t2').fadeOut('fast');
+      $('.t2').removeClass('show');
     }, 16000);
 
     //   Fade in .t3 notifcation at 17second
 
     setTimeout(function () {
-      $('.t3').fadeIn('fast');
-    }, 17000);
+      $('.t3').addClass('show');
+    }, 13000);
 
   //   Fade out .t3 notifcation at 22second
 
     setTimeout(function () {
+      $('.t3').removeClass('show');
       $('.t3').fadeOut('fast');
-    }, 20000);
+    }, 16000);
 
     //   Fade in .t4 notifcation at 17second
 

@@ -11,6 +11,16 @@ $('.nav').click(function() {
    $('.menu2').toggleClass('movedown');
       $('.articles').toggleClass('moveup');
  });
+
+ /* to debug: help cursor disappeared, gif won't reappear each time 'title' is clicked*/
+
+ $('.title').click(function() {
+    $('.gif1').toggleClass('showme');
+
+  });
+
+
+
 // Copy setTimeout, and change the 1000ms. You can target divs with the $ 'sign' and single quotes. Then try fadeIn, fadeOut, addClass, removeClass.
 
 // menu spinning quesiton mark

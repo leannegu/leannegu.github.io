@@ -9,6 +9,21 @@
 
 
 /* Start here */
+
+/* to debug: help cursor disappeared, gif won't reappear each time 'leon' is clicked*/
+
+.gif1 {
+  display: none;
+}
+
+.gif1.showme {
+  display: block;
+  position: fixed;
+  top: 40%;
+  right: 48%;
+}
+
+
 html,
 body {
   height: 100%;

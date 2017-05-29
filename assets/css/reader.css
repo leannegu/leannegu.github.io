@@ -268,16 +268,42 @@ body {
 }
 
 /* (flex not working??) */
+.t3 {
+  position: fixed;
+  display:none;
+  position: fixed;
+  top: 10px;
+  right: 10.5px;
+  width: 302px;
+}
+
+.t3.show {
+  position: fixed;
+  top: 10px;
+  right: 10.5px;
+  width: 302px;
+}
+
 .notification.show {
   display: flex;
+  transition: all 0.6s;
+  position: fixed;
+  top: 10px;
+  right: 10.5px;
+  width: 302px;
 }
 
 .notification {
-    display:none;
     position: fixed;
     top: 10px;
-    right: 10.5px;
+    right: -50vw;
     width: 302px;
+    transition: all 0.6s;
+    /*display:none;*/
+    /*position: fixed;*/
+    /*top: 10px;*/
+    /*right: 10.5px;*/
+    /*width: 302px;*/
     background-color: #F0F0F0;
     padding-left: 15px;
     padding-right: 15px;
@@ -314,6 +340,8 @@ body {
   right: 4.5px;
   cursor: pointer;
 }
+
+
 
 .fb1 {
   display: none;
