@@ -321,24 +321,54 @@ body {
   display: none;
   position: fixed;
   top: 80px;
+  right: -50vw;
+  transition: all 0.6s;
+  cursor: pointer;
+}
+
+.gym.show {
+  display: block;
+  position: fixed;
+  top: 80px;
   right: 2px;
   cursor: pointer;
+  transition: all 0.6s;
 }
 
 .update {
   display: none;
   position: fixed;
   top: 10px;
+  right: -50vw;
+  transition: all 0.6s;
+  cursor: pointer;
+}
+
+.update.show {
+  display: block;
+  position: fixed;
+  top: 10px;
   right: 4px;
   cursor: pointer;
+  transition: all 0.6s;
 }
 
 .lowbatt {
   display: none;
   position: fixed;
+  top: 10px;
+  right: -50vw;
+  transition: all 0.6s;
+  cursor: pointer;
+}
+
+.lowbatt.show {
+  display: block;
+  position: fixed;
   top: 85px;
   right: 4.5px;
   cursor: pointer;
+  transition: all 0.6s;
 }
 
 

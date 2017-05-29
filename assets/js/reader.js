@@ -125,7 +125,7 @@ $('.willsmith').mouseenter(function() {
       $('.t1').addClass('show');
     }, 3000);
 
-  //   Fade out .t1 notifcation at 7second **fade out not working
+  //   Fade out .t1 notifcation at 7second **fade out not working for all
 
     setTimeout(function () {
       $('.t1').removeClass('show');
@@ -160,7 +160,7 @@ $('.willsmith').mouseenter(function() {
     //   Fade in .t4 notifcation at 17second
 
     setTimeout(function () {
-      $('.t4').fadeIn('fast');
+      $('.t4').addClass('show');
     }, 20000);
 
   //   Fade out .t4 notifcation at 22second
@@ -172,7 +172,7 @@ $('.willsmith').mouseenter(function() {
     //   Fade in .t5 notifcation at 17second
 
     setTimeout(function () {
-      $('.t5').fadeIn('fast');
+      $('.t5').addClass('show');
     }, 22000);
 
   //   Fade out .t5 notifcation at 22second
@@ -190,7 +190,7 @@ $('.willsmith').mouseenter(function() {
     //   Fade in .t6 notifcation at 17second
 
     setTimeout(function () {
-      $('.t6').fadeIn('fast');
+      $('.t6').addClass('show');
     }, 25000);
 
   //   Fade out .t5 notifcation at 22second
@@ -202,7 +202,7 @@ $('.willsmith').mouseenter(function() {
     //   Fade in .t7 notifcation at 17second
 
     setTimeout(function () {
-      $('.t7').fadeIn('fast');
+      $('.t7').addClass('show');
     }, 30000);
 
   //   Fade out .t5 notifcation at 22second
@@ -214,7 +214,7 @@ $('.willsmith').mouseenter(function() {
     //   Fade in .t8 notifcation at 17second
 
     setTimeout(function () {
-      $('.t8').fadeIn('fast');
+      $('.t8').addClass('show');
     }, 31000);
 
   //   Fade out .t8 notifcation at 22second
@@ -226,7 +226,7 @@ $('.willsmith').mouseenter(function() {
     //   Fade in .t9 notifcation at 17second
 
     setTimeout(function () {
-      $('.t9').fadeIn('fast');
+      $('.t9').addClass('show');
     }, 33000);
 
   //   Fade out .t9 notifcation at 22second
@@ -238,7 +238,7 @@ $('.willsmith').mouseenter(function() {
     //   Fade in .t10 notifcation at 17second
 
     setTimeout(function () {
-      $('.t10').fadeIn('fast');
+      $('.t10').addClass('show');
     }, 35000);
 
   //   Fade out .t10 notifcation at 22second
@@ -250,19 +250,20 @@ $('.willsmith').mouseenter(function() {
     //   Fade in .gym notifcation
 
     setTimeout(function () {
-      $('.gym').fadeIn('fast');
+      $('.gym').addClass('show');
     }, 37000);
 
-  //   Fade out .gym notifcation
+  //   Fade out .gym notifcation ***slide in not working
 
     setTimeout(function () {
+      $('.gym').removeClass('show');
       $('.gym').fadeOut('fast');
-    }, 41000);
+    }, 39000);
 
     //   Fade in .t11 notifcation
 
     setTimeout(function () {
-      $('.t11').fadeIn('fast');
+      $('.t11').addClass('show');
     }, 38000);
 
   //   Fade out .t11 notifcation
@@ -274,7 +275,7 @@ $('.willsmith').mouseenter(function() {
     //   Fade in .t12 notifcation
 
     setTimeout(function () {
-      $('.t12').fadeIn('fast');
+      $('.t12').addClass('show');
     }, 39500);
 
   //   Fade out .t12 notifcation
@@ -283,25 +284,25 @@ $('.willsmith').mouseenter(function() {
       $('.t12').fadeOut('fast');
     }, 43000);
 
-    //   Fade in .update notifcation
+    //   Fade in .update notifcation ***slide in not working
 
     setTimeout(function () {
-      $('.update').fadeIn('fast');
+      $('.update').addClass('show');
     }, 46000);
 
-  //   Fade out .update notifcation
+  //   Fade out .update notifcation ***slide out/fade out not working
 
     setTimeout(function () {
       $('.update').fadeOut('fast');
     }, 49000);
 
-    //   Fade in .lowbatt notifcation
+    //   Fade in .lowbatt notifcation ***slide in not working
 
     setTimeout(function () {
-      $('.lowbatt').fadeIn('fast');
+      $('.lowbatt').addClass('show');
     }, 48000);
 
-  //   Fade out .lowbatt notifcation
+  //   Fade out .lowbatt notifcation ***slide out/fade out not working
 
     setTimeout(function () {
       $('.lowbatt').fadeOut('fast');
@@ -310,7 +311,7 @@ $('.willsmith').mouseenter(function() {
     //   Fade in .t13 notifcation
 
     setTimeout(function () {
-      $('.t13').fadeIn('fast');
+      $('.t13').addClass('show');
     }, 51000);
 
   //   Fade out .t13 notifcation
@@ -322,7 +323,7 @@ $('.willsmith').mouseenter(function() {
     //   Fade in .t14 notifcation
 
     setTimeout(function () {
-      $('.t14').fadeIn('fast');
+      $('.t14').addClass('show');
     }, 54000);
 
   //   Fade out .t14 notifcation
@@ -334,7 +335,7 @@ $('.willsmith').mouseenter(function() {
     //   Fade in .t15 notifcation
 
     setTimeout(function () {
-      $('.t15').fadeIn('fast');
+      $('.t15').addClass('show');
     }, 57000);
 
   //   Fade out .t15 notifcation
@@ -346,7 +347,7 @@ $('.willsmith').mouseenter(function() {
     //   Fade in .t16 notifcation
 
     setTimeout(function () {
-      $('.t16').fadeIn('fast');
+      $('.t16').addClass('show');
     }, 60000);
 
   //   Fade out .t16 notifcation
@@ -358,7 +359,7 @@ $('.willsmith').mouseenter(function() {
     //   Fade in .t17 notifcation
 
     setTimeout(function () {
-      $('.t17').fadeIn('fast');
+      $('.t17').addClass('show');
     }, 63000);
 
   //   Fade out .t17 notifcation
@@ -370,7 +371,7 @@ $('.willsmith').mouseenter(function() {
     //   Fade in .t18 notifcation
 
     setTimeout(function () {
-      $('.t18').fadeIn('fast');
+      $('.t18').addClass('show');
     }, 66000);
 
   //   Fade out .t18 notifcation
@@ -382,7 +383,7 @@ $('.willsmith').mouseenter(function() {
     //   Fade in .t19 notifcation
 
     setTimeout(function () {
-      $('.t19').fadeIn('fast');
+      $('.t19').addClass('show');
     }, 69000);
 
   //   Fade out .t19 notifcation
@@ -394,7 +395,7 @@ $('.willsmith').mouseenter(function() {
     //   Fade in .t20 notifcation
 
     setTimeout(function () {
-      $('.t20').fadeIn('fast');
+      $('.t20').addClass('show');
     }, 72000);
 
   //   Fade out .t20 notifcation
@@ -406,7 +407,7 @@ $('.willsmith').mouseenter(function() {
     //   Fade in .t21 notifcation
 
     setTimeout(function () {
-      $('.t21').fadeIn('fast');
+      $('.t21').addClass('show');
     }, 75000);
 
   //   Fade out .t21 notifcation
@@ -418,7 +419,7 @@ $('.willsmith').mouseenter(function() {
     //   Fade in .t22 notifcation
 
     setTimeout(function () {
-      $('.t22').fadeIn('fast');
+      $('.t22').addClass('show');
     }, 81000);
 
   //   Fade out .t22 notifcation
@@ -430,7 +431,7 @@ $('.willsmith').mouseenter(function() {
     //   Fade in .t23 notifcation
 
     setTimeout(function () {
-      $('.t23').fadeIn('fast');
+      $('.t23').addClass('show');
     }, 84000);
 
   //   Fade out .t23 notifcation
@@ -442,7 +443,7 @@ $('.willsmith').mouseenter(function() {
     //   Fade in .t24 notifcation
 
     setTimeout(function () {
-      $('.t24').fadeIn('fast');
+      $('.t24').addClass('show');
     }, 87000);
 
   //   Fade out .t24 notifcation
@@ -454,7 +455,7 @@ $('.willsmith').mouseenter(function() {
     //   Fade in .t25 notifcation
 
     setTimeout(function () {
-      $('.t25').fadeIn('fast');
+      $('.t25').addClass('show');
     }, 90000);
 
   //   Fade out .t25 notifcation
@@ -478,7 +479,7 @@ $('.willsmith').mouseenter(function() {
     //   Fade in .t26 notifcation
 
     setTimeout(function () {
-      $('.t26').fadeIn('fast');
+      $('.t26').addClass('show');
     }, 96000);
 
   //   Fade out .t26 notifcation
@@ -550,7 +551,7 @@ $('.willsmith').mouseenter(function() {
     //   Fade in .t27 notifcation
 
     setTimeout(function () {
-      $('.t27').fadeIn('fast');
+      $('.t27').addClass('show');
     }, 114000);
 
   //   Fade out .t27 notifcation
@@ -586,7 +587,7 @@ $('.willsmith').mouseenter(function() {
     //   Fade in .t28 notifcation
 
     setTimeout(function () {
-      $('.t28').fadeIn('fast');
+      $('.t28').addClass('show');
     }, 123000);
 
   //   Fade out .t28 notifcation
@@ -598,7 +599,7 @@ $('.willsmith').mouseenter(function() {
     //   Fade in .t29 notifcation
 
     setTimeout(function () {
-      $('.t29').fadeIn('fast');
+      $('.t29').addClass('show');
     }, 126000);
 
   //   Fade out .t29 notifcation
@@ -634,7 +635,7 @@ $('.willsmith').mouseenter(function() {
     //   Fade in .t30 notifcation
 
     setTimeout(function () {
-      $('.t30').fadeIn('fast');
+      $('.t30').addClass('show');
     }, 135000);
 
   //   Fade out .t30 notifcation
@@ -646,7 +647,7 @@ $('.willsmith').mouseenter(function() {
     //   Fade in .t31 notifcation
 
     setTimeout(function () {
-      $('.t31').fadeIn('fast');
+      $('.t31').addClass('show');
     }, 138000);
 
   //   Fade out .t31 notifcation
@@ -665,7 +666,7 @@ $('.willsmith').mouseenter(function() {
       //   Fade in .t32 notifcation
 
       setTimeout(function () {
-        $('.t32').fadeIn('fast');
+        $('.t32').addClass('show');
       }, 145000);
 
     //   Fade out .t32 notifcation
@@ -684,7 +685,7 @@ $('.willsmith').mouseenter(function() {
         //   Fade in .t32b notifcation
 
         setTimeout(function () {
-          $('.t32b').fadeIn('fast');
+          $('.t32b').addClass('show');
         }, 146000);
 
       //   Fade out .t32b notifcation
@@ -696,7 +697,7 @@ $('.willsmith').mouseenter(function() {
         //   Fade in .t33 notifcation
 
         setTimeout(function () {
-          $('.t33').fadeIn('fast');
+          $('.t33').addClass('show');
         }, 147000);
 
       //   Fade out .t33 notifcation
@@ -708,7 +709,7 @@ $('.willsmith').mouseenter(function() {
         //   Fade in .t34 notifcation
 
         setTimeout(function () {
-          $('.t34').fadeIn('fast');
+          $('.t34').addClass('show');
         }, 155000);
 
       //   Fade out .t34 notifcation
@@ -720,7 +721,7 @@ $('.willsmith').mouseenter(function() {
         //   Fade in .t35 notifcation
 
         setTimeout(function () {
-          $('.t35').fadeIn('fast');
+          $('.t35').addClass('show');
         }, 163000);
 
       //   Fade out .t35 notifcation
