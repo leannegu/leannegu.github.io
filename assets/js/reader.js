@@ -103,17 +103,19 @@ $('.willsmith').mouseenter(function() {
   });
 
   //click chapter number
-  $('.one').click(function() {
-     $('.one__info').toggleClass('showme');
+  $('.link__one').click(function() {
+     $('.footnote__one').toggleClass('showme');
    });
+
+   $('.link__two').click(function() {
+      $('.footnote__two').toggleClass('showme');
+    });
 
    $('.two').click(function() {
       $('.two__info').toggleClass('showme');
     });
 
-    $('.three').click(function() {
-       $('.three__info').toggleClass('showme');
-     });
+
 
   // Copy setTimeout, and change the 1000ms. You can target divs with the $ 'sign' and single quotes. Then try fadeIn, fadeOut, addClass, removeClass.
 
