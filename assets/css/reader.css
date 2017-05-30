@@ -6,10 +6,71 @@
 }
 
 /* Start here */
+
+.gif1 {
+  display: none;
+}
+
+.gif1.showme {
+  display: block;
+  position: fixed;
+  top: 40%;
+  right: 48%;
+}
+
+.intro {
+  margin-top: 100px;
+  font-size: 60px;
+}
+
+.intro.new__width.shrink {
+  transition:all 2s;
+  font-size: 2px;
+}
+
+.intro.new__width {
+  font-size: 40px;
+}
+
+.intro.shrink {
+  font-size: 2px;
+  transition: all 2s;
+}
+
+.heading {
+  border-top: 5px solid;
+  border-bottom: 5px solid;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top:100px;
+  padding-bottom: 100px;
+}
+
+.heading.shrink {
+  transition:all 2s;
+  font-size: 2px;
+}
+
+.heading.new__width.shrink {
+  transition:all 2s;
+  font-size: 2px;
+}
+
+.heading.new__width {
+  font-size: 60px;
+}
+
 body {
   font-family: helvetica, sans-serif;
 }
 /* chapters and footnotes */
+.heading__chapter {
+  text-shadow: black 0.1em 0.1em 0.3em;
+  font-family: times, serif;
+}
 .chapter {
   display: inline-block;
   font-family: times, serif;
@@ -18,7 +79,11 @@ body {
   position: relative;
 }
 
+
 .new {
+  font-size: 40px;
+  text-shadow: blue 0.1em 0.1em 0.3em;
+  font-family: monospace;
   animation: spinX 5s infinite linear;
 }
 @keyframes spinX {
@@ -33,16 +98,18 @@ body {
 }
 
 .footnote {
-  position: absolute;
-  top: 0px;
-  left: -138px;
-  border: 1.5px solid;
-  padding: 5px;
-  font-family: helvetica, sans-serif;
-  font-weight: normal;
-  font-size: 10px;
-  width: 105px;
-  display: none;
+    text-align: left;
+    text-transform: none;
+    position: absolute;
+    top: 15px;
+    left: -135px;
+    border: 1.5px solid;
+    padding: 5px;
+    font-family: helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 10px;
+    width: 105px;
+    display: none;
 }
 
 .footnote.showme {
@@ -64,17 +131,6 @@ body {
   font-size: 10px;
   width: 105px;
 }
-
-.one__info {
-  top: 25px;
-  left: 20px;
-}
-
-.two__info {
-  top: 7280px;
-  left: 20px;
-}
-
 
 /* color transition background */
 html,
@@ -494,9 +550,16 @@ body {
 }
 
 .dummylink {
-  color:blue;
+  font-family: times, serif;
+  text-transform: uppercase;
+  /*color:blue;*/
+  /*text-decoration: underline;*/
+  cursor: help;
+}
+
+.dummylink:hover {
+  color:orange;
   text-decoration: underline;
-  cursor: pointer;
 }
 
 /* actual links to sources in footnotes */

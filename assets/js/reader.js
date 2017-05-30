@@ -8,29 +8,35 @@ $(document).ready(function() {
 //   $('.menu').toggleClass('showme');
 // });
 
+$('.dummylink').click(function() {
+   $('.gif1').addClass('showme');
+
+   setTimeout(function () {
+     $('.gif1').removeClass('showme');
+   }, 5000);
 
 //click fake link game over appears
 
-  $('.dummylink').on('click', function() {
-            $('.gameover').addClass('active');
+////  $('.dummylink').on('click', function() {
+////            $('.gameover').addClass('active');
 
             // Start timeout images
 
-            setTimeout(function () {
-              $('.p1').fadeIn('fast');
-            }, 200);
+//            setTimeout(function () {
+//              $('.p1').fadeIn('fast');
+//            }, 200);
 
-            setTimeout(function () {
-              $('.p1').fadeIn('fast');
-            }, 400);
+//            setTimeout(function () {
+//              $('.p1').fadeIn('fast');
+//            }, 400);
 
-            setTimeout(function () {
-              $('.p1').fadeIn('fast');
-            }, 500);
+//            setTimeout(function () {
+//              $('.p1').fadeIn('fast');
+//            }, 500);
 
-            setTimeout(function () {
-              $('.p1').fadeIn('fast');
-            }, 600);
+//            setTimeout(function () {
+//              $('.p1').fadeIn('fast');
+//            }, 600);
 
   });
             // End timeout images
@@ -111,8 +117,8 @@ $('.willsmith').mouseenter(function() {
       $('.footnote__two').toggleClass('showme');
     });
 
-   $('.two').click(function() {
-      $('.two__info').toggleClass('showme');
+   $('.link__three').click(function() {
+      $('.footnote__three').toggleClass('showme');
     });
 
 
@@ -187,6 +193,8 @@ $('.willsmith').mouseenter(function() {
 
       setTimeout(function () {
         $('.text').addClass('new__width');
+        $('.intro').addClass('new__width');
+        $('.heading').addClass('new__width');
       }, 23000);
 
     //   Fade in .t6 notifcation at 17second
@@ -663,6 +671,8 @@ $('.willsmith').mouseenter(function() {
       setTimeout(function () {
         $('.text').addClass('new__size');
         $('.chapter').addClass('shrink');
+        $('.intro').addClass('shrink');
+        $('.heading').addClass('shrink');
       }, 140000);
 
       //   Fade in .t32 notifcation
@@ -682,6 +692,8 @@ $('.willsmith').mouseenter(function() {
         setTimeout(function () {
           $('.text').removeClass('new__size');
           $('.chapter').removeClass('shrink');
+          $('.intro').removeClass('shrink');
+          $('.heading').removeClass('shrink');
         }, 147000);
 
         //   Fade in .t32b notifcation
@@ -738,6 +750,8 @@ $('.willsmith').mouseenter(function() {
           setTimeout(function () {
             $('.text').addClass('new__size');
             $('.chapter').addClass('shrink');
+            $('.intro').addClass('shrink');
+            $('.heading').addClass('shrink');
           }, 162000);
 
           //  regrow text
@@ -745,6 +759,8 @@ $('.willsmith').mouseenter(function() {
             setTimeout(function () {
               $('.text').removeClass('new__size');
               $('.chapter').removeClass('shrink');
+              $('.intro').removeClass('shrink');
+              $('.heading').removeClass('shrink');
             }, 163000);
 
             //  shrink text
@@ -752,6 +768,8 @@ $('.willsmith').mouseenter(function() {
               setTimeout(function () {
                 $('.text').addClass('new__size');
                 $('.chapter').addClass('shrink');
+                $('.intro').addClass('shrink');
+                $('.heading').addClass('shrink');
               }, 164000);
 
               //  regrow text
@@ -759,6 +777,8 @@ $('.willsmith').mouseenter(function() {
                 setTimeout(function () {
                   $('.text').removeClass('new__size');
                   $('.chapter').removeClass('shrink');
+                  $('.intro').removeClass('shrink');
+                  $('.heading').removeClass('shrink');
                 }, 165000);
 
                 //  shrink text
@@ -766,6 +786,8 @@ $('.willsmith').mouseenter(function() {
                   setTimeout(function () {
                     $('.text').addClass('new__size');
                     $('.chapter').addClass('shrink');
+                    $('.intro').addClass('shrink');
+                    $('.heading').addClass('shrink');
                   }, 166000);
 
                   //  regrow text
@@ -773,6 +795,8 @@ $('.willsmith').mouseenter(function() {
                     setTimeout(function () {
                       $('.text').removeClass('new__size');
                       $('.chapter').removeClass('shrink');
+                      $('.intro').removeClass('shrink');
+                      $('.heading').removeClass('shrink');
                     }, 167000);
 
     //   Fade in .p1 notifcation at 19second
