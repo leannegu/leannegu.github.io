@@ -673,8 +673,11 @@ $('.willsmith').mouseenter(function() {
         $('.chapter').addClass('shrink');
         $('.intro').addClass('shrink');
         $('.heading').addClass('shrink');
-      }, 140000);
-
+        $('.new').addClass('shrink');
+        $('.gif').addClass('shrink');
+        $('.footnote').addClass('shrink');
+      }, 3000);
+// 140000
       //   Fade in .t32 notifcation
 
       setTimeout(function () {
@@ -694,8 +697,11 @@ $('.willsmith').mouseenter(function() {
           $('.chapter').removeClass('shrink');
           $('.intro').removeClass('shrink');
           $('.heading').removeClass('shrink');
-        }, 147000);
-
+          $('.new').removeClass('shrink');
+          $('.gif').removeClass('shrink');
+          $('.footnote').removeClass('shrink');
+        }, 10000);
+// 147000
         //   Fade in .t32b notifcation
 
         setTimeout(function () {

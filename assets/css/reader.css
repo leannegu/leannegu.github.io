@@ -26,6 +26,7 @@ color: transparent;
 font-size: 100px;
 text-align: center;
 /* text-shadow: black 0.1em 0.1em 0.7em; */
+transition:all 2s;
 }
 
 .intro.new__width.shrink {
@@ -35,6 +36,7 @@ text-align: center;
 
 .intro.new__width {
   font-size: 40px;
+  transition:all 2s;
 }
 
 .intro.shrink {
@@ -43,8 +45,11 @@ text-align: center;
 }
 
 .heading {
-  border-top: 5px solid;
-  border-bottom: 5px solid;
+  color: transparent;
+-webkit-text-stroke-width: 1.5px;
+-webkit-text-stroke-color: black;
+  /*border-top: 5px solid;
+  border-bottom: 5px solid;*/
   text-align: center;
   text-transform: uppercase;
   font-size: 100px;
@@ -52,6 +57,22 @@ text-align: center;
   padding-right: 50px;
   padding-top:100px;
   padding-bottom: 100px;
+  transition:all 2s;
+}
+
+.gif {
+  transition:all 2s;
+}
+
+.gif.shrink {
+  height: 0px;
+  transition:all 2s;
+}
+
+.world {
+  position: relative;
+  top: 0px;
+  left: 0px;
 }
 
 .heading.shrink {
@@ -66,6 +87,7 @@ text-align: center;
 
 .heading.new__width {
   font-size: 60px;
+
 }
 
 body {
@@ -84,6 +106,7 @@ body {
   font-size: 20px;
   font-weight: bold;
   position: relative;
+  transition:all 2s;
 }
 
 
@@ -91,6 +114,7 @@ body {
   font-size: 40px;
   text-shadow: blue 0.1em 0.1em 0.3em;
   font-family: monospace;
+  transition:all 2s;
   animation: spinX 5s infinite linear;
 }
 @keyframes spinX {
@@ -102,6 +126,10 @@ body {
   text-decoration: underline;
   display: inline-block;
   cursor: pointer;
+}
+
+.new.shrink {
+  font-size: 2px;
 }
 
 .footnote {
@@ -121,6 +149,11 @@ body {
 
 .footnote.showme {
   display: block;
+}
+
+.footnote.shrink {
+  font-size: 2px;
+  border:none;
 }
 
 .appear {
