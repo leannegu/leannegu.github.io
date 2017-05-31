@@ -676,8 +676,8 @@ $('.willsmith').mouseenter(function() {
         $('.new').addClass('shrink');
         $('.gif').addClass('shrink');
         $('.footnote').addClass('shrink');
-      }, 3000);
-// 140000
+      }, 140000);
+//
       //   Fade in .t32 notifcation
 
       setTimeout(function () {
@@ -700,8 +700,8 @@ $('.willsmith').mouseenter(function() {
           $('.new').removeClass('shrink');
           $('.gif').removeClass('shrink');
           $('.footnote').removeClass('shrink');
-        }, 10000);
-// 147000
+        }, 147000);
+
         //   Fade in .t32b notifcation
 
         setTimeout(function () {

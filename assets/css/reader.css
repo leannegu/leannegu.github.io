@@ -53,8 +53,8 @@ transition:all 2s;
   text-align: center;
   text-transform: uppercase;
   font-size: 100px;
-  padding-left: 50px;
-  padding-right: 50px;
+  /*padding-left: 50px;
+  padding-right: 50px;*/
   padding-top:100px;
   padding-bottom: 100px;
   transition:all 2s;
@@ -69,11 +69,13 @@ transition:all 2s;
   transition:all 2s;
 }
 
-.world {
+.attention {
   position: relative;
   top: 0px;
   left: 0px;
 }
+
+
 
 .heading.shrink {
   transition:all 2s;
