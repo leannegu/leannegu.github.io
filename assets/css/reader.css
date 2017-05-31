@@ -73,8 +73,10 @@ body {
 }
 /* chapters and footnotes */
 .heading__chapter {
-  text-shadow: blue 0.1em 0.1em 0.3em;
-  font-family: times, serif;
+  /*text-shadow: blue 0em 0.03em 0.5em;*/
+  color: transparent;
+-webkit-text-stroke-width: 1.5px;
+-webkit-text-stroke-color: blue;
 }
 .chapter {
   display: inline-block;
@@ -195,7 +197,7 @@ body {
 /* counter timer */
 .counter {
   font-family: helvetica, sans-serif;
-  color: lightgrey;
+  color: white;
   font-size: 40px;
   position: fixed;
   bottom: 10px;
@@ -203,12 +205,12 @@ body {
 }
 
 .counter:hover {
-  color: black;
   font-size: 200px;
   margin: auto;
 }
 
 .counter__message {
+  color: white;
   display:none;
     position: fixed;
     bottom: 210px;
