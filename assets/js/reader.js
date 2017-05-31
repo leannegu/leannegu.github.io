@@ -68,11 +68,11 @@ $('.dummylink').click(function() {
 
       // rollover counter message //
       $('.counter').mouseenter(function() {
-        $('.counter__message').fadeIn('fast');
+        $('.counter__message').addClass('showme');
       });
 
       $('.counter').mouseleave(function() {
-        $('.counter__message').fadeOut('fast');
+        $('.counter__message').removeClass('showme');
       });
 
 // rollover willsmith image
