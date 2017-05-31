@@ -19,10 +19,13 @@
 }
 
 .intro {
-  margin-top: 300px;
-  font-size: 100px;
-  text-align: center;
-  text-shadow: black 0.1em 0.1em 0.7em;
+  -webkit-text-stroke-width: 1.5px;
+-webkit-text-stroke-color: blue;
+color: transparent;
+/* text-shadow: 0 0 5px rgba(0,0,0,0.5); */
+font-size: 100px;
+text-align: center;
+/* text-shadow: black 0.1em 0.1em 0.7em; */
 }
 
 .intro.new__width.shrink {
@@ -70,7 +73,7 @@ body {
 }
 /* chapters and footnotes */
 .heading__chapter {
-  text-shadow: black 0.1em 0.1em 0.3em;
+  text-shadow: blue 0.1em 0.1em 0.3em;
   font-family: times, serif;
 }
 .chapter {
@@ -141,29 +144,29 @@ body {
 }
 
 body {
-  -webkit-animation: background 100s cubic-bezier(0.68, 0.68, 0.31, 0.32) infinite;
-  animation: background 100s cubic-bezier(0.68, 0.68, 0.31, 0.32) infinite;
+  -webkit-animation: background 80s cubic-bezier(0.68, 0.68, 0.31, 0.32) infinite;
+  animation: background 80s cubic-bezier(0.68, 0.68, 0.31, 0.32) infinite;
 }
 
 
 @-webkit-keyframes background {
-  0% { background-color: #fff7f1; }
+  0% {background-color: #FFF701;}
   16.6% { background-color: #F6BEB2; }
-  33% { background-color: #FFF701; }
+  33% {background-color: #fff7f1;}
   49.8% { background-color: #EAE8DB; }
   66.5% { background-color: #F65339; }
   83% { background-color: #FFAB00; }
-  100% { background-color: #fff7f1; }
+  100% {background-color: #FFF701;}
 }
 
 @keyframes background {
-  0% { background-color: #fff7f1; }
+  0% {background-color: #FFF701;}
   16.6% { background-color: #F6BEB2; }
-  33% { background-color: #FFF701; }
+  33% {background-color: #fff7f1;}
   49.8% { background-color: #EAE8DB; }
   66.5% { background-color: #F65339; }
   83% { background-color: #FFAB00; }
-  100% { background-color: #fff7f1; }
+  100% {background-color: #FFF701;}
 }
 
 /* scroll speed checker */
