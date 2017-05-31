@@ -205,26 +205,30 @@ body {
 }
 
 /* scroll speed checker */
+
 .slowdown.show {
   display: flex;
+  /*width: 25%;*/
+  margin: auto;
 }
 
 .slowdown {
-  display:none;
+    /*width:100vw;
+    height:20vh;
+    padding-left: 20px;
+    padding-right: 20px;*/
+    display:none;
     position: fixed;
-    bottom: 10px;
-    right: 10.5px;
-    width: 281px;
-    background-color: #F0F0F0;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    border-radius: 7px;
-    font-family: helvetica, sans-serif;
-    box-shadow: 2px 2px 10px rgba(0,0,0,0.4);
-    font-size: 11.5px;
-    letter-spacing: 0.2px;
+    top:0; left:0; right:0; bottom:0;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap:wrap;
+    /*font-family: helvetica, sans-serif;
+    color: white;
+    background-color: red;*/
+
 }
 
 /* counter timer */
