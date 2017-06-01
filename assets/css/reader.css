@@ -363,9 +363,9 @@ body {
 }*/
 
 /* distracting popups */
-.popup {
+.draggable {
   display: none;
-  cursor: pointer;
+  cursor: move;
   z-index: 99;
 }
 
@@ -375,6 +375,13 @@ body {
   left: 300px;
   width: 250px;
 }
+
+.congratulations {
+  position: fixed;
+  bottom: 100px;
+  right: 200px;
+}
+
 
 /* distracting sidebar notifications*/
 .notif {
@@ -436,7 +443,6 @@ body {
 }
 
 .gym {
-  display: none;
   position: fixed;
   top: 80px;
   right: -50vw;
@@ -445,16 +451,11 @@ body {
 }
 
 .gym.show {
-  display: block;
-  position: fixed;
   top: 80px;
   right: 2px;
-  cursor: pointer;
-  transition: all 0.6s;
 }
 
 .update {
-
   position: fixed;
   top: 10px;
   right: -50vw;
@@ -468,21 +469,16 @@ body {
 }
 
 .lowbatt {
-  display: none;
   position: fixed;
-  top: 10px;
+  top: 85px;
   right: -50vw;
   transition: all 0.6s;
   cursor: pointer;
 }
 
 .lowbatt.show {
-  display: block;
-  position: fixed;
   top: 85px;
   right: 4.5px;
-  cursor: pointer;
-  transition: all 0.6s;
 }
 
 .fb1 {

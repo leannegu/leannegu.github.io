@@ -84,38 +84,42 @@ $('.dummylink').click(function() {
         $('.scroll').removeClass('showme');
       });
 
-// rollover willsmith image
-$('.willsmith').mouseenter(function() {
-   $('.willsmith__image').addClass('showme');
- });
+// // rollover willsmith image
+// $('.willsmith').mouseenter(function() {
+//    $('.willsmith__image').addClass('showme');
+//  });
+//
+//    $('.willsmith').mouseleave(function() {
+//      $('.willsmith__image').removeClass('showme');
+//    });
+//
+// // rollovergrocery image
+//    $('.grocery').mouseenter(function() {
+//       $('.grocery__image').addClass('showme');
+//     });
+//
+//       $('.grocery').mouseleave(function() {
+//         $('.grocery__image').removeClass('showme');
+//       });
+//
+// // rollover pizza image
+//
+//   $('.pizza').mouseenter(function() {
+//     $('.pizza__image').addClass('showme');
+//   });
+//
+//   $('.pizza').mouseleave(function() {
+//    $('.pizza__image').removeClass('showme');
+//   });
+//
+//
+//   $('.pizza').mouseleave(function() {
+//    $('.pizza__image').removeClass('showme');
+//   });
 
-   $('.willsmith').mouseleave(function() {
-     $('.willsmith__image').removeClass('showme');
-   });
-
-// rollovergrocery image
-   $('.grocery').mouseenter(function() {
-      $('.grocery__image').addClass('showme');
-    });
-
-      $('.grocery').mouseleave(function() {
-        $('.grocery__image').removeClass('showme');
-      });
-
-// rollover pizza image
-
-  $('.pizza').mouseenter(function() {
-    $('.pizza__image').addClass('showme');
-  });
-
-  $('.pizza').mouseleave(function() {
-   $('.pizza__image').removeClass('showme');
-  });
-
-
-  $('.pizza').mouseleave(function() {
-   $('.pizza__image').removeClass('showme');
-  });
+$( function() {
+        $( ".draggable" ).draggable();
+      } );
 
   //click chapter number
   $('.link__one').click(function() {
@@ -830,9 +834,13 @@ $('.willsmith').mouseenter(function() {
       $('.p1').fadeIn('fast');
     }, 2000);
 
+    setTimeout(function () {
+      $('.congratulations').fadeIn('fast');
+    }, 1000);
+
   //   Remove p1 and all notifications on click
 
-  $('.notification, .popup, .notification__image').on('click', function() {
+  $('.notification, .draggable, .notification__image').on('click', function() {
             $(this).remove();
           });
   });
