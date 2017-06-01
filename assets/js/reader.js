@@ -121,6 +121,10 @@ $('.willsmith').mouseenter(function() {
       $('.footnote__three').toggleClass('showme');
     });
 
+    $('.link__four').click(function() {
+       $('.footnote__four').toggleClass('showme');
+     });
+
 
 
   // Copy setTimeout, and change the 1000ms. You can target divs with the $ 'sign' and single quotes. Then try fadeIn, fadeOut, addClass, removeClass.
@@ -851,7 +855,7 @@ $('.willsmith').mouseenter(function() {
     var speed = checkScrollSpeed();
   // if speed is faster than 30ms, adjust if needed
 
-    if (speed > 100) {
+    if (speed > 110) {
       $('.slowdown').addClass('show');
     }
     if (speed < 30) {

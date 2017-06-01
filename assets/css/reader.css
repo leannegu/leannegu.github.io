@@ -71,11 +71,9 @@ transition:all 2s;
 
 .attention {
   position: relative;
-  top: 0px;
-  left: 0px;
+  top: 45px;
+  left: -10%;
 }
-
-
 
 .heading.shrink {
   transition:all 2s;
