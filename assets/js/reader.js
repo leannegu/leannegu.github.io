@@ -301,6 +301,18 @@ $( function() {
       $('.t12').addClass('show');
     }, 50000);
 
+    // fade in popup
+
+      setTimeout(function () {
+        $('.people').fadeIn('fast');
+      }, 51000);
+
+      // fade in popup
+
+        setTimeout(function () {
+          $('.congratulations3').fadeIn('fast');
+        }, 52000);
+
   //   Fade out .t12 notifcation
 
     setTimeout(function () {
@@ -355,17 +367,54 @@ $( function() {
       $('.t13a').removeClass('show');
     }, 65000);
 
+    // fade in popup
+
+      setTimeout(function () {
+        $('.instagram').fadeIn('fast');
+      }, 67000);
+
+      // fade in popup
+
+        setTimeout(function () {
+          $('.buzzfeed').fadeIn('fast');
+        }, 67000);
+
     //   Fade in .t14 notifcation
 
     setTimeout(function () {
       $('.t14').addClass('show');
     }, 69000);
 
+    // fade in popup
+
+      setTimeout(function () {
+        $('.testosterone').fadeIn('fast');
+      }, 70000);
+
   //   Fade out .t14 notifcation
 
     setTimeout(function () {
       $('.t14').removeClass('show');
     }, 72000);
+
+    // fade in popup
+
+      setTimeout(function () {
+        $('.flash').fadeIn('fast');
+      }, 73000);
+
+      // fade in popup
+
+        setTimeout(function () {
+          $('.retailers').fadeIn('fast');
+        }, 74000);
+
+        // fade in popup
+
+          setTimeout(function () {
+            $('.christian').fadeIn('fast');
+          }, 74500);
+
 
     //   Fade in .t15 notifcation
 
@@ -403,59 +452,71 @@ $( function() {
       $('.t17').removeClass('showme');
     }, 82000);
 
+    // fade in popup
+
+      setTimeout(function () {
+        $('.derma').fadeIn('fast');
+      }, 81000);
+
     //   Fade in .t18 notifcation
 
     setTimeout(function () {
       $('.t18').addClass('show');
-    }, 1000000);
+    }, 84000);
 
   //   Fade out .t18 notifcation
 
     setTimeout(function () {
-      $('.t18').fadeOut('fast');
-    }, 69000);
+      $('.t18').removeClass('show');
+    }, 88000);
 
     //   Fade in .t19 notifcation
 
     setTimeout(function () {
-      $('.t19').addClass('show');
-    }, 100000);
+      $('.t19').addClass('showme');
+    }, 85000);
 
   //   Fade out .t19 notifcation
 
     setTimeout(function () {
-      $('.t19').fadeOut('fast');
-    }, 72000);
+      $('.t19').removeClass('showme');
+    }, 88000);
+
+    // fade in popup
+
+      setTimeout(function () {
+        $('.cute').fadeIn('fast');
+      }, 89000);
 
     //   Fade in .t20 notifcation
 
     setTimeout(function () {
       $('.t20').addClass('show');
-    }, 1000000);
+    }, 90000);
 
   //   Fade out .t20 notifcation
 
     setTimeout(function () {
-      $('.t20').fadeOut('fast');
-    }, 75000);
+      $('.t20').removeClass('show');
+    }, 95000);
 
     //   Fade in .t21 notifcation
 
     setTimeout(function () {
-      $('.t21').addClass('show');
-    }, 75000);
+      $('.t21').addClass('showme');
+    }, 92000);
 
   //   Fade out .t21 notifcation
 
     setTimeout(function () {
-      $('.t21').fadeOut('fast');
-    }, 78000);
+      $('.t21').removeClass('showme');
+    }, 95000);
 
     //   Fade in .t22 notifcation
 
     setTimeout(function () {
       $('.t22').addClass('show');
-    }, 81000);
+    },  1000000);
 
   //   Fade out .t22 notifcation
 
@@ -467,7 +528,7 @@ $( function() {
 
     setTimeout(function () {
       $('.t23').addClass('show');
-    }, 84000);
+    },  1000000);
 
   //   Fade out .t23 notifcation
 
@@ -479,7 +540,7 @@ $( function() {
 
     setTimeout(function () {
       $('.t24').addClass('show');
-    }, 87000);
+    },  10000000);
 
   //   Fade out .t24 notifcation
 
@@ -491,7 +552,7 @@ $( function() {
 
     setTimeout(function () {
       $('.t25').addClass('show');
-    }, 90000);
+    },  1000000);
 
   //   Fade out .t25 notifcation
 
