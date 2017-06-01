@@ -925,7 +925,7 @@ $( function() {
             $('.intro').addClass('shrink');
             $('.heading').addClass('shrink');
             $('.downarrow').addClass('shrink');
-          }, 100000000);
+          }, 198000);
 
           //  regrow text
 
@@ -935,7 +935,7 @@ $( function() {
               $('.intro').removeClass('shrink');
               $('.heading').removeClass('shrink');
               $('.downarrow').removeClass('shrink');
-            }, 100000000);
+            }, 199000);
 
             //  shrink text
 
@@ -945,7 +945,7 @@ $( function() {
                 $('.intro').addClass('shrink');
                 $('.heading').addClass('shrink');
                 $('.downarrow').addClass('shrink');
-              }, 100000000);
+              }, 200000);
 
               //  regrow text
 
@@ -955,7 +955,7 @@ $( function() {
                   $('.intro').removeClass('shrink');
                   $('.heading').removeClass('shrink');
                   $('.downarrow').removeClass('shrink');
-                }, 100000000);
+                }, 201000);
 
                 //  shrink text
 
@@ -965,7 +965,7 @@ $( function() {
                     $('.intro').addClass('shrink');
                     $('.heading').addClass('shrink');
                     $('.downarrow').addClass('shrink');
-                  }, 100000000);
+                  }, 202000);
 
                   //  regrow text
 
@@ -975,7 +975,7 @@ $( function() {
                       $('.intro').removeClass('shrink');
                       $('.heading').removeClass('shrink');
                       $('.downarrow').removeClass('shrink');
-                    }, 100000000);
+                    }, 203000);
 
                     //  shrink text
 
@@ -985,7 +985,7 @@ $( function() {
                         $('.intro').addClass('shrink');
                         $('.heading').addClass('shrink');
                         $('.downarrow').addClass('shrink');
-                      }, 100000000);
+                      }, 204000);
 
                       //  regrow text
 
@@ -995,7 +995,7 @@ $( function() {
                           $('.intro').removeClass('shrink');
                           $('.heading').removeClass('shrink');
                           $('.downarrow').removeClass('shrink');
-                        }, 100000000);
+                        }, 205000);
 
                         //  shrink text
 
@@ -1005,7 +1005,7 @@ $( function() {
                             $('.intro').addClass('shrink');
                             $('.heading').addClass('shrink');
                             $('.downarrow').addClass('shrink');
-                          }, 100000000);
+                          }, 206000);
 
                           //  regrow text
 
@@ -1015,14 +1015,332 @@ $( function() {
                               $('.intro').removeClass('shrink');
                               $('.heading').removeClass('shrink');
                               $('.downarrow').removeClass('shrink');
-                            }, 100000000);
+                            }, 207000);
+
+                            //  shrink text
+
+                              setTimeout(function () {
+                                $('.text').addClass('new__size');
+                                $('.chapter').addClass('shrink');
+                                $('.intro').addClass('shrink');
+                                $('.heading').addClass('shrink');
+                                $('.downarrow').addClass('shrink');
+                              }, 208000);
+
+                              //  regrow text
+
+                                setTimeout(function () {
+                                  $('.text').removeClass('new__size');
+                                  $('.chapter').removeClass('shrink');
+                                  $('.intro').removeClass('shrink');
+                                  $('.heading').removeClass('shrink');
+                                  $('.downarrow').removeClass('shrink');
+                                }, 209000);
+
+                                //  shrink text
+
+                                  setTimeout(function () {
+                                    $('.text').addClass('new__size');
+                                    $('.chapter').addClass('shrink');
+                                    $('.intro').addClass('shrink');
+                                    $('.heading').addClass('shrink');
+                                    $('.downarrow').addClass('shrink');
+                                  }, 210000);
+
+                                  //  regrow text
+
+                                    setTimeout(function () {
+                                      $('.text').removeClass('new__size');
+                                      $('.chapter').removeClass('shrink');
+                                      $('.intro').removeClass('shrink');
+                                      $('.heading').removeClass('shrink');
+                                      $('.downarrow').removeClass('shrink');
+                                    }, 211000);
+
+                                    //  shrink text
+
+                                      setTimeout(function () {
+                                        $('.text').addClass('new__size');
+                                        $('.chapter').addClass('shrink');
+                                        $('.intro').addClass('shrink');
+                                        $('.heading').addClass('shrink');
+                                        $('.downarrow').addClass('shrink');
+                                      }, 212000);
+
+                                      //  regrow text
+
+                                        setTimeout(function () {
+                                          $('.text').removeClass('new__size');
+                                          $('.chapter').removeClass('shrink');
+                                          $('.intro').removeClass('shrink');
+                                          $('.heading').removeClass('shrink');
+                                          $('.downarrow').removeClass('shrink');
+                                        }, 213000);
+
+                                        //  shrink text
+
+                                          setTimeout(function () {
+                                            $('.text').addClass('new__size');
+                                            $('.chapter').addClass('shrink');
+                                            $('.intro').addClass('shrink');
+                                            $('.heading').addClass('shrink');
+                                            $('.downarrow').addClass('shrink');
+                                          }, 214000);
+
+                                          //  regrow text
+
+                                            setTimeout(function () {
+                                              $('.text').removeClass('new__size');
+                                              $('.chapter').removeClass('shrink');
+                                              $('.intro').removeClass('shrink');
+                                              $('.heading').removeClass('shrink');
+                                              $('.downarrow').removeClass('shrink');
+                                            }, 215000);
+
+                                            //  shrink text
+
+                                              setTimeout(function () {
+                                                $('.text').addClass('new__size');
+                                                $('.chapter').addClass('shrink');
+                                                $('.intro').addClass('shrink');
+                                                $('.heading').addClass('shrink');
+                                                $('.downarrow').addClass('shrink');
+                                              }, 216000);
+
+                                              //  regrow text
+
+                                                setTimeout(function () {
+                                                  $('.text').removeClass('new__size');
+                                                  $('.chapter').removeClass('shrink');
+                                                  $('.intro').removeClass('shrink');
+                                                  $('.heading').removeClass('shrink');
+                                                  $('.downarrow').removeClass('shrink');
+                                                }, 217000);
+
+                                                //  shrink text
+
+                                                  setTimeout(function () {
+                                                    $('.text').addClass('new__size');
+                                                    $('.chapter').addClass('shrink');
+                                                    $('.intro').addClass('shrink');
+                                                    $('.heading').addClass('shrink');
+                                                    $('.downarrow').addClass('shrink');
+                                                  }, 218000);
+
+                                                  //  regrow text
+
+                                                    setTimeout(function () {
+                                                      $('.text').removeClass('new__size');
+                                                      $('.chapter').removeClass('shrink');
+                                                      $('.intro').removeClass('shrink');
+                                                      $('.heading').removeClass('shrink');
+                                                      $('.downarrow').removeClass('shrink');
+                                                    }, 219000);
+
+                                                    //  shrink text
+
+                                                      setTimeout(function () {
+                                                        $('.text').addClass('new__size');
+                                                        $('.chapter').addClass('shrink');
+                                                        $('.intro').addClass('shrink');
+                                                        $('.heading').addClass('shrink');
+                                                        $('.downarrow').addClass('shrink');
+                                                      }, 220000);
+
+                                                      //  regrow text
+
+                                                        setTimeout(function () {
+                                                          $('.text').removeClass('new__size');
+                                                          $('.chapter').removeClass('shrink');
+                                                          $('.intro').removeClass('shrink');
+                                                          $('.heading').removeClass('shrink');
+                                                          $('.downarrow').removeClass('shrink');
+                                                        }, 221000);
+
+                                                        //  shrink text
+
+                                                          setTimeout(function () {
+                                                            $('.text').addClass('new__size');
+                                                            $('.chapter').addClass('shrink');
+                                                            $('.intro').addClass('shrink');
+                                                            $('.heading').addClass('shrink');
+                                                            $('.downarrow').addClass('shrink');
+                                                          }, 222000);
+
+                                                          //  regrow text
+
+                                                            setTimeout(function () {
+                                                              $('.text').removeClass('new__size');
+                                                              $('.chapter').removeClass('shrink');
+                                                              $('.intro').removeClass('shrink');
+                                                              $('.heading').removeClass('shrink');
+                                                              $('.downarrow').removeClass('shrink');
+                                                            }, 223000);
 
 
-    //  destroy page
+      // fade in popup
 
-    setTimeout(function () {
-      $(all).remove('body');
-  }, 130000);
+        setTimeout(function () {
+          $('.congratulations').fadeIn('fast');
+        }, 200000);
+
+        // fade in popup
+
+          setTimeout(function () {
+            $('.meme').fadeIn('fast');
+          }, 200000);
+
+          // fade in popup
+
+            setTimeout(function () {
+              $('.penguins').fadeIn('fast');
+            }, 201000);
+
+            // fade in popup
+
+              setTimeout(function () {
+                $('.people').fadeIn('fast');
+              }, 202500);
+
+              // fade in popup
+
+                setTimeout(function () {
+                  $('.congratulations3').fadeIn('fast');
+                }, 203000);
+
+                // fade in popup
+
+                  setTimeout(function () {
+                    $('.instagram').fadeIn('fast');
+                  }, 204500);
+
+                  // fade in popup
+
+                    setTimeout(function () {
+                      $('.buzzfeed').fadeIn('fast');
+                    }, 204000);
+
+                    // fade in popup
+
+                      setTimeout(function () {
+                        $('.testosterone').fadeIn('fast');
+                      }, 205000);
+
+                      // fade in popup
+
+                        setTimeout(function () {
+                          $('.flash').fadeIn('fast');
+                        }, 205500);
+
+                        // fade in popup
+
+                          setTimeout(function () {
+                            $('.retailers').fadeIn('fast');
+                          }, 206000);
+
+                          // fade in popup
+
+                            setTimeout(function () {
+                              $('.christian').fadeIn('fast');
+                            }, 206500);
+
+                            // fade in popup
+
+                              setTimeout(function () {
+                                $('.cute').fadeIn('fast');
+                              }, 207000);
+
+                              // fade in popup
+
+                                setTimeout(function () {
+                                  $('.derma').fadeIn('fast');
+                                }, 207500);
+
+                                // fade in popup
+
+                                  setTimeout(function () {
+                                    $('.congratulations4').fadeIn('fast');
+                                  }, 208000);
+
+                                  // fade in popup
+
+                                    setTimeout(function () {
+                                      $('.celebrities').fadeIn('fast');
+                                    }, 208500);
+
+                                    // fade in popup
+
+                                      setTimeout(function () {
+                                        $('.chloe').fadeIn('fast');
+                                      }, 209000);
+
+                                      // fade in popup
+
+                                        setTimeout(function () {
+                                          $('.wine').fadeIn('fast');
+                                        }, 209500);
+
+                                        // fade in popup
+
+                                          setTimeout(function () {
+                                            $('.hes52').fadeIn('fast');
+                                          }, 210000);
+
+                                          // fade in popup
+
+                                            setTimeout(function () {
+                                              $('.backflip').fadeIn('fast');
+                                            }, 211000);
+
+                                            // fade in popup
+
+                                              setTimeout(function () {
+                                                $('.arthur').fadeIn('fast');
+                                              }, 212000);
+
+                                              // fade in popup
+
+                                                setTimeout(function () {
+                                                  $('.fat').fadeIn('fast');
+                                                }, 213000);
+
+                                                // fade in popup
+
+                                                  setTimeout(function () {
+                                                    $('.flowers').fadeIn('fast');
+                                                  }, 213500);
+
+                                                  // fade in popup
+
+                                                    setTimeout(function () {
+                                                      $('.nicolascage').fadeIn('fast');
+                                                    }, 214000);
+
+                                                    // fade in popup
+
+                                                      setTimeout(function () {
+                                                        $('.congratulations2').fadeIn('fast');
+                                                      }, 214500);
+
+                                                      // fade in popup
+
+                                                        setTimeout(function () {
+                                                          $('.pill').fadeIn('fast');
+                                                        }, 215000);
+
+                                                        // fade in popup
+
+                                                          setTimeout(function () {
+                                                            $('.animal').fadeIn('fast');
+                                                          }, 216000);
+
+
+
+  // clear whole page- end of reader
+
+      setTimeout(function () {
+        $('.clear').addClass('show');
+      }, 217000);
 
   //   Remove p1 and all notifications on click
 
@@ -1031,11 +1349,7 @@ $( function() {
           });
   });
 
-  // clear whole page- end of reader
 
-  setTimeout(function () {
-    $('.clear').addClass('show');
-  }, 10000000);
 
 
   // stolen scrollchecker
