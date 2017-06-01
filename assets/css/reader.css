@@ -24,13 +24,11 @@
 }
 
 .intro {
-  -webkit-text-stroke-width: 1.5px;
+-webkit-text-stroke-width: 1.5px;
 -webkit-text-stroke-color: blue;
 color: transparent;
-/* text-shadow: 0 0 5px rgba(0,0,0,0.5); */
 font-size: 100px;
 text-align: center;
-/* text-shadow: black 0.1em 0.1em 0.7em; */
 transition:all 2s;
 }
 
@@ -45,6 +43,24 @@ transition:all 2s;
 }
 
 .intro.shrink {
+  font-size: 2px;
+  transition: all 2s;
+}
+
+.downarrow {
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: blue;
+  color: transparent;
+  position: relative;
+  top:100px;
+  right: 30px;
+  text-align: center;
+  font-size: 200px;
+  flex-wrap:wrap;
+  transform: rotate(-90deg)
+}
+
+.downarrow.shrink {
   font-size: 2px;
   transition: all 2s;
 }
@@ -239,7 +255,7 @@ body {
   font-size: 40px;
   position: fixed;
   bottom: 10px;
-  left:35px;
+  left:30px;
 }
 
 .counter:hover {
@@ -295,7 +311,7 @@ body {
 }
 
 /* ****probably not using anymore rollover serif bits of text, image appears */
-.rollover {
+/*.rollover {
   font-family: times, serif;
 }
 
@@ -344,7 +360,7 @@ body {
 .pizza__image {
   top: 100px;
   left: 100px;
-}
+}*/
 
 /* distracting popups */
 .popup {

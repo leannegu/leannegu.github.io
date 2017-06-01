@@ -75,6 +75,15 @@ $('.dummylink').click(function() {
         $('.counter__message').removeClass('showme');
       });
 
+      // rollover downarrow scroll message //
+      $('.downarrow').mouseenter(function() {
+        $('.scroll').addClass('showme');
+      });
+
+      $('.downarrow').mouseenter(function() {
+        $('.scroll').removeClass('showme');
+      });
+
 // rollover willsmith image
 $('.willsmith').mouseenter(function() {
    $('.willsmith__image').addClass('showme');
@@ -682,6 +691,7 @@ $('.willsmith').mouseenter(function() {
         $('.new').addClass('shrink');
         $('.gif').addClass('shrink');
         $('.footnote').addClass('shrink');
+        $('.downarrow').addClass('shrink');
       }, 140000);
 //
       //   Fade in .t32 notifcation
@@ -706,6 +716,7 @@ $('.willsmith').mouseenter(function() {
           $('.new').removeClass('shrink');
           $('.gif').removeClass('shrink');
           $('.footnote').removeClass('shrink');
+          $('.downarrow').removeClass('shrink');
         }, 147000);
 
         //   Fade in .t32b notifcation
@@ -764,6 +775,7 @@ $('.willsmith').mouseenter(function() {
             $('.chapter').addClass('shrink');
             $('.intro').addClass('shrink');
             $('.heading').addClass('shrink');
+            $('.downarrow').addClass('shrink');
           }, 162000);
 
           //  regrow text
@@ -773,6 +785,7 @@ $('.willsmith').mouseenter(function() {
               $('.chapter').removeClass('shrink');
               $('.intro').removeClass('shrink');
               $('.heading').removeClass('shrink');
+              $('.downarrow').removeClass('shrink');
             }, 163000);
 
             //  shrink text
@@ -815,7 +828,7 @@ $('.willsmith').mouseenter(function() {
 
     setTimeout(function () {
       $('.p1').fadeIn('fast');
-    }, 60000);
+    }, 2000);
 
   //   Remove p1 and all notifications on click
 
