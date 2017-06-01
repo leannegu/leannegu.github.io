@@ -825,6 +825,61 @@ $( function() {
       $('.congratulations3').fadeIn('fast');
     }, 000);
 
+    setTimeout(function () {
+      $('.congratulations4').fadeIn('fast');
+    }, 000);
+
+    setTimeout(function () {
+      $('.derma').fadeIn('fast');
+    }, 000);
+
+    setTimeout(function () {
+      $('.pill').fadeIn('fast');
+    }, 000);
+
+    setTimeout(function () {
+      $('.testosterone').fadeIn('fast');
+    }, 000);
+
+    setTimeout(function () {
+      $('.retailers').fadeIn('fast');
+    }, 000);
+
+    setTimeout(function () {
+      $('.people').fadeIn('fast');
+    }, 000);
+
+    setTimeout(function () {
+      $('.celebrities').fadeIn('fast');
+    }, 000);
+
+    setTimeout(function () {
+      $('.fat').fadeIn('fast');
+    }, 000);
+
+    setTimeout(function () {
+      $('.cute').fadeIn('fast');
+    }, 000);
+
+    setTimeout(function () {
+      $('.penguins').fadeIn('fast');
+    }, 000);
+
+    setTimeout(function () {
+      $('.pizza').fadeIn('fast');
+    }, 000);
+
+    setTimeout(function () {
+      $('.backflip').fadeIn('fast');
+    }, 000);
+
+    setTimeout(function () {
+      $('.wine').fadeIn('fast');
+    }, 000);
+
+    setTimeout(function () {
+      $('.arthur').fadeIn('fast');
+    }, 000);
   //   Remove p1 and all notifications on click
 
   $('.notification, .draggable, .notification__image').on('click', function() {

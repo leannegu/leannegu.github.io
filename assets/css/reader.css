@@ -361,6 +361,89 @@ body {
   left: 50px;
 }
 
+.congratulations4 {
+  position: fixed;
+  top: 100px;
+  right: 100px;
+}
+
+.derma {
+  position: fixed;
+  top: 150px;
+  right: 150px;
+}
+
+.pill {
+  position: fixed;
+  bottom: 50px;
+  right: 300px;
+}
+
+.testosterone {
+  position: fixed;
+  top: 150px;
+  left: 300px;
+}
+
+.retailers {
+  position: fixed;
+  top: 120px;
+  left: 100px;
+}
+
+.people {
+  position: fixed;
+  top: 400px;
+  left: 160px;
+}
+
+.celebrities {
+  position: fixed;
+  top: 415px;
+  left: 530px;
+}
+
+.fat {
+  position: fixed;
+  top: 200px;
+  left: 420px;
+}
+
+.cute {
+  position: fixed;
+  top: 400px;
+  left: 220px;
+}
+
+.penguins {
+  position: fixed;
+  top: 100px;
+  left: 50px;
+}
+
+.pizza {
+  position: fixed;
+  top: 500px;
+  left: 700px;
+}
+
+.backflip {
+  position: fixed;
+  top: 245px;
+  left: 250px;
+}
+
+.wine {
+  position: fixed;
+  top: 210px;
+  left: 680px;
+}
+
+.arthur {
+  position: fixed;
+  top: 100px;
+  left: 670px;
+}
 /* distracting sidebar notifications*/
 .notif {
   color: #4D4D4D;
