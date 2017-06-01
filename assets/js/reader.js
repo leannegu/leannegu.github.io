@@ -117,51 +117,49 @@ $( function() {
 
     setTimeout(function () {
       $('.t1').addClass('show');
-    }, 3000);
+    }, 4000);
 
   //   Fade out .t1 notifcation at 7second **fade out not working for all
 
     setTimeout(function () {
       $('.t1').removeClass('show');
-      $('.t1').fadeOut('1000ms');
-    }, 7000);
+    }, 8000);
 
   //   Fade in .t2 notifcation at 10second
 
     setTimeout(function () {
       $('.t2').addClass('show');
-    }, 10000);
+    }, 9500);
 
   //   Fade out .t2 notifcation at 16second
 
     setTimeout(function () {
       $('.t2').removeClass('show');
-    }, 16000);
+    }, 14500);
 
     //   Fade in .t3 notifcation at 17second
 
     setTimeout(function () {
       $('.t3').addClass('show');
-    }, 13000);
+    }, 12000);
 
   //   Fade out .t3 notifcation at 22second
 
     setTimeout(function () {
       $('.t3').removeClass('show');
-      $('.t3').fadeOut('fast');
-    }, 16000);
+    }, 14500);
 
     //   Fade in .t4 notifcation at 17second
 
     setTimeout(function () {
       $('.t4').addClass('show');
-    }, 20000);
+    }, 16000);
 
   //   Fade out .t4 notifcation at 22second
 
     setTimeout(function () {
-      $('.t4').fadeOut('fast');
-    }, 25000);
+        $('.t4').removeClass('show');
+    }, 18000);
 
     //   Fade in .t5 notifcation at 17second
 
@@ -172,7 +170,7 @@ $( function() {
   //   Fade out .t5 notifcation at 22second
 
     setTimeout(function () {
-      $('.t5').fadeOut('fast');
+      $('.t5').removeClass('show');
     }, 25000);
 
     //   addClass new width notifcation at 12second
@@ -187,55 +185,73 @@ $( function() {
 
     setTimeout(function () {
       $('.t6').addClass('show');
-    }, 25000);
+    }, 26000);
 
-  //   Fade out .t5 notifcation at 22second
+  //   Fade out .t6 notifcation at 22second
 
     setTimeout(function () {
-      $('.t6').fadeOut('fast');
+      $('.t6').removeClass('show');
     }, 29000);
+
+  // fade in popup
+
+    setTimeout(function () {
+      $('.congratulations').fadeIn('fast');
+    }, 31000);
+
+    //   Fade in .t7 notifcation at 17second
+
+    setTimeout(function () {
+      $('.t6a').addClass('show');
+    }, 33000);
+
+  //   Fade out .t7 notifcation at 22second
+
+    setTimeout(function () {
+      $('.t6a').removeClass('show');
+    }, 42000);
 
     //   Fade in .t7 notifcation at 17second
 
     setTimeout(function () {
       $('.t7').addClass('show');
-    }, 30000);
+    }, 35000);
 
-  //   Fade out .t5 notifcation at 22second
+  //   Fade out .t7 notifcation at 22second
 
     setTimeout(function () {
-      $('.t7').fadeOut('fast');
-    }, 32000);
+      $('.t7').removeClass('show');
+    }, 42000);
 
     //   Fade in .t8 notifcation at 17second
 
     setTimeout(function () {
       $('.t8').addClass('show');
-    }, 31000);
+    }, 37000);
 
   //   Fade out .t8 notifcation at 22second
 
     setTimeout(function () {
       $('.t8').fadeOut('fast');
-    }, 33000);
+    }, 42000);
 
     //   Fade in .t9 notifcation at 17second
 
     setTimeout(function () {
       $('.t9').addClass('show');
-    }, 33000);
+    }, 39000);
 
   //   Fade out .t9 notifcation at 22second
 
     setTimeout(function () {
       $('.t9').fadeOut('fast');
-    }, 36000);
+    }, 42000);
 
     //   Fade in .t10 notifcation at 17second
 
     setTimeout(function () {
       $('.t10').addClass('show');
-    }, 35000);
+    }, 1000000);
 
   //   Fade out .t10 notifcation at 22second
 
@@ -247,7 +263,7 @@ $( function() {
 
     setTimeout(function () {
       $('.gym').addClass('show');
-    }, 37000);
+    }, 1000000);
 
   //   Fade out .gym notifcation ***slide in not working, fade out not working
 
@@ -260,7 +276,7 @@ $( function() {
 
     setTimeout(function () {
       $('.t11').addClass('show');
-    }, 38000);
+    }, 1000000);
 
   //   Fade out .t11 notifcation
 
@@ -272,7 +288,7 @@ $( function() {
 
     setTimeout(function () {
       $('.t12').addClass('show');
-    }, 39500);
+    }, 1000000);
 
   //   Fade out .t12 notifcation
 
@@ -284,7 +300,7 @@ $( function() {
 
     setTimeout(function () {
       $('.update').addClass('show');
-    }, 46000);
+    }, 1000000);
 
   //   Fade out .update notifcation ***slide out/fade out not working
 
@@ -296,7 +312,7 @@ $( function() {
 
     setTimeout(function () {
       $('.lowbatt').addClass('show');
-    }, 48000);
+    }, 1000000);
 
   //   Fade out .lowbatt notifcation ***slide out/fade out not working
 
@@ -308,7 +324,7 @@ $( function() {
 
     setTimeout(function () {
       $('.t13').addClass('show');
-    }, 51000);
+    }, 1000000);
 
   //   Fade out .t13 notifcation
 
@@ -320,7 +336,7 @@ $( function() {
 
     setTimeout(function () {
       $('.t14').addClass('show');
-    }, 54000);
+    }, 1000000);
 
   //   Fade out .t14 notifcation
 
@@ -332,7 +348,7 @@ $( function() {
 
     setTimeout(function () {
       $('.t15').addClass('show');
-    }, 57000);
+    }, 1000000);
 
   //   Fade out .t15 notifcation
 
@@ -344,7 +360,7 @@ $( function() {
 
     setTimeout(function () {
       $('.t16').addClass('show');
-    }, 60000);
+    }, 1000000);
 
   //   Fade out .t16 notifcation
 
@@ -356,7 +372,7 @@ $( function() {
 
     setTimeout(function () {
       $('.t17').addClass('show');
-    }, 63000);
+    }, 1000000);
 
   //   Fade out .t17 notifcation
 
@@ -368,7 +384,7 @@ $( function() {
 
     setTimeout(function () {
       $('.t18').addClass('show');
-    }, 66000);
+    }, 1000000);
 
   //   Fade out .t18 notifcation
 
@@ -380,7 +396,7 @@ $( function() {
 
     setTimeout(function () {
       $('.t19').addClass('show');
-    }, 69000);
+    }, 1000);
 
   //   Fade out .t19 notifcation
 
@@ -392,7 +408,7 @@ $( function() {
 
     setTimeout(function () {
       $('.t20').addClass('show');
-    }, 72000);
+    }, 1000000);
 
   //   Fade out .t20 notifcation
 
@@ -795,91 +811,8 @@ $( function() {
                       $('.heading').removeClass('shrink');
                     }, 167000);
 
-    //   Fade in popups
 
-    setTimeout(function () {
-      $('.christian').fadeIn('fast');
-    }, 000);
 
-    setTimeout(function () {
-      $('.congratulations').fadeIn('fast');
-    }, 000);
-
-    setTimeout(function () {
-      $('.flash').fadeIn('fast');
-    }, 000);
-
-    setTimeout(function () {
-      $('.buzzfeed').fadeIn('fast');
-    }, 000);
-
-    setTimeout(function () {
-      $('.hes52').fadeIn('fast');
-    }, 000);
-
-    setTimeout(function () {
-      $('.congratulations2').fadeIn('fast');
-    }, 000);
-
-    setTimeout(function () {
-      $('.congratulations3').fadeIn('fast');
-    }, 000);
-
-    setTimeout(function () {
-      $('.congratulations4').fadeIn('fast');
-    }, 000);
-
-    setTimeout(function () {
-      $('.derma').fadeIn('fast');
-    }, 000);
-
-    setTimeout(function () {
-      $('.pill').fadeIn('fast');
-    }, 000);
-
-    setTimeout(function () {
-      $('.testosterone').fadeIn('fast');
-    }, 000);
-
-    setTimeout(function () {
-      $('.retailers').fadeIn('fast');
-    }, 000);
-
-    setTimeout(function () {
-      $('.people').fadeIn('fast');
-    }, 000);
-
-    setTimeout(function () {
-      $('.celebrities').fadeIn('fast');
-    }, 000);
-
-    setTimeout(function () {
-      $('.fat').fadeIn('fast');
-    }, 000);
-
-    setTimeout(function () {
-      $('.cute').fadeIn('fast');
-    }, 000);
-
-    setTimeout(function () {
-      $('.penguins').fadeIn('fast');
-    }, 000);
-
-    setTimeout(function () {
-      $('.pizza').fadeIn('fast');
-    }, 000);
-
-    setTimeout(function () {
-      $('.backflip').fadeIn('fast');
-    }, 000);
-
-    setTimeout(function () {
-      $('.wine').fadeIn('fast');
-    }, 000);
-
-    setTimeout(function () {
-      $('.arthur').fadeIn('fast');
-    }, 000);
   //   Remove p1 and all notifications on click
 
   $('.notification, .draggable, .notification__image').on('click', function() {
