@@ -19,6 +19,7 @@
   text-align: center;
   flex-wrap:wrap;
   z-index: 99;
+  color: red;
 }
 
 .clear.show {
