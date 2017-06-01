@@ -310,66 +310,15 @@ body {
   font-size: 2px;
 }
 
-/* ****probably not using anymore rollover serif bits of text, image appears */
-/*.rollover {
-  font-family: times, serif;
-}
-
-.rollover:hover {
-  color:orange;
-}
-
-.blur {
-  position: fixed;
-  opacity: 0;
-  filter: blur(20px);
-  pointer-events: none;
-  transition: all 2s;
-}
-
-.blur.showme {
-  opacity: 1;
-    filter: blur(0px);
-    transition: all 1s;
-}
-
-.rotate {
-  position: fixed;
-  visibility: hidden;
-  transform: scale(0) rotate(0deg);
-  pointer-events: none;
-  transition: all 2s;
-}
-
-.rotate.showme {
-  visibility: visible;
-  transform: scale(1) rotate(360deg);
-  transition: all 1s;
-}
-
-.willsmith__image {
-  top: 20px;
-  left: 400px;
-}
-
-.grocery__image {
-  top: 100px;
-  right: 200px;
-}
-
-.pizza__image {
-  top: 100px;
-  left: 100px;
-}*/
-
 /* distracting popups */
 .draggable {
   display: none;
   cursor: move;
   z-index: 99;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.4);
 }
 
-.p1 {
+.christian {
   position: fixed;
   top: 350px;
   left: 300px;
@@ -382,6 +331,35 @@ body {
   right: 200px;
 }
 
+.flash {
+  position: fixed;
+  top: 250px;
+  left: 500px;
+}
+
+.buzzfeed {
+  position: fixed;
+  top: 600px;
+  left: 100px;
+}
+
+.hes52 {
+  position: fixed;
+  top: 100px;
+  left: 700px;
+}
+
+.congratulations2 {
+  position: fixed;
+  top: 50px;
+  left: 200px;
+}
+
+.congratulations3 {
+  position: fixed;
+  top: 330px;
+  left: 50px;
+}
 
 /* distracting sidebar notifications*/
 .notif {

@@ -84,39 +84,6 @@ $('.dummylink').click(function() {
         $('.scroll').removeClass('showme');
       });
 
-// // rollover willsmith image
-// $('.willsmith').mouseenter(function() {
-//    $('.willsmith__image').addClass('showme');
-//  });
-//
-//    $('.willsmith').mouseleave(function() {
-//      $('.willsmith__image').removeClass('showme');
-//    });
-//
-// // rollovergrocery image
-//    $('.grocery').mouseenter(function() {
-//       $('.grocery__image').addClass('showme');
-//     });
-//
-//       $('.grocery').mouseleave(function() {
-//         $('.grocery__image').removeClass('showme');
-//       });
-//
-// // rollover pizza image
-//
-//   $('.pizza').mouseenter(function() {
-//     $('.pizza__image').addClass('showme');
-//   });
-//
-//   $('.pizza').mouseleave(function() {
-//    $('.pizza__image').removeClass('showme');
-//   });
-//
-//
-//   $('.pizza').mouseleave(function() {
-//    $('.pizza__image').removeClass('showme');
-//   });
-
 $( function() {
         $( ".draggable" ).draggable();
       } );
@@ -828,15 +795,35 @@ $( function() {
                       $('.heading').removeClass('shrink');
                     }, 167000);
 
-    //   Fade in .p1 notifcation at 19second
+    //   Fade in popups
 
     setTimeout(function () {
-      $('.p1').fadeIn('fast');
-    }, 2000);
+      $('.christian').fadeIn('fast');
+    }, 000);
 
     setTimeout(function () {
       $('.congratulations').fadeIn('fast');
-    }, 1000);
+    }, 000);
+
+    setTimeout(function () {
+      $('.flash').fadeIn('fast');
+    }, 000);
+
+    setTimeout(function () {
+      $('.buzzfeed').fadeIn('fast');
+    }, 000);
+
+    setTimeout(function () {
+      $('.hes52').fadeIn('fast');
+    }, 000);
+
+    setTimeout(function () {
+      $('.congratulations2').fadeIn('fast');
+    }, 000);
+
+    setTimeout(function () {
+      $('.congratulations3').fadeIn('fast');
+    }, 000);
 
   //   Remove p1 and all notifications on click
 
