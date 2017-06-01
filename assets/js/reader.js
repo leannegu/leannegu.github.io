@@ -474,7 +474,7 @@ $( function() {
 
     setTimeout(function () {
       $('.t19').addClass('showme');
-    }, 85000);
+    }, 86000);
 
   //   Fade out .t19 notifcation
 
@@ -594,175 +594,187 @@ $( function() {
 
     setTimeout(function () {
       $('.fb1').fadeOut('fast');
-    }, 96000);
+    }, 121000);
 
     //   Fade in .t26 notifcation
 
     setTimeout(function () {
       $('.t26').addClass('show');
-    }, 100000000);
+    }, 122000);
 
   //   Fade out .t26 notifcation
 
     setTimeout(function () {
-      $('.t26').fadeOut('fast');
-    }, 101000);
+      $('.t26').removeClass('show')
+    }, 126000);
 
     //   Fade in .fb2 notifcation
 
     setTimeout(function () {
       $('.fb2').fadeIn('fast');
-    }, 100000000);
+    }, 123000);
 
   //   Fade out .fb2 notifcation
 
     setTimeout(function () {
       $('.fb2').fadeOut('fast');
-    }, 101000);
+    }, 126000);
 
     //   Fade in .fb3 notifcation
 
     setTimeout(function () {
       $('.fb3').fadeIn('fast');
-    }, 100000000);
+    }, 127000);
 
   //   Fade out .fb3 notifcation
 
     setTimeout(function () {
       $('.fb3').fadeOut('fast');
-    }, 110000);
+    }, 133000;
 
     //   Fade in .fb4 notifcation
 
     setTimeout(function () {
       $('.fb4').fadeIn('fast');
-    }, 100000000);
+    }, 128000);
 
   //   Fade out .fb4 notifcation
 
     setTimeout(function () {
       $('.fb4').fadeOut('fast');
-    }, 110000);
+    }, 133000);
+
+    // fade in popup
+
+      setTimeout(function () {
+        $('.hes52').fadeIn('fast');
+      }, 129000);
+
+      // fade in popup
+
+        setTimeout(function () {
+          $('.backflip').fadeIn('fast');
+        }, 129500);
 
     //   Fade in .fb5 notifcation
 
     setTimeout(function () {
       $('.fb5').fadeIn('fast');
-    }, 100000000);
+    }, 129000);
 
   //   Fade out .fb5 notifcation
 
     setTimeout(function () {
       $('.fb5').fadeOut('fast');
-    }, 110000);
+    }, 133000);
 
     //   Fade in .fb6 notifcation
 
     setTimeout(function () {
       $('.fb6').fadeIn('fast');
-    }, 100000000);
+    }, 130000);
 
   //   Fade out .fb6 notifcation
 
     setTimeout(function () {
       $('.fb6').fadeOut('fast');
-    }, 110000);
+    }, 133000);
 
     //   Fade in .t27 notifcation
 
     setTimeout(function () {
       $('.t27').addClass('show');
-    }, 100000000);
+    }, 134000);
 
   //   Fade out .t27 notifcation
 
     setTimeout(function () {
       $('.t27').fadeOut('fast');
-    }, 117000);
+    }, 137000;
 
     //   Fade in .fb7 notifcation
 
     setTimeout(function () {
       $('.fb7').fadeIn('fast');
-    }, 100000000);
+    }, 135000);
 
   //   Fade out .fb7 notifcation
 
     setTimeout(function () {
       $('.fb7').fadeOut('fast');
-    }, 123000);
+    }, 139000);
 
     //   Fade in .fb8 notifcation
 
     setTimeout(function () {
       $('.fb8').fadeIn('fast');
-    }, 100000000);
+    }, 136000);
 
   //   Fade out .fb8 notifcation
 
     setTimeout(function () {
       $('.fb8').fadeOut('fast');
-    }, 123000);
+    }, 139000);
 
     //   Fade in .t28 notifcation
 
     setTimeout(function () {
       $('.t28').addClass('show');
-    }, 100000000);
+    }, 140000);
 
   //   Fade out .t28 notifcation
 
     setTimeout(function () {
       $('.t28').fadeOut('fast');
-    }, 126000);
+    }, 143000);
 
     //   Fade in .t29 notifcation
 
     setTimeout(function () {
       $('.t29').addClass('show');
-    }, 100000000);
+    }, 144000);
 
   //   Fade out .t29 notifcation
 
     setTimeout(function () {
       $('.t29').fadeOut('fast');
-    }, 129000);
+    }, 149000);
 
     //   Fade in .fb9 notifcation
 
     setTimeout(function () {
       $('.fb9').fadeIn('fast');
-    }, 100000000);
+    }, 145000);
 
   //   Fade out .fb9 notifcation
 
     setTimeout(function () {
       $('.fb9').fadeOut('fast');
-    }, 132000);
+    }, 149000);
 
     //   Fade in .fb10 notifcation
 
     setTimeout(function () {
       $('.fb10').fadeIn('fast');
-    }, 100000000);
+    }, 146000);
 
   //   Fade out .fb10 notifcation
 
     setTimeout(function () {
       $('.fb10').fadeOut('fast');
-    }, 132000);
+    }, 149000);
 
     //   Fade in .t30 notifcation
 
     setTimeout(function () {
       $('.t30').addClass('show');
-    }, 100000000);
+    }, 550000);
 
   //   Fade out .t30 notifcation
 
     setTimeout(function () {
       $('.t30').fadeOut('fast');
-    }, 138000);
+    }, 580000);
 
     //   Fade in .t31 notifcation
 
