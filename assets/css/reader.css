@@ -444,7 +444,7 @@ body {
 .meme {
   position: fixed;
   top: 35px;
-  left: 780px;
+  left: 580px;
 }
 
 .nicolascage {
@@ -491,27 +491,33 @@ body {
 }
 
 /* (flex not working??) */
-.t3 {
-  position: fixed;
-  display:none;
+.notification__appear {
+  display: none;
   position: fixed;
   top: 10px;
   right: 10.5px;
   width: 302px;
+  height: 50px;
+  background-color: #F0F0F0;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 6px;
+  padding-bottom: 12px;
+  border-radius:7px;
+  font-family: helvetica, sans-serif;
+  font-size: 11.5px;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+  flex-wrap: wrap;
+  vertical-align: middle;
 }
-
-.t3.show {
+.notification__appear.showme {
+  display: flex;
   position: fixed;
   top: 10px;
   right: 10.5px;
   width: 302px;
-}
-
-.t7.show {
-  position: fixed;
-  top: 10px;
-  right: 10.5px;
-  width: 302px;
+  z-index: 99;
 }
 
 .notification.show {
@@ -551,20 +557,17 @@ body {
   z-index: 99;
 }
 
-.hidden {
-  color: transparent;
-}
 
 .gym {
   position: fixed;
-  top: 80px;
+  top: 90px;
   right: -50vw;
   transition: all 0.6s;
   cursor: pointer;
 }
 
 .gym.show {
-  top: 80px;
+  top: 90px;
   right: 2px;
 }
 

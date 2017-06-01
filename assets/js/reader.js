@@ -140,13 +140,13 @@ $( function() {
     //   Fade in .t3 notifcation at 17second
 
     setTimeout(function () {
-      $('.t3').addClass('show');
+      $('.t3').addClass('showme');
     }, 12000);
 
   //   Fade out .t3 notifcation at 22second
 
     setTimeout(function () {
-      $('.t3').removeClass('show');
+      $('.t3').removeClass('showme');
     }, 14500);
 
     //   Fade in .t4 notifcation at 17second
@@ -197,188 +197,211 @@ $( function() {
 
     setTimeout(function () {
       $('.congratulations').fadeIn('fast');
-    }, 31000);
+    }, 30000);
 
-    //   Fade in .t7 notifcation at 17second
+    // fade in popup
+
+      setTimeout(function () {
+        $('.meme').fadeIn('fast');
+      }, 31000);
+
+      // fade in popup
+
+        setTimeout(function () {
+          $('.penguins').fadeIn('fast');
+        }, 32000);
+
+    //   Fade in .t6a notifcation at 17second
 
     setTimeout(function () {
       $('.t6a').addClass('show');
-    }, 33000);
+    }, 33500);
 
-  //   Fade out .t7 notifcation at 22second
+  //   Fade out .t6a notifcation at 22second
 
     setTimeout(function () {
       $('.t6a').removeClass('show');
-    }, 42000);
+    }, 36500);
 
     //   Fade in .t7 notifcation at 17second
 
     setTimeout(function () {
       $('.t7').addClass('show');
-    }, 35000);
+    }, 38000);
 
   //   Fade out .t7 notifcation at 22second
 
     setTimeout(function () {
       $('.t7').removeClass('show');
-    }, 42000);
+    }, 44000);
 
     //   Fade in .t8 notifcation at 17second
 
     setTimeout(function () {
-      $('.t8').addClass('show');
-    }, 37000);
+      $('.t8').addClass('showme');
+    }, 40000);
 
   //   Fade out .t8 notifcation at 22second
 
     setTimeout(function () {
-      $('.t8').fadeOut('fast');
-    }, 42000);
+      $('.t8').removeClass('showme');
+    }, 44000);
 
     //   Fade in .t9 notifcation at 17second
 
     setTimeout(function () {
-      $('.t9').addClass('show');
-    }, 39000);
+      $('.t9').addClass('showme');
+    }, 42000);
 
   //   Fade out .t9 notifcation at 22second
 
     setTimeout(function () {
-      $('.t9').fadeOut('fast');
-    }, 42000);
+      $('.t9').removeClass('showme');
+    }, 44000);
 
     //   Fade in .t10 notifcation at 17second
 
     setTimeout(function () {
       $('.t10').addClass('show');
-    }, 1000000);
+    }, 45000);
 
   //   Fade out .t10 notifcation at 22second
 
     setTimeout(function () {
-      $('.t10').fadeOut('fast');
-    }, 38000);
+      $('.t10').removeClass('show');
+    }, 49000);
 
     //   Fade in .gym notifcation
 
     setTimeout(function () {
       $('.gym').addClass('show');
-    }, 1000000);
+    }, 46500);
 
-  //   Fade out .gym notifcation ***slide in not working, fade out not working
+  //   Fade out .gym notifcation
 
     setTimeout(function () {
       $('.gym').removeClass('show');
-      $('.gym').fadeOut('fast');
-    }, 39000);
+    }, 49000);
 
     //   Fade in .t11 notifcation
 
     setTimeout(function () {
-      $('.t11').addClass('show');
-    }, 1000000);
+      $('.t11').addClass('showme');
+    }, 47500);
 
   //   Fade out .t11 notifcation
 
     setTimeout(function () {
-      $('.t11').fadeOut('fast');
-    }, 40000);
+      $('.t11').removeClass('showme');
+    }, 49000);
 
     //   Fade in .t12 notifcation
 
     setTimeout(function () {
       $('.t12').addClass('show');
-    }, 1000000);
+    }, 50000);
 
   //   Fade out .t12 notifcation
 
     setTimeout(function () {
-      $('.t12').fadeOut('fast');
-    }, 43000);
+      $('.t12').removeClass('show');
+    }, 53000);
 
     //   Fade in .update notifcation ***slide in not working
 
     setTimeout(function () {
       $('.update').addClass('show');
-    }, 1000000);
+    }, 55000);
 
   //   Fade out .update notifcation ***slide out/fade out not working
 
     setTimeout(function () {
-      $('.update').fadeOut('fast');
-    }, 49000);
+      $('.update').removeClass('show');
+    }, 58500);
 
     //   Fade in .lowbatt notifcation ***slide in not working
 
     setTimeout(function () {
       $('.lowbatt').addClass('show');
-    }, 1000000);
+    }, 56000);
 
   //   Fade out .lowbatt notifcation ***slide out/fade out not working
 
     setTimeout(function () {
-      $('.lowbatt').fadeOut('fast');
-    }, 50000);
+      $('.lowbatt').removeClass('show');
+    }, 58500);
 
     //   Fade in .t13 notifcation
 
     setTimeout(function () {
       $('.t13').addClass('show');
-    }, 1000000);
+    }, 595000);
 
   //   Fade out .t13 notifcation
 
     setTimeout(function () {
-      $('.t13').fadeOut('fast');
-    }, 53000);
+      $('.t13').removeClass('show');
+    }, 615000);
+
+    //   Fade in .t13a notifcation
+
+    setTimeout(function () {
+      $('.t13a').addClass('show');
+    }, 63000);
+
+  //   Fade out .t13a notifcation
+
+    setTimeout(function () {
+      $('.t13a').removeClass('show');
+    }, 65000);
 
     //   Fade in .t14 notifcation
 
     setTimeout(function () {
       $('.t14').addClass('show');
-    }, 1000000);
+    }, 69000);
 
   //   Fade out .t14 notifcation
 
     setTimeout(function () {
-      $('.t14').fadeOut('fast');
-    }, 57000);
+      $('.t14').removeClass('show');
+    }, 72000);
 
     //   Fade in .t15 notifcation
 
     setTimeout(function () {
       $('.t15').addClass('show');
-    }, 1000000);
+    }, 77000);
 
   //   Fade out .t15 notifcation
 
     setTimeout(function () {
-      $('.t15').fadeOut('fast');
-    }, 60000);
+      $('.t15').removeClass('show');
+    }, 82000);
 
     //   Fade in .t16 notifcation
 
     setTimeout(function () {
-      $('.t16').addClass('show');
-    }, 1000000);
+      $('.t16').addClass('showme');
+    }, 78000);
 
   //   Fade out .t16 notifcation
 
     setTimeout(function () {
-      $('.t16').fadeOut('fast');
-    }, 63000);
+      $('.t16').removeClass('showme');
+    }, 82000);
 
     //   Fade in .t17 notifcation
 
     setTimeout(function () {
-      $('.t17').addClass('show');
-    }, 1000000);
+      $('.t17').addClass('showme');
+    }, 80000);
 
   //   Fade out .t17 notifcation
 
     setTimeout(function () {
-      $('.t17').fadeOut('fast');
-    }, 66000);
+      $('.t17').removeClass('showme');
+    }, 82000);
 
     //   Fade in .t18 notifcation
 
@@ -396,7 +419,7 @@ $( function() {
 
     setTimeout(function () {
       $('.t19').addClass('show');
-    }, 1000);
+    }, 100000);
 
   //   Fade out .t19 notifcation
 
@@ -815,7 +838,7 @@ $( function() {
 
   //   Remove p1 and all notifications on click
 
-  $('.notification, .draggable, .notification__image').on('click', function() {
+  $('.notification, .draggable, notification__appear, .notification__image').on('click', function() {
             $(this).remove();
           });
   });
