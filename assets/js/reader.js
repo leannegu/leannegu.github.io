@@ -1340,7 +1340,7 @@ $( function() {
 
       setTimeout(function () {
         $('.clear').addClass('show');
-      }, 217000);
+      }, 205000);
 
   //   Remove p1 and all notifications on click
 
