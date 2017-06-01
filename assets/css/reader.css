@@ -7,15 +7,20 @@
 
 /* Start here */
 
-.gif1 {
-  display: none;
+.loading {
+  display:none;
+  position: fixed;
+  top:0; left:0; right:0; bottom:0;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap:wrap;
 }
 
-.gif1.showme {
-  display: block;
-  position: fixed;
-  top: 40%;
-  right: 48%;
+.loading.showme {
+  display: flex;
+  margin: auto;
 }
 
 .intro {
@@ -208,15 +213,10 @@ body {
 
 .slowdown.show {
   display: flex;
-  /*width: 25%;*/
   margin: auto;
 }
 
 .slowdown {
-    /*width:100vw;
-    height:20vh;
-    padding-left: 20px;
-    padding-right: 20px;*/
     display:none;
     position: fixed;
     top:0; left:0; right:0; bottom:0;
@@ -225,10 +225,11 @@ body {
     align-items: center;
     text-align: center;
     flex-wrap:wrap;
-    /*font-family: helvetica, sans-serif;
-    color: white;
-    background-color: red;*/
+}
 
+.slowdown__image {
+  justify-content: center;
+  align-items: center;
 }
 
 /* counter timer */

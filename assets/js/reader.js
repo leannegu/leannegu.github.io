@@ -9,10 +9,10 @@ $(document).ready(function() {
 // });
 
 $('.dummylink').click(function() {
-   $('.gif1').addClass('showme');
+   $('.loading').addClass('showme');
 
    setTimeout(function () {
-     $('.gif1').removeClass('showme');
+     $('.loading').removeClass('showme');
    }, 5000);
 
 //click fake link game over appears
