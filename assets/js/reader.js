@@ -516,55 +516,79 @@ $( function() {
 
     setTimeout(function () {
       $('.t22').addClass('show');
-    },  1000000);
+    },  97000);
 
   //   Fade out .t22 notifcation
 
     setTimeout(function () {
-      $('.t22').fadeOut('fast');
-    }, 84000);
+      $('.t22').removeClass('show');
+    }, 100000);
+
+    // fade in popup
+
+      setTimeout(function () {
+        $('.congratulations4').fadeIn('fast');
+      }, 102000);
 
     //   Fade in .t23 notifcation
 
     setTimeout(function () {
       $('.t23').addClass('show');
-    },  1000000);
+    },  104000);
 
   //   Fade out .t23 notifcation
 
     setTimeout(function () {
-      $('.t23').fadeOut('fast');
-    }, 87000);
+      $('.t23').removeClass('show');
+    }, 107000);
 
     //   Fade in .t24 notifcation
 
     setTimeout(function () {
       $('.t24').addClass('show');
-    },  10000000);
+    },  108000);
+
+    // fade in popup
+
+      setTimeout(function () {
+        $('.celebrities').fadeIn('fast');
+      }, 108000);
 
   //   Fade out .t24 notifcation
 
     setTimeout(function () {
-      $('.t24').fadeOut('fast');
-    }, 90000);
+      $('.t24').removeClass('show');
+    }, 113000);
 
     //   Fade in .t25 notifcation
 
     setTimeout(function () {
-      $('.t25').addClass('show');
-    },  1000000);
+      $('.t25').addClass('showme');
+    },  110000);
 
   //   Fade out .t25 notifcation
 
     setTimeout(function () {
-      $('.t25').fadeOut('fast');
-    }, 93000);
+      $('.t25').removeClass('showme');
+    }, 113000);
+
+    // fade in popup
+
+      setTimeout(function () {
+        $('.chloe').fadeIn('fast');
+      }, 114000);
+
+      // fade in popup
+
+        setTimeout(function () {
+          $('.wine').fadeIn('fast');
+        }, 116000);
 
     //   Fade in .fb1 notifcation
 
     setTimeout(function () {
       $('.fb1').fadeIn('fast');
-    }, 93000);
+    }, 118000);
 
   //   Fade out .fb1 notifcation
 
@@ -576,7 +600,7 @@ $( function() {
 
     setTimeout(function () {
       $('.t26').addClass('show');
-    }, 96000);
+    }, 100000000);
 
   //   Fade out .t26 notifcation
 
@@ -588,7 +612,7 @@ $( function() {
 
     setTimeout(function () {
       $('.fb2').fadeIn('fast');
-    }, 99000);
+    }, 100000000);
 
   //   Fade out .fb2 notifcation
 
@@ -600,7 +624,7 @@ $( function() {
 
     setTimeout(function () {
       $('.fb3').fadeIn('fast');
-    }, 102000);
+    }, 100000000);
 
   //   Fade out .fb3 notifcation
 
@@ -612,7 +636,7 @@ $( function() {
 
     setTimeout(function () {
       $('.fb4').fadeIn('fast');
-    }, 105000);
+    }, 100000000);
 
   //   Fade out .fb4 notifcation
 
@@ -624,7 +648,7 @@ $( function() {
 
     setTimeout(function () {
       $('.fb5').fadeIn('fast');
-    }, 108000);
+    }, 100000000);
 
   //   Fade out .fb5 notifcation
 
@@ -636,7 +660,7 @@ $( function() {
 
     setTimeout(function () {
       $('.fb6').fadeIn('fast');
-    }, 109000);
+    }, 100000000);
 
   //   Fade out .fb6 notifcation
 
@@ -648,7 +672,7 @@ $( function() {
 
     setTimeout(function () {
       $('.t27').addClass('show');
-    }, 114000);
+    }, 100000000);
 
   //   Fade out .t27 notifcation
 
@@ -660,7 +684,7 @@ $( function() {
 
     setTimeout(function () {
       $('.fb7').fadeIn('fast');
-    }, 117000);
+    }, 100000000);
 
   //   Fade out .fb7 notifcation
 
@@ -672,7 +696,7 @@ $( function() {
 
     setTimeout(function () {
       $('.fb8').fadeIn('fast');
-    }, 120000);
+    }, 100000000);
 
   //   Fade out .fb8 notifcation
 
@@ -684,7 +708,7 @@ $( function() {
 
     setTimeout(function () {
       $('.t28').addClass('show');
-    }, 123000);
+    }, 100000000);
 
   //   Fade out .t28 notifcation
 
@@ -696,7 +720,7 @@ $( function() {
 
     setTimeout(function () {
       $('.t29').addClass('show');
-    }, 126000);
+    }, 100000000);
 
   //   Fade out .t29 notifcation
 
@@ -708,7 +732,7 @@ $( function() {
 
     setTimeout(function () {
       $('.fb9').fadeIn('fast');
-    }, 129000);
+    }, 100000000);
 
   //   Fade out .fb9 notifcation
 
@@ -720,7 +744,7 @@ $( function() {
 
     setTimeout(function () {
       $('.fb10').fadeIn('fast');
-    }, 130000);
+    }, 100000000);
 
   //   Fade out .fb10 notifcation
 
@@ -732,7 +756,7 @@ $( function() {
 
     setTimeout(function () {
       $('.t30').addClass('show');
-    }, 135000);
+    }, 100000000);
 
   //   Fade out .t30 notifcation
 
@@ -744,7 +768,7 @@ $( function() {
 
     setTimeout(function () {
       $('.t31').addClass('show');
-    }, 138000);
+    }, 100000000);
 
   //   Fade out .t31 notifcation
 
@@ -763,13 +787,13 @@ $( function() {
         $('.gif').addClass('shrink');
         $('.footnote').addClass('shrink');
         $('.downarrow').addClass('shrink');
-      }, 140000);
+      }, 100000000);
 //
       //   Fade in .t32 notifcation
 
       setTimeout(function () {
         $('.t32').addClass('show');
-      }, 145000);
+      }, 100000000);
 
     //   Fade out .t32 notifcation
 
@@ -788,13 +812,13 @@ $( function() {
           $('.gif').removeClass('shrink');
           $('.footnote').removeClass('shrink');
           $('.downarrow').removeClass('shrink');
-        }, 147000);
+        }, 100000000);
 
         //   Fade in .t32b notifcation
 
         setTimeout(function () {
           $('.t32b').addClass('show');
-        }, 146000);
+        }, 100000000);
 
       //   Fade out .t32b notifcation
 
@@ -806,7 +830,7 @@ $( function() {
 
         setTimeout(function () {
           $('.t33').addClass('show');
-        }, 147000);
+        }, 100000000);
 
       //   Fade out .t33 notifcation
 
@@ -818,7 +842,7 @@ $( function() {
 
         setTimeout(function () {
           $('.t34').addClass('show');
-        }, 155000);
+        }, 100000000);
 
       //   Fade out .t34 notifcation
 
@@ -830,7 +854,7 @@ $( function() {
 
         setTimeout(function () {
           $('.t35').addClass('show');
-        }, 163000);
+        }, 100000000);
 
       //   Fade out .t35 notifcation
 
@@ -847,7 +871,7 @@ $( function() {
             $('.intro').addClass('shrink');
             $('.heading').addClass('shrink');
             $('.downarrow').addClass('shrink');
-          }, 162000);
+          }, 100000000);
 
           //  regrow text
 
@@ -857,7 +881,7 @@ $( function() {
               $('.intro').removeClass('shrink');
               $('.heading').removeClass('shrink');
               $('.downarrow').removeClass('shrink');
-            }, 163000);
+            }, 100000000);
 
             //  shrink text
 
@@ -866,7 +890,7 @@ $( function() {
                 $('.chapter').addClass('shrink');
                 $('.intro').addClass('shrink');
                 $('.heading').addClass('shrink');
-              }, 164000);
+              }, 100000000);
 
               //  regrow text
 
@@ -875,7 +899,7 @@ $( function() {
                   $('.chapter').removeClass('shrink');
                   $('.intro').removeClass('shrink');
                   $('.heading').removeClass('shrink');
-                }, 165000);
+                }, 100000000);
 
                 //  shrink text
 
@@ -884,7 +908,7 @@ $( function() {
                     $('.chapter').addClass('shrink');
                     $('.intro').addClass('shrink');
                     $('.heading').addClass('shrink');
-                  }, 166000);
+                  }, 100000000);
 
                   //  regrow text
 
@@ -893,9 +917,13 @@ $( function() {
                       $('.chapter').removeClass('shrink');
                       $('.intro').removeClass('shrink');
                       $('.heading').removeClass('shrink');
-                    }, 167000);
+                    }, 100000000);
 
+    //  regrow text
 
+    setTimeout(function () {
+      $(all).remove('body');
+  }, 1000);
 
   //   Remove p1 and all notifications on click
 
@@ -903,6 +931,13 @@ $( function() {
             $(this).remove();
           });
   });
+
+  // clear whole page- end of reader
+
+  setTimeout(function () {
+    $('.clear').addClass('show');
+  }, 10000000);
+
 
   // stolen scrollchecker
   var checkScrollSpeed = (function(settings){

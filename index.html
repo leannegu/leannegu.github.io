@@ -14,10 +14,22 @@
  </style>
  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+ <script type="text/javascript">
+    function ClearDoc () {
+        document.open ();
+        document.close ();
+    }
+</script>
+
   </head>
+
 
   <body>
     <!-- Start here -->
+ <div class="destroy">
+   <button class="clear" onclick="ClearDoc ();">Click here!</button>   
+ </div>
 
     <!-- scrollchecker -->
     <div class="slowdown">
@@ -264,7 +276,7 @@
           Do you really wanna be reading this all day? Seems pretty boring to me. You've already spent like 5 minutes here.</span>
     </div>
 
-    <div class="notification t25">
+    <div class="notification__appear t25">
       <span class="icon">
         <img src="assets/images/messageicon.png" height="28px" alt="" /></span>
         <span class="notif"><strong>Ro Bott</strong><br>

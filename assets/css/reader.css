@@ -6,6 +6,33 @@
 }
 
 /* Start here */
+.clear {
+  display: none;
+  position: fixed;
+  height: 100px;
+  width: 200px;
+  margin: auto;
+  top:0; left:0; right:0; bottom:0;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap:wrap;
+  z-index: 99;
+}
+
+.clear.show {
+  display: flex;
+  position: fixed;
+  top:0; left:0; right:0; bottom:0;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap:wrap;
+  z-index: 99;
+}
+
 
 .loading {
   display:none;
