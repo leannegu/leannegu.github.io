@@ -117,12 +117,12 @@ transition:all 2s;
   height: 0px;
   transition:all 2s;
 }
-
+/*
 .attention {
   position: relative;
   top: 45px;
   left: -10%;
-}
+}*/
 
 .heading.shrink {
   transition:all 2s;
