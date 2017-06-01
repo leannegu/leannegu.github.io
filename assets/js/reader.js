@@ -125,7 +125,9 @@ $('.willsmith').mouseenter(function() {
        $('.footnote__four').toggleClass('showme');
      });
 
-
+     $('.link__five').click(function() {
+        $('.footnote__five').toggleClass('showme');
+      });
 
   // Copy setTimeout, and change the 1000ms. You can target divs with the $ 'sign' and single quotes. Then try fadeIn, fadeOut, addClass, removeClass.
 
