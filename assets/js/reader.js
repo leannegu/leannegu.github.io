@@ -914,7 +914,7 @@ $( function() {
 
         setTimeout(function () {
           $('.t35').removeClass('show');
-        }, 121000);
+        }, 201000);
 
 
         //  shrink text
