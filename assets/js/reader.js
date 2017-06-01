@@ -630,7 +630,7 @@ $( function() {
 
     setTimeout(function () {
       $('.fb3').fadeOut('fast');
-    }, 133000;
+    }, 133000);
 
     //   Fade in .fb4 notifcation
 
@@ -680,6 +680,12 @@ $( function() {
       $('.fb6').fadeOut('fast');
     }, 133000);
 
+    // fade in popup
+
+      setTimeout(function () {
+        $('.arthur').fadeIn('fast');
+      }, 133000);
+
     //   Fade in .t27 notifcation
 
     setTimeout(function () {
@@ -689,8 +695,8 @@ $( function() {
   //   Fade out .t27 notifcation
 
     setTimeout(function () {
-      $('.t27').fadeOut('fast');
-    }, 137000;
+      $('.t27').removeClass('show');
+    }, 137000);
 
     //   Fade in .fb7 notifcation
 
@@ -716,6 +722,18 @@ $( function() {
       $('.fb8').fadeOut('fast');
     }, 139000);
 
+    // fade in popup
+
+      setTimeout(function () {
+        $('.fat').fadeIn('fast');
+      }, 137000);
+
+      // fade in popup
+
+        setTimeout(function () {
+          $('.flowers').fadeIn('fast');
+        }, 137000);
+
     //   Fade in .t28 notifcation
 
     setTimeout(function () {
@@ -725,7 +743,7 @@ $( function() {
   //   Fade out .t28 notifcation
 
     setTimeout(function () {
-      $('.t28').fadeOut('fast');
+      $('.t28').removeClass('show');
     }, 143000);
 
     //   Fade in .t29 notifcation
@@ -737,7 +755,7 @@ $( function() {
   //   Fade out .t29 notifcation
 
     setTimeout(function () {
-      $('.t29').fadeOut('fast');
+      $('.t29').removeClass('show');
     }, 149000);
 
     //   Fade in .fb9 notifcation
@@ -764,29 +782,35 @@ $( function() {
       $('.fb10').fadeOut('fast');
     }, 149000);
 
+    // fade in popup
+
+      setTimeout(function () {
+        $('.nicolascage').fadeIn('fast');
+      }, 146000);
+
     //   Fade in .t30 notifcation
 
     setTimeout(function () {
       $('.t30').addClass('show');
-    }, 550000);
+    }, 155000);
 
   //   Fade out .t30 notifcation
 
     setTimeout(function () {
-      $('.t30').fadeOut('fast');
-    }, 580000);
+      $('.t30').removeClass('show');
+    }, 158000);
 
     //   Fade in .t31 notifcation
 
     setTimeout(function () {
       $('.t31').addClass('show');
-    }, 100000000);
+    }, 164000);
 
   //   Fade out .t31 notifcation
 
     setTimeout(function () {
-      $('.t31').fadeOut('fast');
-    }, 141000);
+      $('.t31').removeClass('show');
+    }, 167000);
 
     //  shrink text
 
@@ -799,19 +823,19 @@ $( function() {
         $('.gif').addClass('shrink');
         $('.footnote').addClass('shrink');
         $('.downarrow').addClass('shrink');
-      }, 100000000);
+      }, 165000);
 //
       //   Fade in .t32 notifcation
 
       setTimeout(function () {
         $('.t32').addClass('show');
-      }, 100000000);
+      }, 169000);
 
     //   Fade out .t32 notifcation
 
       setTimeout(function () {
-        $('.t32').fadeOut('fast');
-      }, 148000);
+        $('.t32').removeClass('show');
+      }, 173000);
 
       //  regrow text
 
@@ -824,55 +848,73 @@ $( function() {
           $('.gif').removeClass('shrink');
           $('.footnote').removeClass('shrink');
           $('.downarrow').removeClass('shrink');
-        }, 100000000);
+        }, 170000);
+
+        // fade in popup
+
+          setTimeout(function () {
+            $('.congratulations2').fadeIn('fast');
+          }, 172000);
 
         //   Fade in .t32b notifcation
 
         setTimeout(function () {
           $('.t32b').addClass('show');
-        }, 100000000);
+        }, 176000);
 
       //   Fade out .t32b notifcation
 
         setTimeout(function () {
-          $('.t32b').fadeOut('fast');
-        }, 149000);
+          $('.t32b').removeClass('show');
+        }, 179000);
 
         //   Fade in .t33 notifcation
 
         setTimeout(function () {
           $('.t33').addClass('show');
-        }, 100000000);
+        }, 183000);
+
+        // fade in popup
+
+          setTimeout(function () {
+            $('.pill').fadeIn('fast');
+          }, 184000);
+
+          // fade in popup
+
+            setTimeout(function () {
+              $('.animal').fadeIn('fast');
+            }, 184000);
 
       //   Fade out .t33 notifcation
 
         setTimeout(function () {
-          $('.t33').fadeOut('fast');
-        }, 150000);
+          $('.t33').removeClass('show');
+        }, 186000);
 
         //   Fade in .t34 notifcation
 
         setTimeout(function () {
           $('.t34').addClass('show');
-        }, 100000000);
+        }, 187000);
 
       //   Fade out .t34 notifcation
 
         setTimeout(function () {
-          $('.t34').fadeOut('fast');
-        }, 158000);
+          $('.t34').removeClass('show');
+        }, 190000);
 
         //   Fade in .t35 notifcation
 
         setTimeout(function () {
           $('.t35').addClass('show');
-        }, 100000000);
+        }, 197000);
 
       //   Fade out .t35 notifcation
 
         setTimeout(function () {
-          $('.t35').fadeOut('fast');
-        }, 167000);
+          $('.t35').removeClass('show');
+        }, 121000);
 
 
         //  shrink text
@@ -902,6 +944,7 @@ $( function() {
                 $('.chapter').addClass('shrink');
                 $('.intro').addClass('shrink');
                 $('.heading').addClass('shrink');
+                $('.downarrow').addClass('shrink');
               }, 100000000);
 
               //  regrow text
@@ -911,6 +954,7 @@ $( function() {
                   $('.chapter').removeClass('shrink');
                   $('.intro').removeClass('shrink');
                   $('.heading').removeClass('shrink');
+                  $('.downarrow').removeClass('shrink');
                 }, 100000000);
 
                 //  shrink text
@@ -920,6 +964,7 @@ $( function() {
                     $('.chapter').addClass('shrink');
                     $('.intro').addClass('shrink');
                     $('.heading').addClass('shrink');
+                    $('.downarrow').addClass('shrink');
                   }, 100000000);
 
                   //  regrow text
@@ -929,13 +974,55 @@ $( function() {
                       $('.chapter').removeClass('shrink');
                       $('.intro').removeClass('shrink');
                       $('.heading').removeClass('shrink');
+                      $('.downarrow').removeClass('shrink');
                     }, 100000000);
 
-    //  regrow text
+                    //  shrink text
+
+                      setTimeout(function () {
+                        $('.text').addClass('new__size');
+                        $('.chapter').addClass('shrink');
+                        $('.intro').addClass('shrink');
+                        $('.heading').addClass('shrink');
+                        $('.downarrow').addClass('shrink');
+                      }, 100000000);
+
+                      //  regrow text
+
+                        setTimeout(function () {
+                          $('.text').removeClass('new__size');
+                          $('.chapter').removeClass('shrink');
+                          $('.intro').removeClass('shrink');
+                          $('.heading').removeClass('shrink');
+                          $('.downarrow').removeClass('shrink');
+                        }, 100000000);
+
+                        //  shrink text
+
+                          setTimeout(function () {
+                            $('.text').addClass('new__size');
+                            $('.chapter').addClass('shrink');
+                            $('.intro').addClass('shrink');
+                            $('.heading').addClass('shrink');
+                            $('.downarrow').addClass('shrink');
+                          }, 100000000);
+
+                          //  regrow text
+
+                            setTimeout(function () {
+                              $('.text').removeClass('new__size');
+                              $('.chapter').removeClass('shrink');
+                              $('.intro').removeClass('shrink');
+                              $('.heading').removeClass('shrink');
+                              $('.downarrow').removeClass('shrink');
+                            }, 100000000);
+
+
+    //  destroy page
 
     setTimeout(function () {
       $(all).remove('body');
-  }, 1000);
+  }, 130000);
 
   //   Remove p1 and all notifications on click
 
