@@ -347,13 +347,13 @@ $( function() {
 
     setTimeout(function () {
       $('.t13').addClass('show');
-    }, 595000);
+    }, 59500);
 
   //   Fade out .t13 notifcation
 
     setTimeout(function () {
       $('.t13').removeClass('show');
-    }, 615000);
+    }, 61500);
 
     //   Fade in .t13a notifcation
 
