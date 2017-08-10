@@ -3,14 +3,126 @@
   <head>
     <meta charset="utf-8">
     <title>level 3</title>
+    <script src="assets/js/jquery-3.2.0.min.js" charset="utf-8"></script>
+    <script src="assets/js/poster3.js" charset="utf-8"></script>
   </head>
 <style media="screen">
+  body {
+    font-size: 30px;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
 
+  div {
+    border: 2px solid;
+  }
+
+  .shape {
+    margin:auto;
+  }
+
+  .circle {
+    height: 150px;
+    width: 150px;
+    border-radius: 150px;
+    background-color: black;
+    transition: 0.35s;
+  }
+
+  .circle:hover {
+    background-color: royalblue;
+    transition: 0.35s;
+  }
+
+  .title {
+    font-size: 135px;
+    text-align: center;
+    margin-top: 80px;
+    opacity: 0;
+    transition: 0.35s;
+  }
+
+  .title.showme {
+    opacity: 1;
+    transition: 0.35s;
+  }
+
+  .square {
+    height: 130px;
+    width: 130px;
+    background-color: black;
+    position: relative;
+    top: -300px;
+    transition: 0.35s;
+  }
+
+  .square:hover {
+    background-color: red;
+    transition: 0.35s;
+  }
+
+  .artists {
+    position: relative;
+    margin-left: 838px;
+    margin-top: 40px;
+    line-height: 48px;
+    opacity: 0;
+    transition: 0.35s;
+  }
+
+  .artists.showme {
+    opacity: 1;
+    transition: 0.35s;
+  }
+
+  .info {
+    text-align: center;
+    position: relative;
+    top: -90px;
+  }
+
+  .triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 90px 155.9px 90px;
+    border-color: transparent transparent black transparent;
+    transition: 0.35s;
+  }
+
+  .triangle:hover {
+    border-color: transparent transparent gold transparent;
+    transition: 0.35s;
+  }
 
 </style>
 
   <body>
 
+<div class="shape circle"> </div>
+<div class="title">
+  konkrete kunst
+</div>
+<div class="bodytext artists">
+  bill
+  <br>bloc
+  <br>deyrolle
+  <br>graeser
+  <br>jacobsen
+  <br>mortensen
+  <br>ritschi
+  <br>vasarely
+</div>
+<div class="shape square"> </div>
+<div class="bodytext info">
+  kunstverein freiburg i/br&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. - 30. juni&nbsp;&nbsp;&nbsp;&nbsp;10 - 18 uhr&nbsp;&nbsp;&nbsp;&nbsp;mi - 21 uhr
+</div>
+<div class="shape triangle"> </div>
+
+
   </body>
-  
+
 </html>
