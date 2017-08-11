@@ -1,26 +1,19 @@
 $(document).ready(function() {
-  $('.circle').mouseenter(function() {
-      $('.title').addClass('showme');
-    });
 
-    $('.circle').mouseleave(function() {
-   $('.title').removeClass('showme');
-  });
+   setTimeout(function () {
+     $('.one').toggleClass('show');
+   }, 2000);
 
-  $('.square').mouseenter(function() {
-      $('.artists').addClass('showme');
-    });
+  //  setTimeout(function () {
+  //    $('.one').removeClass('show');
+  //  }, 5000);
 
-    $('.square').mouseleave(function() {
-   $('.artists').removeClass('showme');
-  });
+   setTimeout(function () {
+     $('.two').toggleClass('show');
+   }, 3000);
 
-  $('.triangle').mouseenter(function() {
-      $('.info').addClass('showme');
-    });
-
-    $('.triangle').mouseleave(function() {
-   $('.info').removeClass('showme');
-  });
+  //  setTimeout(function () {
+  //    $('.two').removeClass('show');
+  //  }, 7000);
 
     });
