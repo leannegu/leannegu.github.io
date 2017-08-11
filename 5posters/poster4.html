@@ -13,9 +13,16 @@ body {
   margin-bottom: 15px;
 }
 
+.links {
+  position: fixed;
+  top: 600px;
+  left: 50px;
+}
+
 /*div {
   border: solid 2px;
 }*/
+
   .stereo {
     font-family: helvetica, sans-serif;
     font-size: 15px;
@@ -148,22 +155,12 @@ body {
   .one {
     top: 270px;
     left: 250px;
-    opacity: 0;
-    transition: 2s;
-  }
-  .one.show {
-    opacity: 1;
-    blur: 10px;
-    transition: 2s;
+    background-color: blue;
   }
   .two {
     top: 280px;
     left: 267px;
-  }
-  .two.show {
-    opacity: 1;
-    blur: 10px;
-    transition: 2s;
+    background-color: red;
   }
   .three {
     top: 380px;
@@ -237,6 +234,12 @@ body {
 </style>
 
   <body>
+    <div class="links">
+      <a href="../5posters/index.html" target="">BACK TO 5 POSTERS</a>
+      <a href="poster3.html" target="">POSTER 3</a>
+      <a href="poster5.html" target="">POSTER 5</a>
+    </div>
+
 <div class="stereo">
   STEREO
 </div>
@@ -257,6 +260,7 @@ body {
 </div>
 
 <div class="container">
+
   <div class="circle smallcircle one"> </div>
   <div class="circle smallcircle two"> </div>
   <div class="circle smallcircle three"> </div>
