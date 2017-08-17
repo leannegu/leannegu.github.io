@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>level 5</title>
+    <script src="assets/js/jquery-3.2.0.min.js" charset="utf-8"></script>
+    <script src="assets/js/poster5.js" charset="utf-8"></script>
+  </head>
+<style media="screen">
+body {
+  background-color: black;
+  font-family: times, serif;
+}
+/*
+.text {
+  display: inline-block;
+  font-size: 30px;
+  position: absolute;
+  left: 130px;
+  top: 110px;
+}*/
+
+.saycheese1 {
+  z-index: 8;
+  opacity: 1;
+  position: absolute;
+  left: 1138px;
+  top: 209px;
+  font-size: 45px;
+  font-weight: bold;
+  color: #ec9102;
+  transition: 5s;
+}
+.saycheese1.show {
+  opacity: 0;
+  transition: 5s;
+}
+
+.links {
+  color: white;
+  position: fixed;
+  top: 600px;
+  right: 50px;
+}
+
+.cheese {
+  position:relative;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: black;
+  width: 865px;
+  height: 1300px;
+  transition: 5s;
+}
+.cheese.show {
+  display: block;
+  position:relative;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background-color: #ec9102;
+  width: 865px;
+  height: 1300px;
+  transition: 5s;
+}
+
+.text {
+  display: inline-block;
+  font-size: 30px;
+  position: absolute;
+  left: 130px;
+  top: 110px;
+}
+
+.saycheese {
+  font-size: 45px;
+  font-weight: bold;
+  transition: 5s;
+}
+.saycheese.show {
+  transition: 5s;
+}
+
+.info {
+  font-size: 39px;
+  position: relative;
+  top: 1045px;
+  line-height: 40px;
+}
+
+.circle {
+  position: absolute;
+  width: 165px;
+  height: 165px;
+  border-radius: 165px;
+  background-color: black;
+  animation: sizechange 1s infinite alternate;
+}
+
+@keyframes sizechange {
+  from {width: 165px;
+  height: 165px;}
+  to {width: 150px;
+  height: 150px;}
+}
+
+
+.one {
+  left: 180px;
+  top: -80px;
+}
+.two {
+  left: 70px;
+  top: 175px;
+}
+.three {
+  left: 500px;
+  top: 70px;
+}
+.four {
+  left: -55px;
+  top: 760px;
+}
+.five {
+  left: 335px;
+  top: 700px;
+}
+.six {
+  left: 755px;
+  top: 540px;
+}
+.seven {
+  left: 530px;
+  top: 1015px;
+}
+.eight {
+  left: -80px;
+  top: 1200px;
+}
+.corner2 {
+  position: absolute;
+  right: -120px;
+  top: -80px;
+  width: 200px;
+  height: 400px;
+  border-radius: 20px;
+  background-color: black;
+  transform: rotate(-25deg)
+}
+.yellowcircle{
+  position: absolute;
+  top: -0px;
+  right: 90px;
+  width: 100px;
+  height: 120px;
+  border-radius: 100px;
+  background-color: black;
+  transition: 5s;
+}
+.yellowcircle.show {
+  background-color: #ec9102;
+  transition: 5s;
+}
+.yellowcircle2 {
+  position: absolute;
+  top: 70px;
+  right: 60px;
+  width: 180px;
+  height: 120px;
+  border-radius: 30px;
+  background-color: black;
+  transform: rotate(15deg);
+  transition: 5s;
+}
+.yellowcircle2.show {
+  background-color: #ec9102;
+  transition: 5s;
+}
+.yellowcircle3 {
+  position: absolute;
+  top: 207px;
+  right: 20px;
+  width: 180px;
+  height: 170px;
+  border-radius: 30px;
+  background-color: black;
+  transform: rotate(-32deg);
+  transition: 5s;
+}
+.yellowcircle3.show {
+  background-color: #ec9102;
+  transition: 5s;
+}
+
+/*div {
+  border: solid 2px;
+}*/
+
+
+
+</style>
+
+  <body>
+    <div class="saycheese1">
+      <strong>“Say Cheese!”</strong>
+    </div>
+
+    <div class="links">
+      <a href="../5posters/index.html" target="">BACK TO 5 POSTERS</a>
+      <a href="poster4.html" target="">POSTER 4</a>
+    </div>
+
+
+<div class="cheese">
+  <div class="corner2"> </div>
+  <div class="yellowcircle"> </div>
+  <div class="yellowcircle2"> </div>
+  <div class="yellowcircle3"> </div>
+
+  <div class="circle one"> </div>
+  <div class="circle two"> </div>
+  <div class="circle three"> </div>
+  <div class="circle four"> </div>
+  <div class="circle five"> </div>
+  <div class="circle six"> </div>
+  <div class="circle seven"> </div>
+  <div class="circle eight"> </div>
+
+  <div class="text saycheese">
+  <strong>“Say Cheese!”</strong>
+  </div>
+  <div class="text info">
+  Angela Heinal
+  <br>Photographer
+  <br>
+  <br>9 Dundas Lane
+  <br>Albert Park 3206
+  <br>Telephone: 699 5477
+  </div>
+ </div>
+
+
+
+  </body>
+
+</html>

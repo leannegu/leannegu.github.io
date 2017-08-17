@@ -11,6 +11,7 @@ body {
   overflow: hidden;
   margin-top: 50px;
   margin-bottom: 15px;
+  background-color: #F3EEE0;
 }
 
 .links {
@@ -23,19 +24,26 @@ body {
   border: solid 2px;
 }*/
 
+  .titles {
+    width: 700px;
+    margin: auto;
+  }
+
   .stereo {
     font-family: helvetica, sans-serif;
     font-size: 15px;
-    margin-left: 428px;
+    position: relative;
+    left: 10px;
+    top: -7px;
     display:inline-block;
      transform:scale(1.5,1);
      -webkit-transform:scale(1.5,1);
   }
 
   .recordlabel {
-    position: absolute;
-    margin-left: 970px;
-    margin-top: -15px;
+    position: relative;
+    left: 0px;
+    top: -25px;
     line-height: 16px;
     text-align: right;
   }
@@ -51,9 +59,9 @@ body {
   }
 
   .albumtitle {
-    position: absolute;
-    left: 495px;
-    top: 100px;
+    position: relative;
+    left: 80px;
+    top: -5px;
     font-family: Georgia, serif;
     font-size: 40px;
     font-weight: bold;
@@ -63,26 +71,24 @@ body {
   }
 
   .container {
-    position: absolute;
-    margin-left: 300px;
-    top: 10px;
+    position: relative;
+    margin: auto;
+    width: 700px;
+    top: -235px;
+    left: -70px;
+    height: 670px;
   }
 
   .artists {
-    position: absolute;
-    bottom: 30px;
-    left: 37%;
-    right: 25%;
+    position: relative;
+    top: 485px;
+    left: 130px;
     font-family: Georgia, serif;
     font-size: 20px;
     font-weight: bold;
     display:inline-block;
      transform:scale(1.3,1);
      -webkit-transform:scale(1.3,1);
-  }
-
-  .circle.showme {
-
   }
 
   .bigcircle {
@@ -143,6 +149,15 @@ body {
   .m {
     top: 240px;
     left: 637px;
+    /*position: relative;
+    filter: blur (10px);
+    animation: positionchange 0.1s infinite alternate;
+    }
+
+    @keyframes positionchange {
+      from {left:0%;}
+      to {left:5%;}
+    }*/
   }
 
   .smallcircle {
@@ -155,21 +170,13 @@ body {
   .one {
     top: 270px;
     left: 250px;
-    background-color: blue;
-    position: relative;
-/*filter: blur (10px);
-animation: positionchange 0.1s infinite alternate;
-}
+    /*background-color: blue;*/
 
-@keyframes positionchange {
-  from {left:0%;}
-  to {left:5%;}
-}*/
   }
   .two {
     top: 280px;
     left: 267px;
-    background-color: red;
+    /*background-color: red;*/
   }
   .three {
     top: 380px;
@@ -236,8 +243,17 @@ animation: positionchange 0.1s infinite alternate;
     left: 687px;
   }
   .nineteen {
+    background-color: black;
     top: 320px;
-    left: 600px;
+    left: 1600px;
+    filter: blur(1px);
+    animation: positionchange 0.1s infinite alternate;
+    }
+
+    @keyframes positionchange {
+      from {left:87%;}
+      to {left:84%;}
+    }
   }
 
 </style>
@@ -249,23 +265,26 @@ animation: positionchange 0.1s infinite alternate;
       <a href="poster5.html" target="">POSTER 5</a>
     </div>
 
-<div class="stereo">
-  STEREO
-</div>
-<div class="recordlabel">
-  <div class="Command">
-    Command
+<div class="titles">
+  <div class="stereo">
+    STEREO
   </div>
-  <div class="records">
-    records
+  <div class="recordlabel">
+    <div class="Command">
+      Command
+    </div>
+    <div class="records">
+      records
+    </div>
   </div>
-</div>
-<div class="albumtitle">
-  volume 2
-  <br>provocative &nbsp;&nbsp;percussion
-</div>
-<div class="artists">
-  ENOCH LIGHT and THE LIGHT BRIGADE
+  <div class="albumtitle">
+    volume 2
+    <br>provocative &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;percussion
+  </div>
+
+  <div class="artists">
+    ENOCH LIGHT and THE LIGHT BRIGADE
+  </div>
 </div>
 
 <div class="container">
