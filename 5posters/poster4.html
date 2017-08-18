@@ -21,6 +21,26 @@ body {
   z-index: 9;
 }
 
+@keyframes positionchange {
+  from {margin-left: 10px;}
+  to {margin-left: 0px;}
+}
+
+@keyframes positionchange2 {
+  from {margin-left: 20px;}
+  to {margin-left: 0px;}
+}
+
+@keyframes positionchange3 {
+  from {margin-left: 40px;}
+  to {margin-left: 0px;}
+}
+
+@keyframes positionchange4 {
+  from {margin-top: 10px; margin-left:10px;}
+  to {margin-top: 0px; margin-left: 0px;}
+}
+
 /*div {
   border: solid 2px;
 }*/
@@ -151,24 +171,24 @@ body {
   .k {
     top: 445px;
     left: 670px;
+    animation: positionchange2 0.1s infinite alternate;
   }
   .l {
     top: 220px;
     left: 550px;
+    animation: positionchange4 0.1s infinite alternate;
   }
   .m {
     top: 240px;
     left: 637px;
-    /*position: relative;
+    margin-left: 0px;
+    position: relative;
     filter: blur (10px);
     animation: positionchange 0.1s infinite alternate;
     }
 
-    @keyframes positionchange {
-      from {left:0%;}
-      to {left:5%;}
-    }*/
-  }
+
+
 
   .smallcircle {
     height: 20px;
@@ -183,6 +203,7 @@ body {
   .one {
     top: 270px;
     left: 250px;
+    animation: positionchange3 2s infinite alternate;
     /*background-color: blue;*/
 
   }
@@ -198,14 +219,17 @@ body {
   .four {
     top: 500px;
     left: 180px;
+    animation: positionchange1 0.1s infinite alternate;
   }
   .five {
     top: 590px;
     left: 205px;
+    animation: positionchange3 0.1s infinite alternate;
   }
   .six {
     top: 609px;
     left: 210px;
+    animation: positionchange2 0.1s infinite alternate;
   }
   .seven {
     top: 265px;
@@ -218,14 +242,17 @@ body {
   .nine {
     top: 339px;
     left: 440px;
+    animation: positionchange1 0.1s infinite alternate;
   }
   .ten {
     top: 405px;
     left: 358px;
+    animation: positionchange3 0.1s infinite alternate;
   }
   .eleven {
     top: 515px;
     left: 300px;
+    animation: positionchange4 0.1s infinite alternate;
   }
   .twelve {
     top: 516px;
@@ -274,7 +301,7 @@ body {
   <body>
     <div class="links">
       <a href="../5posters/index.html" target="">BACK TO 5 POSTERS</a>
-      <br><a href="poster3.html" target="">POSTER 3</a>
+      <a href="poster3.html" target="">POSTER 3</a>
       <a href="poster5.html" target="">POSTER 5</a>
     </div>
 

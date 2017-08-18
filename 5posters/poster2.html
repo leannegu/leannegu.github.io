@@ -23,23 +23,31 @@ body {
  height: 1px;
  overflow: hidden;
 }
+.names {
+    background: #FEFEF4;
+    height: 38px;
+    width: 253px;
+    overflow: hidden;
+    display: block;
+    position: relative;
+    top: 112px;
+    left: 466px;
+}
 .vertical__scroll {
- font-size: 41px;
- font-family: sans-serif;
- position: absolute;
- top: -240px;
- left:491px;
- width: 100%;
- height: 110%;
- margin: 0;
- /* Starting position */
- -moz-transform:translateY(-200%);
- -webkit-transform:translateY(-200%);
- transform:translateY(-200%);
- /* Apply animation to this element */
- -moz-animation: marquee2 20s linear infinite;
- -webkit-animation: marquee2 20s linear infinite;
- animation: marquee2 20s linear infinite;
+    font-size: 41px;
+    font-family: sans-serif;
+    position: absolute;
+    top: -300px;
+    left: 0px;
+    width: 100%;
+    height: 690px;
+    margin: 0;
+    -moz-transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    -moz-animation: marquee2 25s linear infinite;
+    -webkit-animation: marquee2 25s linear infinite;
+    animation: marquee2 25s linear infinite;
 }
 /* Move it (define the animation) */
 @-moz-keyframes marquee2 {
@@ -63,24 +71,11 @@ body {
  }
 }
 
-.rectangle {
-  z-index: 9;
-  display: inline-block;
-  position: absolute;
-  top: -10px;
-  height:82px;
-  width: 1440px;
-  background-color: #FEFEF4;
-}
-
 .hello {
-  padding-top: 140px;
-  padding-left: 20px;
-  padding-bottom: 1106px;
-  width: 780px;
-  font-size: 41px;
-  margin: auto;
-  line-height: 52px;
+    width: 780px;
+    font-size: 41px;
+    margin: auto;
+    line-height: 188px;
 }
 
 .title {
@@ -122,48 +117,13 @@ body {
  left: -360px;
  top: 695px;
 }
-------
-.marquee {
- overflow: hidden;
- height: 50px;
- position: relative;
-}
+
 .scrolling {
-z-index: 9;
- position: absolute;
- width: 100%;
- height: 67px;
- margin: 0;
- text-align: center;
- /* Starting position */
- -moz-transform:translateX(100%);
- -webkit-transform:translateX(100%);
- transform:translateX(100%);
- /* Apply animation to this element */
- -moz-animation: marquee 25s linear infinite;
- -webkit-animation: marquee 25s linear infinite;
- animation: marquee 25s linear infinite;
-}
-/* Move it (define the animation) */
-@-moz-keyframes marquee {
- 0%   { -moz-transform: translateX(100%); }
- 100% { -moz-transform: translateX(-100%); }
-}
-@-webkit-keyframes marquee {
- 0%   { -webkit-transform: translateX(100%); }
- 100% { -webkit-transform: translateX(-100%); }
-}
-@keyframes marquee {
- 0%   {
- -moz-transform: translateX(100%); /* Firefox bug fix */
- -webkit-transform: translateX(100%); /* Firefox bug fix */
- transform: translateX(100%);
- }
- 100% {
- -moz-transform: translateX(-100%); /* Firefox bug fix */
- -webkit-transform: translateX(-100%); /* Firefox bug fix */
- transform: translateX(-100%);
- }
+    position: absolute;
+    width: 100%;
+    left: -43.5px;
+    top: 5px;
+    text-align: center;
 }
 </style>
 
@@ -174,34 +134,35 @@ z-index: 9;
     <a href="poster3.html" target="">POSTER 3</a>
   </div>
 
-    <div class="rectangle"> </div>
     <!-- HTML -->
     <div class="title three">
       AMSTERDAM
     </div>
 
     <div class="marquee2">
-    <div class="vertical__scroll">LEWIS
-      <br>DOMINIQUE
-      <br>KATE
-      <br>EZRA
-      <br>CALEB
-      <br>JOEL
-      <br>ILKE
-      <br>ESTELLA
-      <br>CONNOR
-      <br>LIZA
-      <br>JOCELYN
-      <br>JEN
-      <br>ARCHIE
-      <br>BENJAMIN
-      <br>ERNIE
-      <br>CAMILLA
-      <br>EDDIE
-      <br>WALT
-      <br>BERT
-      <br>BECKY
-      <br>ENOCH
+      <div class="names">
+        <div class="vertical__scroll">LEWIS
+          <br>DOMINIQUE
+          <br>KATE
+          <br>EZRA
+          <br>CALEB
+          <br>JOEL
+          <br>ILKE
+          <br>ESTELLA
+          <br>CONNOR
+          <br>LIZA
+          <br>JOCELYN
+          <br>JEN
+          <br>ARCHIE
+          <br>BENJAMIN
+          <br>ERNIE
+          <br>CAMILLA
+          <br>EDDIE
+          <br>WALT
+          <br>BERT
+          <br>BECKY
+          <br>ENOCH
+        </div>
       </div>
     </div>
 
