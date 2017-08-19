@@ -43,7 +43,7 @@ $(document).ready(function() {
                               //     });
 
                              var audioGas = document.createElement('audio');
-                                     audioGas.setAttribute('src', '/Users/leannegu/Documents/Uni/Semester 2/dpub/github/leannegu.github.io/5posters/assets/audio/fart4.mp3');
+                                     audioGas.setAttribute('src', 'https://ia801305.us.archive.org/27/items/fartingmadness/Jurassic%20Farts.mp3');
                                      $.get();
                                      audioGas.addEventListener("load", function() {
                                        audioGas.play();
