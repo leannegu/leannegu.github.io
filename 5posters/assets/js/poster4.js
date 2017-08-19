@@ -10,9 +10,9 @@ $(document).ready(function() {
           $('.a, .e, .g, .k').mouseenter(function() {
                  audioBell.play();
              });
-             $('.a, .e, .g, .k').mouseleave(function() {
-                    audioBell.pause();
-                });
+            //  $('.a, .e, .g, .k').mouseleave(function() {
+            //         audioBell.pause();
+            //     });
 
            var audioFart = document.createElement('audio');
                    audioFart.setAttribute('src', '/Users/leannegu/Documents/Uni/Semester 2/dpub/github/leannegu.github.io/5posters/assets/audio/fart2.mp3');
@@ -24,9 +24,9 @@ $(document).ready(function() {
                    $('.b, .h, .m').mouseenter(function() {
                           audioFart.play();
                       });
-                      $('.b, .h, .m').mouseleave(function() {
-                             audioFart.pause();
-                         });
+                      // $('.b, .h, .m').mouseleave(function() {
+                      //        audioFart.pause();
+                      //    });
 
                     var audioToot = document.createElement('audio');
                             audioToot.setAttribute('src', '/Users/leannegu/Documents/Uni/Semester 2/dpub/github/leannegu.github.io/5posters/assets/audio/fart3.mp3');
@@ -38,9 +38,9 @@ $(document).ready(function() {
                             $('.c, .i, .l').mouseenter(function() {
                                    audioToot.play();
                                });
-                               $('.c, .i, .l').mouseleave(function() {
-                                      audioToot.pause();
-                                  });
+                              //  $('.c, .i, .l').mouseleave(function() {
+                              //         audioToot.pause();
+                              //     });
 
                              var audioGas = document.createElement('audio');
                                      audioGas.setAttribute('src', '/Users/leannegu/Documents/Uni/Semester 2/dpub/github/leannegu.github.io/5posters/assets/audio/fart4.mp3');
@@ -52,9 +52,9 @@ $(document).ready(function() {
                                      $('.d, .f, .j').mouseenter(function() {
                                             audioGas.play();
                                         });
-                                        $('.d, .f, .j').mouseleave(function() {
-                                               audioGas.pause();
-                                           });
+                                        // $('.d, .f, .j').mouseleave(function() {
+                                        //        audioGas.pause();
+                                        //    });
 
 
     });
