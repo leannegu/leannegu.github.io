@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
   var audioBell = document.createElement('audio');
-          audioBell.setAttribute('src', '/Users/leannegu/Documents/Uni/Semester 2/dpub/github/leannegu.github.io/5posters/assets/audio/fart1.mp3');
+          audioBell.setAttribute('src', 'https://ia801305.us.archive.org/27/items/fartingmadness/Dotting%20The%20I.mp3');
           $.get();
           audioBell.addEventListener("load", function() {
             audioBell.play();
@@ -15,7 +15,7 @@ $(document).ready(function() {
             //     });
 
            var audioFart = document.createElement('audio');
-                   audioFart.setAttribute('src', '/Users/leannegu/Documents/Uni/Semester 2/dpub/github/leannegu.github.io/5posters/assets/audio/fart2.mp3');
+                   audioFart.setAttribute('src', 'https://ia801305.us.archive.org/27/items/fartingmadness/Echole.mp3');
                    $.get();
                    audioFart.addEventListener("load", function() {
                      audioFart.play();
@@ -29,7 +29,7 @@ $(document).ready(function() {
                       //    });
 
                     var audioToot = document.createElement('audio');
-                            audioToot.setAttribute('src', '/Users/leannegu/Documents/Uni/Semester 2/dpub/github/leannegu.github.io/5posters/assets/audio/fart3.mp3');
+                            audioToot.setAttribute('src', 'https://ia801305.us.archive.org/27/items/fartingmadness/George%20Push.mp3');
                             $.get();
                             audioToot.addEventListener("load", function() {
                               audioToot.play();
