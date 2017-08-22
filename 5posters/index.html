@@ -31,10 +31,6 @@ a:hover {
   background-color: yellow;
 }
 
-img {
-  height: 40px;
-}
-
 .poster1 {
   position: relative;
 }
@@ -73,6 +69,7 @@ img {
   display: block;
 }
 
+
 /*.italic {
   position: relative;
 }*/
@@ -110,8 +107,51 @@ img {
   opacity: 1;
 }*/
 
-
-
+.one {
+  display: none;
+  position: absolute;
+  top: 300px;
+  left: 400px;
+}
+.one.showme {
+  display: block;
+}
+.two {
+  display: none;
+  position: absolute;
+  top: 150px;
+  left: 600px;
+}
+.two.showme {
+  display: block;
+}
+.three {
+  display: none;
+  position: absolute;
+  top: 200px;
+  left: 100px;
+}
+.three.showme {
+  display: block;
+}
+.four {
+  display: none;
+  position: absolute;
+  top: 400px;
+  left: 800px;
+}
+.four.showme {
+  display: block;
+}
+.five {
+  display: none;
+  position: absolute;
+  top: 30px;
+  left: 550px;
+}
+.five.showme {
+  display: block;
+}
 
 </style>
 
@@ -122,11 +162,18 @@ img {
       <a href="../index.html">&nbsp;homepage</a>
     </div>
 
-<br><span class="poster1"><a href="poster1.html"><img class"poster1" src="assets/images/poster1.png" alt=""></a></span>
-<br><span class="poster2"><a href="poster2.html"><img class"poster2" src="assets/images/poster2.png" alt=""></a></span>
-<br><span class="poster3"><a href="poster3.html"><img class"poster3" src="assets/images/poster3.png" alt=""></a></span>
-<br><span class="poster4"><a href="poster4.html"><img class"poster4" src="assets/images/poster4.png" alt=""></a></span>
-<br><span class="poster5"><a href="poster5.html"><img class"poster5" src="assets/images/poster5.png" alt=""></a></span>
+<br><span class="poster1"><a href="poster1.html"><img class"poster1" src="assets/images/poster1.png" height="40px" alt=""></a></span>
+<br><span class="poster2"><a href="poster2.html"><img class"poster2" src="assets/images/poster2.png" height="40px" alt=""></a></span>
+<br><span class="poster3"><a href="poster3.html"><img class"poster3" src="assets/images/poster3.png" height="40px" alt=""></a></span>
+<br><span class="poster4"><a href="poster4.html"><img class"poster4" src="assets/images/poster4.png" height="40px" alt=""></a></span>
+<br><span class="poster5"><a href="poster5.html"><img class"poster5" src="assets/images/poster5.png" height="40px" alt=""></a></span>
+
+
+<div class="one"><img src="assets/images/poster1.jpg" height="250px" alt=""></div>
+<div class="two"><img src="assets/images/poster2.jpg" height="250px" alt=""></div>
+<div class="three"><img src="assets/images/poster3.jpg" height="250px" alt=""></div>
+<div class="four"><img src="assets/images/poster4.jpg" height="250px" alt=""></div>
+<div class="five"><img src="assets/images/poster5.jpg" height="250px" alt=""></div>
 
   <!-- <br><span class="poster1italic"><img class"poster1italic" src="assets/images/poster1italic.png" alt=""></span>
   <br><span class="poster2italic"><img class"poster2italic" src="assets/images/poster2italic.png" alt=""></span>
