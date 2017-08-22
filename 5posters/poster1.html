@@ -5,6 +5,9 @@
     <title>level 1</title>
   </head>
 <style media="screen">
+.links {
+  position: fixed;
+}
 a:link {
   font-family: arial, sans-serif;
   font-size: 20px;
@@ -19,6 +22,11 @@ a:visited {
 a:hover {
     color: black;
     background-color: yellow;
+}
+
+.poster2 {
+  position: relative;
+  left: 105px;
 }
 /* selected link */
 /*a:active {
@@ -80,9 +88,10 @@ body  {
 </style>
 
   <body>
-    <a href="../5posters/index.html" target="">BACK TO 5 POSTERS</a>
-    <br><a href="poster2.html" target="">POSTER 2</a>
-
+    <div class="links">
+      <a href="../5posters/index.html" target="">BACK TO 5 POSTERS</a>
+      <br><a class="poster2" href="poster2.html" target="">POSTER 2</a>
+    </div>
   <div class="title one">
     STEDELIJK&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspMUSEUM
   </div>
