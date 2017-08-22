@@ -1,19 +1,19 @@
 $(document).ready(function() {
   $('.poster1').mouseenter(function() {
-      $('.poster1italic').addClass('showme');
+      $('.poster1italic, .poster1').addClass('showme');
     });
 
     $('.poster1').mouseleave(function() {
-   $('.poster1italic').removeClass('showme');
+   $('.poster1italic, .poster1').removeClass('showme');
   });
 
 
   $('.poster2').mouseenter(function() {
-      $('.poster2italic').addClass('showme');
+      $('.poster2italic, .poster2').addClass('showme');
     });
 
     $('.poster2').mouseleave(function() {
-   $('.poster2italic').removeClass('showme');
+   $('.poster2italic, .poster2').removeClass('showme');
   });
 
   $('.poster3').mouseenter(function() {
