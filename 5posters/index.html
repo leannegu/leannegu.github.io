@@ -7,6 +7,29 @@
     <script src="assets/js/main.js" charset="utf-8"></script>
   </head>
 <style media="screen">
+a:link {
+  font-family: arial, sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: blue;
+}
+/* visited link */
+a:visited {
+    color: blue;
+}
+/* mouse over link */
+a:hover {
+    color: black;
+}
+/* selected link */
+/*a:active {
+    color: blue;
+}*/
+
+.homepage:hover {
+  width: 105px;
+  background-color: yellow;
+}
 
 img {
   height: 40px;
@@ -16,31 +39,38 @@ img {
   position: relative;
 }
 .poster1.showme {
- left: 20px;
+ left: 10px;
 }
 .poster2 {
   position: relative;
 }
 .poster2.showme {
- left: 20px;
+ left: 10px;
 }
 .poster3 {
   position: relative;
 }
 .poster3.showme {
- left: 20px;
+ left: 10px;
 }
 .poster4 {
   position: relative;
 }
 .poster4.showme {
- left: 20px;
+ left: 10px;
 }
 .poster5 {
   position: relative;
 }
 .poster5.showme {
- left: 20px;
+ left: 10px;
+}
+
+.poster1image {
+  display: none;
+}
+.poster1image.showme {
+  display: block;
 }
 
 /*.italic {
@@ -86,13 +116,11 @@ img {
 </style>
 
   <body>
-    <div class="background">
 
 
-    <a href="../index.html">BACK TO HOMIE</a>
-    <Br>
-
-
+    <div class="homepage">
+      <a href="../index.html">&nbsp;homepage</a>
+    </div>
 
 <br><span class="poster1"><a href="poster1.html"><img class"poster1" src="assets/images/poster1.png" alt=""></a></span>
 <br><span class="poster2"><a href="poster2.html"><img class"poster2" src="assets/images/poster2.png" alt=""></a></span>
