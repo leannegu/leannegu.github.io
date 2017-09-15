@@ -112,8 +112,13 @@ $('.nav_clear').click(function(event){
   $('.item').removeClass('hide');
 });
 
+$('.nav_thumbnail').click(function(event){
+  $('.item').addClass('thumbnail')
+});
 
-
+$('.nav_large').click(function(event){
+  $('.item').removeClass('thumbnail');
+});
 
 
 

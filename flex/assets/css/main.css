@@ -20,8 +20,8 @@ img {
   margin: auto;
 }
 
-.item {
-
+.item.thumbnail {
+  flex:0 0 10%;
 }
 
 .item img {
@@ -55,6 +55,14 @@ img {
   left:0px;
 }
 
+.footer {
+  width: 100%;
+  position: fixed;
+  padding: 20px;
+  bottom: 0px;
+  left: 0px;
+}
+
 .title {
   text-align: center;
   font-size: 18px;
@@ -69,7 +77,7 @@ img {
   display: block;
 }
 
-.nav span:hover{
+.nav span:hover, .footer span:hover{
   color: blue;
   cursor: pointer;
 }
