@@ -12,6 +12,7 @@
 
 body {
   font-family: arial, sans-serif;
+  counter-reset: section;
 }
 
 img {
@@ -22,6 +23,11 @@ img {
 
 .item.thumbnail {
   flex:0 0 10%;
+}
+
+.item::after {
+  counter-increment: section;                 /* Increment the value of section counter by 1 */
+  content: counter(section);                  /* Display the value of section counter */
 }
 
 .item img {

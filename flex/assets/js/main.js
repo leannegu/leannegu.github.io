@@ -2,6 +2,45 @@ $(document).ready(function() {
 
 
 // Add jQuery here
+$('.nav_fruit').click(function(event){
+  $('.item').removeClass('show');
+  $('.item').addClass('hide')
+
+  $('.item.fruit').removeClass('hide');
+  $('.item.fruit').addClass('show');
+
+  $('.nav_clear').addClass('show');
+});
+
+$('.nav_veg').click(function(event){
+  $('.item').removeClass('show');
+  $('.item').addClass('hide')
+
+  $('.item.veg').removeClass('hide');
+  $('.item.veg').addClass('show');
+
+  $('.nav_clear').addClass('show');
+});
+
+$('.nav_crate').click(function(event){
+  $('.item').removeClass('show');
+  $('.item').addClass('hide')
+
+  $('.item.crate').removeClass('hide');
+  $('.item.crate').addClass('show');
+
+  $('.nav_clear').addClass('show');
+});
+
+$('.nav_unbranded').click(function(event){
+  $('.item').removeClass('show');
+  $('.item').addClass('hide')
+
+  $('.item.unbranded').removeClass('hide');
+  $('.item.unbranded').addClass('show');
+
+  $('.nav_clear').addClass('show');
+});
 
 $('.nav_bananalabel').click(function(event){
   $('.item').removeClass('show');
