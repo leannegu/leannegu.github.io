@@ -21,6 +21,10 @@ img {
   margin: auto;
 }
 
+.homepage {
+  padding: 10px;
+}
+
 .item.thumbnail {
   flex:0 0 10%;
 }
@@ -28,10 +32,15 @@ img {
 .item::after {
   counter-increment: section;                 /* Increment the value of section counter by 1 */
   content: counter(section);                  /* Display the value of section counter */
+  font-size: 12px;
 }
 
 .item img {
   max-width: 100%;
+}
+
+.bananalabel img {
+  max-width: 50%;
 }
 
 .container {
@@ -39,6 +48,8 @@ img {
   flex-wrap: wrap;
   align-items: baseline;
   justify-content: center;
+  margin-left: 230px;
+  margin-top: 20px;
 }
 
 .col1of1 {
@@ -49,8 +60,12 @@ img {
   flex: 0 0 16.667%;
 }
 
+.col1of8 {
+  flex: 0 0 12.5%;
+}
+
 .spacer {
-  padding: 20px;
+  padding: 5px;
 }
 
 .header {
@@ -71,7 +86,7 @@ img {
 
 .title {
   text-align: center;
-  font-size: 18px;
+  font-size: 30px;
   text-transform: uppercase;
 }
 
