@@ -13,6 +13,7 @@
 body {
   font-family: arial, sans-serif;
   counter-reset: section;
+  text-transform: uppercase;
 }
 
 img {
@@ -22,6 +23,7 @@ img {
 }
 
 .homepage {
+  z-index: 99;
   padding: 10px;
 }
 
@@ -48,8 +50,7 @@ img {
   flex-wrap: wrap;
   align-items: baseline;
   justify-content: center;
-  margin-left: 230px;
-  margin-top: 20px;
+  margin-left: 100px;
 }
 
 .col1of1 {
@@ -72,26 +73,28 @@ img {
   width: 100%;
   position: fixed;
   padding: 20px;
-  top:0px;
+  top:50px;
   left:0px;
 }
 
 .footer {
-  width: 100%;
   position: fixed;
   padding: 20px;
   bottom: 0px;
-  left: 0px;
+  right: 0px;
 }
 
 .title {
-  text-align: center;
-  font-size: 30px;
-  text-transform: uppercase;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  font-size: 20px;
 }
 
 .nav {
-
+  font-family: times, serif;
+  text-transform: uppercase;
+  font-size: 39px;
 }
 
 .nav span {
@@ -99,7 +102,7 @@ img {
 }
 
 .nav span:hover, .footer span:hover{
-  color: blue;
+  color: orange;
   cursor: pointer;
 }
 
