@@ -35,11 +35,11 @@ $(document).ready(function() {
     function checkHalfMinute(momentMinute){
       if(momentMinute < 15) {halfMinute = 'quarterM';}
       else if(momentMinute < 30){halfMinute = 'halfM';}
-      else if(momentMinute < 45){halfMinute = 'threequartersM';}
+      else if(momentMinute < 45){halfMinute = 'threequatersM';}
       else {halfMinute = 'fullM';}
     }
 
-    // Check if odd, even, quarterpast
+    // Check if odd, even, quaterpast
     oddOrEvenS(momentSecond);
     checkHalfSecond(momentSecond);
     oddOrEvenM(momentMinute);
@@ -51,7 +51,7 @@ $(document).ready(function() {
     // Add classes
     $('body').attr('class', timeClass);
 
-    // Add format *change this one if u want*
+    // Add format
     $('.time').html(moment().format('dddd D MMMM YYYY h:mm:ss:SS A'));
   };
 

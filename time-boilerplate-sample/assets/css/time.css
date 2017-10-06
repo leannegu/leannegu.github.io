@@ -21,6 +21,62 @@ body.evenS.pm .sunset {
 
 /* Time CSS here */
 
-body.evenS .time{
+body.evenS {
+  background-color: black;
+}
 
+body.oddS {
+  background-color: white;
+}
+
+body.evenS .time, body.evenS .message{
+  color:white;
+}
+
+body.oddS .time, body.oddS .message {
+  color: black;
+}
+
+body.am .image_swap .eclipse, body.am .image_swap .afternoon {
+  display: none;
+}
+
+body.pm .image_swap .eclipse, body.pm .image_swap .afternoon {
+  display: block;
+}
+
+body.am .image_swap .sunrise, body.am .image_swap .morning {
+  display: block;
+}
+
+body.pm .image_swap .sunrise, body.pm .image_swap .morning {
+  display: none;
+}
+/*body.evenS .image_swap .eclipse {
+  display: block;
+}
+
+body.oddS .image_swap .eclipse {
+  display: none;
+}
+
+body.oddS .image_swap .sunrise {
+  display: block;
+}
+
+body.evenS .image_swap .sunrise {
+  display: none;
+}*/
+
+/*halfS = 30 seconds*/
+body.halfS .time {
+  font-size:50px;
+}
+
+body.friday .message {
+  color: blue;
+}
+
+body.saturday .time, body.sunday .time {
+  display: none;
 }
