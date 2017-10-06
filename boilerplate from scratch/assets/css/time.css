@@ -1,0 +1,11 @@
+body.friday {
+  background-color: cyan;
+}
+
+body.pm .message {
+  display: block;
+}
+
+body.am .message {
+  display: none;
+}
