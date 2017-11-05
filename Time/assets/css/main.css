@@ -4,6 +4,25 @@
 
 
 /* Start here */
+a {
+  z-index: 99;
+  position: absolute;
+  top: 15px;
+}
+a:link {
+  font-family: arial, sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: blue;
+  text-transform: lowercase;
+}
+a:visited {
+    color: blue;
+}
+a:hover {
+    color: black;
+    background-color: yellow;
+}
 
 body {
 font-family: arial, sans-serif;
@@ -20,7 +39,7 @@ margin: 20px;
 .on, .off {
   font-size: 50px;
   position: fixed;
-  top: 20px;
+  top: 50px;
 }
 .on {
   -webkit-text-stroke-width: 1.2px;
@@ -37,7 +56,7 @@ margin: 20px;
   font-size: 40px;
   text-align: center;
   position: fixed;
-  top: 20px;
+  top: 50px;
   left: 25%;
   right: 25%;
 }
@@ -46,7 +65,7 @@ margin: 20px;
   font-size: 20px;
   text-align: right;
   position: fixed;
-  top: 45px;
+  top: 75px;
   right: 20px;
 }
 
@@ -54,7 +73,7 @@ margin: 20px;
   font-size: 20px;
   text-align: right;
   position: fixed;
-  top: 20px;
+  top: 50px;
   right: 20px;
 }
 
@@ -63,7 +82,7 @@ margin: 20px;
   width: 100%;
   font-size: 20px;
   position: fixed;
-  top: 95px;
+  top: 125px;
   text-align: center;
 }
 
