@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+
+/* Start here */
+
+body {
+font-family: arial, sans-serif;
+font-size: 50px;
+margin: 20px;
+}
+
+.message {
+  display: none;
+  position: absolute;
+  top: 200px;
+}
+
+.on, .off {
+  font-size: 50px;
+  position: fixed;
+  top: 20px;
+}
+.on {
+  -webkit-text-stroke-width: 1.2px;
+  -webkit-text-stroke-color: red;
+  color: transparent;
+}
+.off {
+  -webkit-text-stroke-width: 1.2px;
+  -webkit-text-stroke-color: black;
+  color: transparent;
+}
+
+.time {
+  font-size: 40px;
+  text-align: center;
+  position: fixed;
+  top: 20px;
+  left: 25%;
+  right: 25%;
+}
+
+.date {
+  font-size: 20px;
+  text-align: right;
+  position: fixed;
+  top: 45px;
+  right: 20px;
+}
+
+.minimumwage {
+  font-size: 20px;
+  text-align: right;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
+.totalamount {
+  display: none;
+  width: 100%;
+  font-size: 20px;
+  position: fixed;
+  top: 95px;
+  text-align: center;
+}
+
+img {
+  display: none;
+  position: absolute;
+  top: 200px;
+}
+
+.eclipse {
+  width: 100px;
+}
+
+.sunrise {
+  width: 300px;
+}
+
+.cola {
+  width: 200px;
+}
+.petfish {
+  width: 300px;
+}
+
+/*.one {
+  display: none;
+}*/
