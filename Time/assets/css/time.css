@@ -219,7 +219,7 @@ body.saturday .offmessage, body.sunday .offmessage {
 body.saturday .on, body.sunday .on {
   opacity: 0.05;
 }
-body.saturday .off, body.sunday .off {
+body.saturday .off, body.sunday .off { 
   opacity: 1;
 }
 
