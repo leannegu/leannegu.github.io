@@ -54,14 +54,37 @@ body.monday.h7.am .time, body.monday.h8.am .time, body.monday.h5.pm .time, body.
 body.monday.h11.pm .time {
   display: none;
 }
-/* MONDAYS HALF-HOURLY IMAGES, INCL. 12-1PM LUNCH BREAK IMAGE (***not coded yet) */
-body.monday.h9.halfH.am img.one , body.monday.h9.secondhalfH.am img.two, body.monday.h10.halfH.am img.three, body.monday.h10.secondhalfH.am img.four, body.monday.h11.halfH.am img.five, body.monday.h11.secondhalfH.am img.six {
+/* MONDAYS HALF-HOURLY IMAGES, INCL. 12-1PM LUNCH BREAK IMAGE */
+body.monday.h9.secondhalfH.am img.picklespotplant, body.monday.h10.halfH.am img.fortunecookies, body.monday.h10.secondhalfH.am img.scalpmassager, body.monday.h11.halfH.am img.movietickets, body.monday.h11.secondhalfH.am img.eggsaladsandwiches {
   display: block;
 }
-body.monday.h12.pm img.seven_lunch, body.monday.h1.halfH.pm img.eight, body.monday.h1.secondhalfH.pm img.nine, body.monday.h2.halfH.pm img.ten, body.monday.h2.secondhalfH.pm img.eleven, body.monday.h3.halfH.pm img.twelve {
+body.monday.h12.pm img.lunch, body.monday.h1.halfH.pm img.crossword, body.monday.h1.secondhalfH.pm img.petfish, body.monday.h2.halfH.pm img.toesockscola, body.monday.h2.secondhalfH.pm img.mars, body.monday.h3.halfH.pm img.dumbbellswatermelon {
   display: block;
 }
-body.monday.h3.secondhalfH.pm img.thirteen, body.monday.h4.halfH.pm img.fourteen, body.monday.h4.secondhalfH.pm img.fifteen {
+body.monday.h3.secondhalfH.pm img.bubblewraphandgriptrainer, body.monday.h4.halfH.pm img.winetoothbrush, body.monday.h4.secondhalfH.pm img.crazystrawyoyo {
+  display: block;
+}
+/* MONDAYS HALF-HOURLY MESSAGES, INCL. 12-1PM LUNCH BREAK MESSAGE */
+body.monday.h9.secondhalfH.am .message_picklepotplant, body.monday.h10.halfH.am .message_fortunecookies, body.monday.h10.secondhalfH.am .message_scalpmassager, body.monday.h11.halfH.am .message_movietickets, body.monday.h11.secondhalfH.am .message_eggsaladsandwiches {
+  display: block;
+}
+body.monday.h12.pm .message_lunch, body.monday.h1.halfH.pm .message_crossword, body.monday.h1.secondhalfH.pm .message_petfish, body.monday.h2.halfH.pm .message_toesockscola, body.monday.h2.secondhalfH.pm .message_mars, body.monday.h3.halfH.pm .message_dumbbellswatermelon {
+  display: block;
+}
+body.monday.h3.secondhalfH.pm .message_bubblewraphandgriptrainer, body.monday.h4.halfH.pm .message_winetoothbrush, body.monday.h4.secondhalfH.pm .message_crazystrawyoyo {
+  display: block;
+}
+/* MONDAYS HALF-HOURLY TOTAL AMOUNTS MADE MESSAGE, INCL. 12-1PM STAGNANT LUNCH BREAK */
+body.monday.h9.halfH.am .totalamount_none, body.monday.h9.secondhalfH.am .totalamount_2, body.monday.h10.halfH.am .totalamount_3, body.monday.h10.secondhalfH.am .totalamount_4, body.monday.h11.halfH.am .totalamount_5, body.monday.h11.secondhalfH.am .totalamount_6 {
+  display: block;
+}
+body.monday.h12.pm .totalamount_7, body.monday.h1.halfH.pm .totalamount_7, body.monday.h1.secondhalfH.pm .totalamount_8, body.monday.h2.halfH.pm .totalamount_9, body.monday.h2.secondhalfH.pm .totalamount_10, body.monday.h3.halfH.pm .totalamount_11 {
+  display: block;
+}
+body.monday.h3.secondhalfH.pm .totalamount_12, body.monday.h4.halfH.pm .totalamount_13, body.monday.h4.secondhalfH.pm .totalamount_14, body.monday.h5.pm .totalamount_15, body.monday.h6.pm .totalamount_15, body.monday.h7.pm .totalamount_15, body.monday.h8.pm .totalamount_15 {
+  display: block;
+}
+body.monday.h9.pm .totalamount_15, body.monday.h10.pm .totalamount_15, body.monday.h11.pm .totalamount_15 {
   display: block;
 }
 
@@ -86,7 +109,6 @@ body.tuesday.h7.am .off, body.tuesday.h8.am .off, body.tuesday.h12.pm .off, body
 body.tuesday.h10.pm .off, body.tuesday.h11.pm .off {
   opacity: 1;
 }
-
 /* TUESDAYS CLOCK */
 body.tuesday.h12.am .time, body.tuesday.h1.am .time, body.tuesday.h2.am .time, body.tuesday.h3.am .time, body.tuesday.h4.am .time, body.tuesday.h5.am .time, body.tuesday.h6.am .time {
   display: none;
@@ -96,6 +118,39 @@ body.tuesday.h7.am .time, body.tuesday.h8.am .time, body.tuesday.h5.pm .time, bo
 }
 body.tuesday.h11.pm .time {
   display: none;
+}
+/* TUESDAYS HALF-HOURLY IMAGES, INCL. 12-1PM LUNCH BREAK IMAGE */
+body.tuesday.h9.secondhalfH.am img.picklespotplant, body.tuesday.h10.halfH.am img.fortunecookies, body.tuesday.h10.secondhalfH.am img.scalpmassager, body.tuesday.h11.halfH.am img.movietickets, body.tuesday.h11.secondhalfH.am img.eggsaladsandwiches {
+  display: block;
+}
+body.tuesday.h12.pm img.lunch, body.tuesday.h1.halfH.pm img.crossword, body.tuesday.h1.secondhalfH.pm img.petfish, body.tuesday.h2.halfH.pm img.toesockscola, body.tuesday.h2.secondhalfH.pm img.mars, body.tuesday.h3.halfH.pm img.dumbbellswatermelon {
+  display: block;
+}
+body.tuesday.h3.secondhalfH.pm img.bubblewraphandgriptrainer, body.tuesday.h4.halfH.pm img.winetoothbrush, body.tuesday.h4.secondhalfH.pm img.crazystrawyoyo {
+  display: block;
+}
+/* TUESDAYS HALF-HOURLY MESSAGES, INCL. 12-1PM LUNCH BREAK MESSAGE */
+body.tuesday.h9.secondhalfH.am .message_picklepotplant, body.tuesday.h10.halfH.am .message_fortunecookies, body.tuesday.h10.secondhalfH.am .message_scalpmassager, body.tuesday.h11.halfH.am .message_movietickets, body.tuesday.h11.secondhalfH.am .message_eggsaladsandwiches {
+  display: block;
+}
+body.tuesday.h12.pm .message_lunch, body.tuesday.h1.halfH.pm .message_crossword, body.tuesday.h1.secondhalfH.pm .message_petfish, body.tuesday.h2.halfH.pm .message_toesockscola, body.tuesday.h2.secondhalfH.pm .message_mars, body.tuesday.h3.halfH.pm .message_dumbbellswatermelon {
+  display: block;
+}
+body.tuesday.h3.secondhalfH.pm .message_bubblewraphandgriptrainer, body.tuesday.h4.halfH.pm .message_winetoothbrush, body.tuesday.h4.secondhalfH.pm .message_crazystrawyoyo {
+  display: block;
+}
+/* TUESDAYS HALF-HOURLY TOTAL AMOUNTS MADE MESSAGE, INCL. 12-1PM STAGNANT LUNCH BREAK */
+body.tuesday.h9.halfH.am .totalamount_none, body.tuesday.h9.secondhalfH.am .totalamount_2, body.tuesday.h10.halfH.am .totalamount_3, body.tuesday.h10.secondhalfH.am .totalamount_4, body.tuesday.h11.halfH.am .totalamount_5, body.tuesday.h11.secondhalfH.am .totalamount_6 {
+  display: block;
+}
+body.tuesday.h12.pm .totalamount_7, body.tuesday.h1.halfH.pm .totalamount_7, body.tuesday.h1.secondhalfH.pm .totalamount_8, body.tuesday.h2.halfH.pm .totalamount_9, body.tuesday.h2.secondhalfH.pm .totalamount_10, body.tuesday.h3.halfH.pm .totalamount_11 {
+  display: block;
+}
+body.tuesday.h3.secondhalfH.pm .totalamount_12, body.tuesday.h4.halfH.pm .totalamount_13, body.tuesday.h4.secondhalfH.pm .totalamount_14, body.tuesday.h5.pm .totalamount_15, body.tuesday.h6.pm .totalamount_15, body.tuesday.h7.pm .totalamount_15, body.tuesday.h8.pm .totalamount_15 {
+  display: block;
+}
+body.tuesday.h9.pm .totalamount_15, body.tuesday.h10.pm .totalamount_15, body.tuesday.h11.pm .totalamount_15 {
+  display: block;
 }
 
 
@@ -119,7 +174,6 @@ body.wednesday.h7.am .off, body.wednesday.h8.am .off, body.wednesday.h12.pm .off
 body.wednesday.h10.pm .off, body.wednesday.h11.pm .off {
   opacity: 1;
 }
-
 /* WEDNESDAYS CLOCK */
 body.wednesday.h12.am .time, body.wednesday.h1.am .time, body.wednesday.h2.am .time, body.wednesday.h3.am .time, body.wednesday.h4.am .time, body.wednesday.h5.am .time, body.wednesday.h6.am .time {
   display: none;
@@ -129,6 +183,39 @@ body.wednesday.h7.am .time, body.wednesday.h8.am .time, body.wednesday.h5.pm .ti
 }
 body.wednesday.h11.pm .time {
   display: none;
+}
+/* WEDNESDAYS HALF-HOURLY IMAGES, INCL. 12-1PM LUNCH BREAK IMAGE */
+body.wednesday.h9.secondhalfH.am img.picklespotplant, body.wednesday.h10.halfH.am img.fortunecookies, body.wednesday.h10.secondhalfH.am img.scalpmassager, body.wednesday.h11.halfH.am img.movietickets, body.wednesday.h11.secondhalfH.am img.eggsaladsandwiches {
+  display: block;
+}
+body.wednesday.h12.pm img.lunch, body.wednesday.h1.halfH.pm img.crossword, body.wednesday.h1.secondhalfH.pm img.petfish, body.wednesday.h2.halfH.pm img.toesockscola, body.wednesday.h2.secondhalfH.pm img.mars, body.wednesday.h3.halfH.pm img.dumbbellswatermelon {
+  display: block;
+}
+body.wednesday.h3.secondhalfH.pm img.bubblewraphandgriptrainer, body.wednesday.h4.halfH.pm img.winetoothbrush, body.wednesday.h4.secondhalfH.pm img.crazystrawyoyo {
+  display: block;
+}
+/* WEDNESDAYS HALF-HOURLY MESSAGES, INCL. 12-1PM LUNCH BREAK MESSAGE */
+body.wednesday.h9.secondhalfH.am .message_picklepotplant, body.wednesday.h10.halfH.am .message_fortunecookies, body.wednesday.h10.secondhalfH.am .message_scalpmassager, body.wednesday.h11.halfH.am .message_movietickets, body.wednesday.h11.secondhalfH.am .message_eggsaladsandwiches {
+  display: block;
+}
+body.wednesday.h12.pm .message_lunch, body.wednesday.h1.halfH.pm .message_crossword, body.wednesday.h1.secondhalfH.pm .message_petfish, body.wednesday.h2.halfH.pm .message_toesockscola, body.wednesday.h2.secondhalfH.pm .message_mars, body.wednesday.h3.halfH.pm .message_dumbbellswatermelon {
+  display: block;
+}
+body.wednesday.h3.secondhalfH.pm .message_bubblewraphandgriptrainer, body.wednesday.h4.halfH.pm .message_winetoothbrush, body.wednesday.h4.secondhalfH.pm .message_crazystrawyoyo {
+  display: block;
+}
+/* WEDNESDAYS HALF-HOURLY TOTAL AMOUNTS MADE MESSAGE, INCL. 12-1PM STAGNANT LUNCH BREAK */
+body.wednesday.h9.halfH.am .totalamount_none, body.wednesday.h9.secondhalfH.am .totalamount_2, body.wednesday.h10.halfH.am .totalamount_3, body.wednesday.h10.secondhalfH.am .totalamount_4, body.wednesday.h11.halfH.am .totalamount_5, body.wednesday.h11.secondhalfH.am .totalamount_6 {
+  display: block;
+}
+body.wednesday.h12.pm .totalamount_7, body.wednesday.h1.halfH.pm .totalamount_7, body.wednesday.h1.secondhalfH.pm .totalamount_8, body.wednesday.h2.halfH.pm .totalamount_9, body.wednesday.h2.secondhalfH.pm .totalamount_10, body.wednesday.h3.halfH.pm .totalamount_11 {
+  display: block;
+}
+body.wednesday.h3.secondhalfH.pm .totalamount_12, body.wednesday.h4.halfH.pm .totalamount_13, body.wednesday.h4.secondhalfH.pm .totalamount_14, body.wednesday.h5.pm .totalamount_15, body.wednesday.h6.pm .totalamount_15, body.wednesday.h7.pm .totalamount_15, body.wednesday.h8.pm .totalamount_15 {
+  display: block;
+}
+body.wednesday.h9.pm .totalamount_15, body.wednesday.h10.pm .totalamount_15, body.wednesday.h11.pm .totalamount_15 {
+  display: block;
 }
 
 
@@ -162,6 +249,39 @@ body.thursday.h7.am .time, body.thursday.h8.am .time, body.thursday.h5.pm .time,
 body.thursday.h11.pm .time {
   display: none;
 }
+/* THURSDAYS HALF-HOURLY IMAGES, INCL. 12-1PM LUNCH BREAK IMAGE */
+body.thursday.h9.secondhalfH.am img.picklespotplant, body.thursday.h10.halfH.am img.fortunecookies, body.thursday.h10.secondhalfH.am img.scalpmassager, body.thursday.h11.halfH.am img.movietickets, body.thursday.h11.secondhalfH.am img.eggsaladsandwiches {
+  display: block;
+}
+body.thursday.h12.pm img.lunch, body.thursday.h1.halfH.pm img.crossword, body.thursday.h1.secondhalfH.pm img.petfish, body.thursday.h2.halfH.pm img.toesockscola, body.thursday.h2.secondhalfH.pm img.mars, body.thursday.h3.halfH.pm img.dumbbellswatermelon {
+  display: block;
+}
+body.thursday.h3.secondhalfH.pm img.bubblewraphandgriptrainer, body.thursday.h4.halfH.pm img.winetoothbrush, body.thursday.h4.secondhalfH.pm img.crazystrawyoyo {
+  display: block;
+}
+/* THURSDAYS HALF-HOURLY MESSAGES, INCL. 12-1PM LUNCH BREAK MESSAGE */
+body.thursday.h9.secondhalfH.am .message_picklepotplant, body.thursday.h10.halfH.am .message_fortunecookies, body.thursday.h10.secondhalfH.am .message_scalpmassager, body.thursday.h11.halfH.am .message_movietickets, body.thursday.h11.secondhalfH.am .message_eggsaladsandwiches {
+  display: block;
+}
+body.thursday.h12.pm .message_lunch, body.thursday.h1.halfH.pm .message_crossword, body.thursday.h1.secondhalfH.pm .message_petfish, body.thursday.h2.halfH.pm .message_toesockscola, body.thursday.h2.secondhalfH.pm .message_mars, body.thursday.h3.halfH.pm .message_dumbbellswatermelon {
+  display: block;
+}
+body.thursday.h3.secondhalfH.pm .message_bubblewraphandgriptrainer, body.thursday.h4.halfH.pm .message_winetoothbrush, body.thursday.h4.secondhalfH.pm .message_crazystrawyoyo {
+  display: block;
+}
+/* THURSDAYS HALF-HOURLY TOTAL AMOUNTS MADE MESSAGE, INCL. 12-1PM STAGNANT LUNCH BREAK */
+body.thursday.h9.halfH.am .totalamount_none, body.thursday.h9.secondhalfH.am .totalamount_2, body.thursday.h10.halfH.am .totalamount_3, body.thursday.h10.secondhalfH.am .totalamount_4, body.thursday.h11.halfH.am .totalamount_5, body.thursday.h11.secondhalfH.am .totalamount_6 {
+  display: block;
+}
+body.thursday.h12.pm .totalamount_7, body.thursday.h1.halfH.pm .totalamount_7, body.thursday.h1.secondhalfH.pm .totalamount_8, body.thursday.h2.halfH.pm .totalamount_9, body.thursday.h2.secondhalfH.pm .totalamount_10, body.thursday.h3.halfH.pm .totalamount_11 {
+  display: block;
+}
+body.thursday.h3.secondhalfH.pm .totalamount_12, body.thursday.h4.halfH.pm .totalamount_13, body.thursday.h4.secondhalfH.pm .totalamount_14, body.thursday.h5.pm .totalamount_15, body.thursday.h6.pm .totalamount_15, body.thursday.h7.pm .totalamount_15, body.thursday.h8.pm .totalamount_15 {
+  display: block;
+}
+body.thursday.h9.pm .totalamount_15, body.thursday.h10.pm .totalamount_15, body.thursday.h11.pm .totalamount_15 {
+  display: block;
+}
 
 
 /* FRIDAYS 9AM-5PM - ON THE CLOCK SWITCH SELECTED, EXCLUDING LUNCH BREAK 12-1 */
@@ -194,6 +314,39 @@ body.friday.h7.am .time, body.friday.h8.am .time, body.friday.h5.pm .time, body.
 body.friday.h11.pm .time {
   display: none;
 }
+/* FRIDAYS HALF-HOURLY IMAGES, INCL. 12-1PM LUNCH BREAK IMAGE */
+body.friday.h9.secondhalfH.am img.picklespotplant, body.friday.h10.halfH.am img.fortunecookies, body.friday.h10.secondhalfH.am img.scalpmassager, body.friday.h11.halfH.am img.movietickets, body.friday.h11.secondhalfH.am img.eggsaladsandwiches {
+  display: block;
+}
+body.friday.h12.pm img.lunch, body.friday.h1.halfH.pm img.crossword, body.friday.h1.secondhalfH.pm img.petfish, body.friday.h2.halfH.pm img.toesockscola, body.friday.h2.secondhalfH.pm img.mars, body.friday.h3.halfH.pm img.dumbbellswatermelon {
+  display: block;
+}
+body.friday.h3.secondhalfH.pm img.bubblewraphandgriptrainer, body.friday.h4.halfH.pm img.winetoothbrush, body.friday.h4.secondhalfH.pm img.crazystrawyoyo {
+  display: block;
+}
+/* FRIDAYS HALF-HOURLY MESSAGES, INCL. 12-1PM LUNCH BREAK MESSAGE */
+body.friday.h9.secondhalfH.am .message_picklepotplant, body.friday.h10.halfH.am .message_fortunecookies, body.friday.h10.secondhalfH.am .message_scalpmassager, body.friday.h11.halfH.am .message_movietickets, body.friday.h11.secondhalfH.am .message_eggsaladsandwiches {
+  display: block;
+}
+body.friday.h12.pm .message_lunch, body.friday.h1.halfH.pm .message_crossword, body.friday.h1.secondhalfH.pm .message_petfish, body.friday.h2.halfH.pm .message_toesockscola, body.friday.h2.secondhalfH.pm .message_mars, body.friday.h3.halfH.pm .message_dumbbellswatermelon {
+  display: block;
+}
+body.friday.h3.secondhalfH.pm .message_bubblewraphandgriptrainer, body.friday.h4.halfH.pm .message_winetoothbrush, body.friday.h4.secondhalfH.pm .message_crazystrawyoyo {
+  display: block;
+}
+/* FRIDAYS HALF-HOURLY TOTAL AMOUNTS MADE MESSAGE, INCL. 12-1PM STAGNANT LUNCH BREAK */
+body.friday.h9.halfH.am .totalamount_none, body.friday.h9.secondhalfH.am .totalamount_2, body.friday.h10.halfH.am .totalamount_3, body.friday.h10.secondhalfH.am .totalamount_4, body.friday.h11.halfH.am .totalamount_5, body.friday.h11.secondhalfH.am .totalamount_6 {
+  display: block;
+}
+body.friday.h12.pm .totalamount_7, body.friday.h1.halfH.pm .totalamount_7, body.friday.h1.secondhalfH.pm .totalamount_8, body.friday.h2.halfH.pm .totalamount_9, body.friday.h2.secondhalfH.pm .totalamount_10, body.friday.h3.halfH.pm .totalamount_11 {
+  display: block;
+}
+body.friday.h3.secondhalfH.pm .totalamount_12, body.friday.h4.halfH.pm .totalamount_13, body.friday.h4.secondhalfH.pm .totalamount_14, body.friday.h5.pm .totalamount_15, body.friday.h6.pm .totalamount_15, body.friday.h7.pm .totalamount_15, body.friday.h8.pm .totalamount_15 {
+  display: block;
+}
+body.friday.h9.pm .totalamount_15, body.friday.h10.pm .totalamount_15, body.friday.h11.pm .totalamount_15 {
+  display: block;
+}
 
 /* OFF THE CLOCK SWITCH FADED OUT, OFF THE CLOCK MESSAGE HIDE */
 body.monday body.tuesday body.thursday body.thursday body.friday, .offmessage {
@@ -219,14 +372,14 @@ body.saturday .offmessage, body.sunday .offmessage {
 body.saturday .on, body.sunday .on {
   opacity: 0.05;
 }
-body.saturday .off, body.sunday .off { 
+body.saturday .off, body.sunday .off {
   opacity: 1;
 }
 
 /* TEST: SHOW UPDATED IMAGES, MESSAGE AND TOTAL AMOUNT EVERY HALF HOUR
 this bit is working now, just need to update the days/times/images to the correct matching ones */
 
-body.sunday.h11.halfH.pm img.eclipse, body.sunday.h11.halfH.pm .totalamount_test {
+/*body.sunday.h11.halfH.pm img.eclipse, body.sunday.h11.halfH.pm .totalamount_test {
   display: block;
 }
 body.sunday.h11.secondhalfH.pm img.sunrise, body.sunday.h11.secondhalfH.pm .totalamount_test2, body.sunday.h11.secondhalfH.pm .message_pickle {
@@ -237,4 +390,4 @@ body.monday.h12.halfH.am img.cola, body.monday.h12.halfH.am .totalamount_test3co
 }
 body.monday.h12.secondhalfH.am img.petfish, body.monday.h12.secondhalfH.am .totalamount_test4petfish, body.monday.h12.secondhalfH.am .message_petfish {
   display: block;
-}
+}*/
