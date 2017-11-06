@@ -1,26 +1,3 @@
-/* Note target the body first with the modifer.
-For example, every evenSecond change the div color to blue.
-Every oddSecond change the div color to red
-
-body.evenS .time {
-  color:blue;
-}
-
-body.oddS .time {
-  color:red;
-}
-
-Target multiple together. Every evenSecond only in the evening, display an image.
-
-body.evenS.pm .sunset {
-  display:block;
-}
-
-*/
-
-
-/* Time CSS here */
-
 /* WEEKDAYS */
 
 /* MONDAYS 9AM-5PM - ON THE CLOCK SWITCH SELECTED, EXCLUDING LUNCH BREAK 12-1 */
@@ -43,7 +20,6 @@ body.monday.h7.am .off, body.monday.h8.am .off, body.monday.h12.pm .off, body.mo
 body.monday.h10.pm .off, body.monday.h11.pm .off {
   opacity: 1;
 }
-
 /* MONDAYS CLOCK - HIDE WHEN 'OFF THE CLOCK': 5PM-8AM WEEKDAYS, ALL HOURS ON WEEKENDS */
 body.monday.h12.am .time, body.monday.h1.am .time, body.monday.h2.am .time, body.monday.h3.am .time, body.monday.h4.am .time, body.monday.h5.am .time, body.monday.h6.am .time {
   display: none;
@@ -53,6 +29,13 @@ body.monday.h7.am .time, body.monday.h8.am .time, body.monday.h5.pm .time, body.
 }
 body.monday.h11.pm .time {
   display: none;
+}
+/* MONDAYS 12AM - 8AM SHOW 'YOU CAN'T AFFORD' MESSAGE */
+body.monday.h12.am .offmessage, body.monday.h1.am .offmessage, body.monday.h2.am .offmessage, body.monday.h3.am .offmessage, body.monday.h4.am .offmessage, body.monday.h5.am .offmessage, body.monday.h6.am .offmessage, body.monday.h7.am .offmessage {
+  display: block;
+}
+body.monday.h8.am .offmessage {
+  display: block;
 }
 /* MONDAYS HALF-HOURLY IMAGES, INCL. 12-1PM LUNCH BREAK IMAGE */
 body.monday.h9.secondhalfH.am img.picklespotplant, body.monday.h10.halfH.am img.fortunecookies, body.monday.h10.secondhalfH.am img.scalpmassager, body.monday.h11.halfH.am img.movietickets, body.monday.h11.secondhalfH.am img.eggsaladsandwiches {
@@ -119,6 +102,13 @@ body.tuesday.h7.am .time, body.tuesday.h8.am .time, body.tuesday.h5.pm .time, bo
 body.tuesday.h11.pm .time {
   display: none;
 }
+/* TUESDAYS 12AM - 8AM SHOW 'YOU CAN'T AFFORD' MESSAGE */
+body.tuesday.h12.am .offmessage, body.tuesday.h1.am .offmessage, body.tuesday.h2.am .offmessage, body.tuesday.h3.am .offmessage, body.tuesday.h4.am .offmessage, body.tuesday.h5.am .offmessage, body.tuesday.h6.am .offmessage, body.tuesday.h7.am .offmessage {
+  display: block;
+}
+body.tuesday.h8.am .offmessage {
+  display: block;
+}
 /* TUESDAYS HALF-HOURLY IMAGES, INCL. 12-1PM LUNCH BREAK IMAGE */
 body.tuesday.h9.secondhalfH.am img.picklespotplant, body.tuesday.h10.halfH.am img.fortunecookies, body.tuesday.h10.secondhalfH.am img.scalpmassager, body.tuesday.h11.halfH.am img.movietickets, body.tuesday.h11.secondhalfH.am img.eggsaladsandwiches {
   display: block;
@@ -183,6 +173,13 @@ body.wednesday.h7.am .time, body.wednesday.h8.am .time, body.wednesday.h5.pm .ti
 }
 body.wednesday.h11.pm .time {
   display: none;
+}
+/* WEDNESDAYS 12AM - 8AM SHOW 'YOU CAN'T AFFORD' MESSAGE */
+body.wednesday.h12.am .offmessage, body.wednesday.h1.am .offmessage, body.wednesday.h2.am .offmessage, body.wednesday.h3.am .offmessage, body.wednesday.h4.am .offmessage, body.wednesday.h5.am .offmessage, body.wednesday.h6.am .offmessage, body.wednesday.h7.am .offmessage {
+  display: block;
+}
+body.wednesday.h8.am .offmessage {
+  display: block;
 }
 /* WEDNESDAYS HALF-HOURLY IMAGES, INCL. 12-1PM LUNCH BREAK IMAGE */
 body.wednesday.h9.secondhalfH.am img.picklespotplant, body.wednesday.h10.halfH.am img.fortunecookies, body.wednesday.h10.secondhalfH.am img.scalpmassager, body.wednesday.h11.halfH.am img.movietickets, body.wednesday.h11.secondhalfH.am img.eggsaladsandwiches {
@@ -249,6 +246,13 @@ body.thursday.h7.am .time, body.thursday.h8.am .time, body.thursday.h5.pm .time,
 body.thursday.h11.pm .time {
   display: none;
 }
+/* THURSDAYS 12AM - 8AM SHOW 'YOU CAN'T AFFORD' MESSAGE */
+body.thursday.h12.am .offmessage, body.thursday.h1.am .offmessage, body.thursday.h2.am .offmessage, body.thursday.h3.am .offmessage, body.thursday.h4.am .offmessage, body.thursday.h5.am .offmessage, body.thursday.h6.am .offmessage, body.thursday.h7.am .offmessage {
+  display: block;
+}
+body.thursday.h8.am .offmessage {
+  display: block;
+}
 /* THURSDAYS HALF-HOURLY IMAGES, INCL. 12-1PM LUNCH BREAK IMAGE */
 body.thursday.h9.secondhalfH.am img.picklespotplant, body.thursday.h10.halfH.am img.fortunecookies, body.thursday.h10.secondhalfH.am img.scalpmassager, body.thursday.h11.halfH.am img.movietickets, body.thursday.h11.secondhalfH.am img.eggsaladsandwiches {
   display: block;
@@ -314,6 +318,13 @@ body.friday.h7.am .time, body.friday.h8.am .time, body.friday.h5.pm .time, body.
 body.friday.h11.pm .time {
   display: none;
 }
+/* FRIDAYS 12AM - 8AM SHOW 'YOU CAN'T AFFORD' MESSAGE */
+body.friday.h12.am .offmessage, body.friday.h1.am .offmessage, body.friday.h2.am .offmessage, body.friday.h3.am .offmessage, body.friday.h4.am .offmessage, body.friday.h5.am .offmessage, body.friday.h6.am .offmessage, body.friday.h7.am .offmessage {
+  display: block;
+}
+body.friday.h8.am .offmessage {
+  display: block;
+}
 /* FRIDAYS HALF-HOURLY IMAGES, INCL. 12-1PM LUNCH BREAK IMAGE */
 body.friday.h9.secondhalfH.am img.picklespotplant, body.friday.h10.halfH.am img.fortunecookies, body.friday.h10.secondhalfH.am img.scalpmassager, body.friday.h11.halfH.am img.movietickets, body.friday.h11.secondhalfH.am img.eggsaladsandwiches {
   display: block;
@@ -375,19 +386,3 @@ body.saturday .on, body.sunday .on {
 body.saturday .off, body.sunday .off {
   opacity: 1;
 }
-
-/* TEST: SHOW UPDATED IMAGES, MESSAGE AND TOTAL AMOUNT EVERY HALF HOUR
-this bit is working now, just need to update the days/times/images to the correct matching ones */
-
-/*body.sunday.h11.halfH.pm img.eclipse, body.sunday.h11.halfH.pm .totalamount_test {
-  display: block;
-}
-body.sunday.h11.secondhalfH.pm img.sunrise, body.sunday.h11.secondhalfH.pm .totalamount_test2, body.sunday.h11.secondhalfH.pm .message_pickle {
-  display: block;
-}
-body.monday.h12.halfH.am img.cola, body.monday.h12.halfH.am .totalamount_test3cola, body.monday.h12.halfH.am .message_cola {
-  display: block;
-}
-body.monday.h12.secondhalfH.am img.petfish, body.monday.h12.secondhalfH.am .totalamount_test4petfish, body.monday.h12.secondhalfH.am .message_petfish {
-  display: block;
-}*/
